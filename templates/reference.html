@@ -1,0 +1,25 @@
+{% extends "template.html" %}
+
+{% block name %} - Reference - {% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/reference.css">
+{% endblock %}
+
+{% block content %}
+<div class="links">
+    <a href="https://polygon.io/dashboard" target="_blank">
+        <div class="link-item">
+            <h3>Polygon.io</h3>
+            <p>API Data Provider (Login is with Github)</p>
+        </div>
+    </a>
+    <a href="https://developer.schwab.com/dashboard/apps" target="_blank">
+        <div class="link-item">
+            <h3> Schwab Dev Portal</h3>
+            <p> Schwab API Documentation and account management</p>
+        </div>
+    </a>
+    <a href="/print_test">Test Print</a>
+</div>
+{% endblock %}

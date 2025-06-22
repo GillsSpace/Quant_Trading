@@ -1,0 +1,6 @@
+.venv
+__init__.py
+keys.json
+Bloomburg_Data/CSV_Files
+arcticdb_storage
+__pycache__*

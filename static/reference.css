@@ -1,0 +1,16 @@
+.links {
+    display: flex;
+}
+
+.link-item {
+    border-radius: 0.5rem;
+    border: 0.05rem solid #dcd7c9;
+    padding: 0.5rem;
+    max-width: 20rem;
+    margin: 1rem;
+}
+
+.link-item:hover {
+    background-color: #dcd7c9;
+    color: #00111a;
+}
