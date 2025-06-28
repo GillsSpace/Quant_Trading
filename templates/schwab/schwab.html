@@ -1,0 +1,86 @@
+{% extends "template.html" %}
+
+{% block name %}- Schwab -{% endblock %}
+
+{% block content %}
+<div class="schwab-container">
+    <!-- Account Summary -->
+    <div class="collapsible-section">
+        <h2 class="collapsible-header" onclick="toggleSection('account-summary')">
+            Account Overview <span class="toggle-icon" id="account-summary-icon">▼</span>
+        </h2>
+        <div class="collapsible-content" id="account-summary">
+            <div class="balance-cards">
+                <div class="balance-card">
+                    <h3>Total Value</h3>
+                    <p class="balance-amount positive">${{
+                        "%.2f"|format(content.securitiesAccount.currentBalances.liquidationValue) }}</p>
+                </div>
+                <div class="balance-card">
+                    <h3>Cash Balance</h3>
+                    <p class="balance-amount">${{ "%.2f"|format(content.securitiesAccount.currentBalances.cashBalance)
+                        }}</p>
+                </div>
+                <div class="balance-card">
+                    <h3>Buying Power</h3>
+                    <p class="balance-amount">${{ "%.2f"|format(content.securitiesAccount.currentBalances.cashBalance)
+                        }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Positions Table -->
+    <div class="collapsible-section">
+        <h2 class="collapsible-header" onclick="toggleSection('positions-section')">
+            Current Positions <span class="toggle-icon" id="positions-section-icon">▼</span>
+        </h2>
+        <div class="collapsible-content" id="positions-section">
+            {% if content.securitiesAccount.positions %}
+            <table class="positions-table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Quantity</th>
+                        <th>Market Value</th>
+                        <th>Avg Cost</th>
+                        <th>P&L</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for position in content.securitiesAccount.positions %}
+                    <tr>
+                        <td class="symbol">{{ position.instrument.symbol }}</td>
+                        <td>{{ position.longQuantity }}</td>
+                        <td>${{ "%.2f"|format(position.marketValue) }}</td>
+                        <td>${{ "%.2f"|format(position.averagePrice) }}</td>
+                        <td
+                            class="{% if position.marketValue > (position.averagePrice * position.longQuantity) %}positive{% else %}negative{% endif %}">
+                            ${{ "%.2f"|format(position.marketValue - (position.averagePrice * position.longQuantity)) }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <p>No positions found.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleSection(sectionId) {
+        const content = document.getElementById(sectionId);
+        const icon = document.getElementById(sectionId + '-icon');
+
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            icon.textContent = '▼';
+        } else {
+            content.style.display = 'none';
+            icon.textContent = '▶';
+        }
+    }
+</script>
+{% endblock %}

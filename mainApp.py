@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 from flask_socketio import SocketIO
+from blueprints.schwab.views import schwab_bp
+from blueprints.api.views import api_bp
 
 import datetime
 import threading
@@ -9,6 +11,10 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
 
+# Register blueprints
+app.register_blueprint(schwab_bp, url_prefix='/schwab')
+app.register_blueprint(api_bp, url_prefix='/api')
+
 @app.route('/')
 def page_index():
     return render_template('index.html')
@@ -16,14 +22,6 @@ def page_index():
 @app.route('/reference')
 def page_reference():
     return render_template('reference.html')
-
-@app.route('/API_main')
-def page_api():
-    return render_template('api.html')
-
-@app.route('/print_test')
-def page_print_test():
-    return "Print test page accessed"
 
 class UtilityThreadFunctions():
     @staticmethod

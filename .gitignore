@@ -1,6 +1,8 @@
 .venv
 __init__.py
 keys.json
+tokens.json
 Bloomburg_Data/CSV_Files
 arcticdb_storage
 __pycache__*
+hidden_tests
