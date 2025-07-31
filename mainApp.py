@@ -2,6 +2,7 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO
 from blueprints.schwab.views import schwab_bp
 from blueprints.api.views import api_bp
+from blueprints.data.views import data_bp
 
 import datetime
 import threading
@@ -14,6 +15,7 @@ socketio = SocketIO(app)
 # Register blueprints
 app.register_blueprint(schwab_bp, url_prefix='/schwab')
 app.register_blueprint(api_bp, url_prefix='/api')
+app.register_blueprint(data_bp, url_prefix='/data')
 
 @app.route('/')
 def page_index():

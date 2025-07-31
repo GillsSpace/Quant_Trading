@@ -1,0 +1,1096 @@
+ticker,name,sector,exchange,industry
+NASDAQ:WBD,WBD,Consumer Services,NASDAQ,Cable/Satellite TV
+NYSE:F,F,Consumer Durables,NYSE,Motor Vehicles
+NYSE:BBAI,BBAI,Technology Services,NYSE,Packaged Software
+AMEX:PSLV,PSLV,Miscellaneous,AMEX,Investment Trusts/Mutual Funds
+NYSE:VALE,VALE,Non-Energy Minerals,NYSE,Steel
+NYSE:ACHR,ACHR,Electronic Technology,NYSE,Aerospace & Defense
+NASDAQ:NVTS,NVTS,Electronic Technology,NASDAQ,Semiconductors
+NASDAQ:PARA,PARA,Consumer Services,NASDAQ,Broadcasting
+NYSE:NIO,NIO,Consumer Durables,NYSE,Motor Vehicles
+NASDAQ:LCID,LCID,Consumer Durables,NASDAQ,Motor Vehicles
+NYSE:COUR,COUR,Technology Services,NYSE,Internet Software/Services
+NYSE:SNAP,SNAP,Technology Services,NYSE,Packaged Software
+NASDAQ:AGNC,AGNC,Finance,NASDAQ,Real Estate Investment Trusts
+NASDAQ:RXRX,RXRX,Health Technology,NASDAQ,Biotechnology
+NYSE:ITUB,ITUB,Finance,NYSE,Major Banks
+AMEX:UUUU,UUUU,Non-Energy Minerals,AMEX,Other Metals/Minerals
+NYSE:CX,CX,Non-Energy Minerals,NYSE,Construction Materials
+NASDAQ:WULF,WULF,Technology Services,NASDAQ,Data Processing Services
+AMEX:DNN,DNN,Non-Energy Minerals,AMEX,Other Metals/Minerals
+NYSE:GNW,GNW,Finance,NYSE,Multi-Line Insurance
+NYSE:AG,AG,Non-Energy Minerals,NYSE,Precious Metals
+NYSE:SAN,SAN,Finance,NYSE,Major Banks
+NYSE:AMCR,AMCR,Process Industries,NYSE,Containers/Packaging
+NASDAQ:CIFR,CIFR,Technology Services,NASDAQ,Data Processing Services
+NASDAQ:GRAB,GRAB,Transportation,NASDAQ,Air Freight/Couriers
+NYSE:BTE,BTE,Energy Minerals,NYSE,Integrated Oil
+NYSE:BBD,BBD,Finance,NYSE,Major Banks
+AMEX:BTG,BTG,Non-Energy Minerals,AMEX,Precious Metals
+AMEX:NGD,NGD,Non-Energy Minerals,AMEX,Precious Metals
+NYSE:ADT,ADT,Commercial Services,NYSE,Miscellaneous Commercial Services
+AMEX:UEC,UEC,Non-Energy Minerals,AMEX,Other Metals/Minerals
+NYSE:YMM,YMM,Technology Services,NYSE,Packaged Software
+NYSE:CNH,CNH,Producer Manufacturing,NYSE,Trucks/Construction/Farm Machinery
+NYSE:SBSW,SBSW,Non-Energy Minerals,NYSE,Precious Metals
+NYSE:FSM,FSM,Non-Energy Minerals,NYSE,Precious Metals
+NASDAQ:WBA,WBA,Retail Trade,NASDAQ,Drugstore Chains
+NYSE:HLN,HLN,Health Technology,NYSE,Pharmaceuticals: Major
+NYSE:IAG,IAG,Non-Energy Minerals,NYSE,Precious Metals
+NYSE:HBM,HBM,Non-Energy Minerals,NYSE,Other Metals/Minerals
+NYSE:FLG,FLG,Finance,NYSE,Savings Banks
+AMEX:EQX,EQX,Non-Energy Minerals,AMEX,Precious Metals
+NYSE:SAND,SAND,Finance,NYSE,Financial Conglomerates
+NASDAQ:VOD,VOD,Communications,NASDAQ,Wireless Telecommunications
+NYSE:WU,WU,Finance,NYSE,Regional Banks
+NYSE:HL,HL,Non-Energy Minerals,NYSE,Precious Metals
+NASDAQ:EOSE,EOSE,Producer Manufacturing,NASDAQ,Electrical Products
+NYSE:RITM,RITM,Finance,NYSE,Real Estate Investment Trusts
+NYSE:RIG,RIG,Industrial Services,NYSE,Contract Drilling
+NYSE:NOK,NOK,Electronic Technology,NYSE,Telecommunications Equipment
+NYSE:UAA,UAA,Consumer Non-Durables,NYSE,Apparel/Footwear
+NYSE:ABEV,ABEV,Consumer Non-Durables,NYSE,Beverages: Alcoholic
+NASDAQ:IOVA,IOVA,Health Technology,NASDAQ,Biotechnology
+NYSE:CDE,CDE,Non-Energy Minerals,NYSE,Precious Metals
+NASDAQ:GT,GT,Consumer Durables,NASDAQ,Automotive Aftermarket
+NASDAQ:AUR,AUR,Technology Services,NASDAQ,Packaged Software
+NYSE:NWG,NWG,Finance,NYSE,Major Banks
+NASDAQ:LX,LX,Finance,NASDAQ,Finance/Rental/Leasing
+OTC:FNMA,FNMA,Finance,OTC,Finance/Rental/Leasing
+NASDAQ:VLY,VLY,Finance,NASDAQ,Major Banks
+NASDAQ:TIGR,TIGR,Finance,NASDAQ,Investment Banks/Brokers
+NASDAQ:JBLU,JBLU,Transportation,NASDAQ,Airlines
+NASDAQ:ERIC,ERIC,Electronic Technology,NASDAQ,Telecommunications Equipment
+NYSE:FUBO,FUBO,Technology Services,NYSE,Internet Software/Services
+NYSE:EXK,EXK,Non-Energy Minerals,NYSE,Precious Metals
+NYSE:UMC,UMC,Electronic Technology,NYSE,Semiconductors
+AMEX:IE,IE,Non-Energy Minerals,AMEX,Other Metals/Minerals
+NYSE:NXE,NXE,Non-Energy Minerals,NYSE,Other Metals/Minerals
+NYSE:ASX,ASX,Electronic Technology,NYSE,Semiconductors
+NYSE:PBR.A,PBR.A,Energy Minerals,NYSE,Integrated Oil
+NASDAQ:OXLC,OXLC,Miscellaneous,NASDAQ,Investment Trusts/Mutual Funds
+NASDAQ:IQ,IQ,Technology Services,NASDAQ,Internet Software/Services
+NASDAQ:PTON,PTON,Consumer Services,NASDAQ,Other Consumer Services
+NYSE:LYG,LYG,Finance,NYSE,Major Banks
+OTC:RYCEY,RYCEY,Electronic Technology,OTC,Aerospace & Defense
+NASDAQ:CCCS,CCCS,Technology Services,NASDAQ,Packaged Software
+NYSE:PL,PL,Technology Services,NYSE,Packaged Software
+NASDAQ:GTX,GTX,Producer Manufacturing,NASDAQ,Auto Parts: OEM
+NASDAQ:PTEN,PTEN,Industrial Services,NASDAQ,Contract Drilling
+NYSE:PBI,PBI,Technology Services,NYSE,Packaged Software
+NASDAQ:HTZ,HTZ,Finance,NASDAQ,Finance/Rental/Leasing
+NASDAQ:ARRY,ARRY,Electronic Technology,NASDAQ,Semiconductors
+NYSE:LUMN,LUMN,Communications,NYSE,Major Telecommunications
+NYSE:AEG,AEG,Finance,NYSE,Multi-Line Insurance
+NYSE:DX,DX,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:ROIV,ROIV,Health Technology,NASDAQ,Pharmaceuticals: Major
+NYSE:OLO,OLO,Technology Services,NYSE,Packaged Software
+NASDAQ:VTRS,VTRS,Health Technology,NASDAQ,Pharmaceuticals: Major
+NASDAQ:GTM,GTM,Technology Services,NASDAQ,Packaged Software
+NYSE:AQN,AQN,Utilities,NYSE,Electric Utilities
+NYSE:PAGS,PAGS,Commercial Services,NYSE,Miscellaneous Commercial Services
+NASDAQ:OCUL,OCUL,Health Technology,NASDAQ,Pharmaceuticals: Major
+NYSE:AMC,AMC,Consumer Services,NYSE,Movies/Entertainment
+NYSE:GENI,GENI,Technology Services,NYSE,Internet Software/Services
+NYSE:COMP,COMP,Technology Services,NYSE,Packaged Software
+NASDAQ:CLOV,CLOV,Finance,NASDAQ,Life/Health Insurance
+NASDAQ:IBRX,IBRX,Health Technology,NASDAQ,Pharmaceuticals: Major
+NASDAQ:NEXT,NEXT,Energy Minerals,NASDAQ,Oil & Gas Production
+NYSE:LXP,LXP,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:ABCL,ABCL,Health Technology,NASDAQ,Biotechnology
+NASDAQ:BCRX,BCRX,Health Technology,NASDAQ,Biotechnology
+NASDAQ:NWL,NWL,Producer Manufacturing,NASDAQ,Industrial Machinery
+NASDAQ:MLCO,MLCO,Consumer Services,NASDAQ,Hotels/Resorts/Cruise lines
+NYSE:AMBP,AMBP,Process Industries,NYSE,Containers/Packaging
+NYSE:GGB,GGB,Non-Energy Minerals,NYSE,Steel
+NYSE:MPW,MPW,Finance,NYSE,Real Estate Investment Trusts
+NYSE:WIT,WIT,Technology Services,NYSE,Information Technology Services
+OTC:BAYRY,BAYRY,Health Technology,OTC,Pharmaceuticals: Major
+NASDAQ:COMM,COMM,Electronic Technology,NASDAQ,Telecommunications Equipment
+NYSE:DRH,DRH,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:SANA,SANA,Health Technology,NASDAQ,Biotechnology
+NYSE:BB,BB,Technology Services,NYSE,Packaged Software
+NASDAQ:FOLD,FOLD,Health Technology,NASDAQ,Pharmaceuticals: Major
+NASDAQ:GOGL,GOGL,Transportation,NASDAQ,Marine Shipping
+NYSE:COTY,COTY,Consumer Non-Durables,NYSE,Household/Personal Care
+NASDAQ:MQ,MQ,Commercial Services,NASDAQ,Miscellaneous Commercial Services
+NASDAQ:LBTYA,LBTYA,Communications,NASDAQ,Major Telecommunications
+NASDAQ:SSRM,SSRM,Non-Energy Minerals,NASDAQ,Precious Metals
+NYSE:VIV,VIV,Communications,NYSE,Wireless Telecommunications
+AMEX:SVM,SVM,Non-Energy Minerals,AMEX,Precious Metals
+NASDAQ:EVGO,EVGO,Retail Trade,NASDAQ,Specialty Stores
+NYSE:WT,WT,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:DLO,DLO,Technology Services,NASDAQ,Packaged Software
+NASDAQ:UDMY,UDMY,Technology Services,NASDAQ,Packaged Software
+NYSE:TWO,TWO,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:INTR,INTR,Finance,NASDAQ,Major Banks
+NASDAQ:ARDX,ARDX,Health Technology,NASDAQ,Pharmaceuticals: Major
+NYSE:MFG,MFG,Finance,NYSE,Major Banks
+NYSE:FSLY,FSLY,Technology Services,NYSE,Information Technology Services
+NYSE:KOS,KOS,Energy Minerals,NYSE,Integrated Oil
+NYSE:UA,UA,Consumer Non-Durables,NYSE,Apparel/Footwear
+NYSE:TALO,TALO,Energy Minerals,NYSE,Oil & Gas Production
+NYSE:EC,EC,Energy Minerals,NYSE,Integrated Oil
+NYSE:UWMC,UWMC,Finance,NYSE,Finance/Rental/Leasing
+NYSE:FINV,FINV,Finance,NYSE,Finance/Rental/Leasing
+NYSE:HBI,HBI,Consumer Non-Durables,NYSE,Apparel/Footwear
+AMEX:TGB,TGB,Non-Energy Minerals,AMEX,Other Metals/Minerals
+NASDAQ:ULCC,ULCC,Transportation,NASDAQ,Airlines
+NYSE:LU,LU,Finance,NYSE,Finance/Rental/Leasing
+NASDAQ:ATEC,ATEC,Health Technology,NASDAQ,Medical Specialties
+NYSE:EFC,EFC,Finance,NYSE,Real Estate Investment Trusts
+NYSE:SUZ,SUZ,Process Industries,NYSE,Pulp & Paper
+NYSE:NEA,NEA,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:SBH,SBH,Retail Trade,NYSE,Specialty Stores
+NASDAQ:PSEC,PSEC,Miscellaneous,NASDAQ,Investment Trusts/Mutual Funds
+AMEX:ORLA,ORLA,Non-Energy Minerals,AMEX,Precious Metals
+NASDAQ:PRCH,PRCH,Finance,NASDAQ,Property/Casualty Insurance
+NYSE:ALIT,ALIT,Technology Services,NYSE,Information Technology Services
+NASDAQ:BGC,BGC,Finance,NASDAQ,Investment Banks/Brokers
+NASDAQ:EVLV,EVLV,Electronic Technology,NASDAQ,Electronic Equipment/Instruments
+NASDAQ:COGT,COGT,Health Technology,NASDAQ,Biotechnology
+AMEX:VZLA,VZLA,Non-Energy Minerals,AMEX,Precious Metals
+NYSE:ECVT,ECVT,Process Industries,NYSE,Chemicals: Specialty
+NYSE:RES,RES,Industrial Services,NYSE,Oilfield Services/Equipment
+NASDAQ:LBTYK,LBTYK,Communications,NASDAQ,Major Telecommunications
+NASDAQ:AVDX,AVDX,Technology Services,NASDAQ,Packaged Software
+NYSE:PMT,PMT,Finance,NYSE,Real Estate Investment Trusts
+NYSE:SGHC,SGHC,Consumer Services,NYSE,Casinos/Gaming
+NASDAQ:ADPT,ADPT,Health Technology,NASDAQ,Biotechnology
+AMEX:CLM,CLM,Miscellaneous,AMEX,Investment Trusts/Mutual Funds
+NYSE:RLX,RLX,Producer Manufacturing,NYSE,Industrial Conglomerates
+NYSE:TIC,TIC,Commercial Services,NYSE,Miscellaneous Commercial Services
+NYSE:FIGS,FIGS,Consumer Non-Durables,NYSE,Apparel/Footwear
+NYSE:DHT,DHT,Transportation,NYSE,Marine Shipping
+NASDAQ:PAYO,PAYO,Commercial Services,NASDAQ,Miscellaneous Commercial Services
+NASDAQ:VIAV,VIAV,Technology Services,NASDAQ,Information Technology Services
+NYSE:EBR,EBR,Utilities,NYSE,Electric Utilities
+NASDAQ:UNIT,UNIT,Finance,NASDAQ,Real Estate Investment Trusts
+NYSE:NAD,NAD,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:TAC,TAC,Utilities,NYSE,Electric Utilities
+AMEX:NG,NG,Non-Energy Minerals,AMEX,Precious Metals
+NYSE:ARCO,ARCO,Consumer Services,NYSE,Restaurants
+NYSE:CLVT,CLVT,Commercial Services,NYSE,Miscellaneous Commercial Services
+NASDAQ:AMPL,AMPL,Technology Services,NASDAQ,Packaged Software
+NYSE:NZF,NZF,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:SCS,SCS,Producer Manufacturing,NYSE,Office Equipment/Supplies
+NYSE:LEG,LEG,Consumer Durables,NYSE,Home Furnishings
+NYSE:PFLT,PFLT,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:MNKD,MNKD,Health Technology,NASDAQ,Pharmaceuticals: Major
+NASDAQ:LZ,LZ,Commercial Services,NASDAQ,Miscellaneous Commercial Services
+OTC:ERIXF,ERIXF,Electronic Technology,OTC,Telecommunications Equipment
+NYSE:VET,VET,Energy Minerals,NYSE,Oil & Gas Production
+NYSE:RLJ,RLJ,Finance,NYSE,Real Estate Investment Trusts
+NYSE:CXM,CXM,Technology Services,NYSE,Packaged Software
+NYSE:ESRT,ESRT,Finance,NYSE,Real Estate Investment Trusts
+NYSE:SHO,SHO,Finance,NYSE,Real Estate Investment Trusts
+NYSE:BKD,BKD,Health Services,NYSE,Hospital/Nursing Management
+NYSE:LION,LION,Consumer Services,NYSE,Movies/Entertainment
+NASDAQ:WB,WB,Technology Services,NASDAQ,Internet Software/Services
+NYSE:DNP,DNP,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+OTC:BDORY,BDORY,Finance,OTC,Major Banks
+NYSE:KEP,KEP,Utilities,NYSE,Electric Utilities
+NASDAQ:AHCO,AHCO,Finance,NASDAQ,Finance/Rental/Leasing
+NASDAQ:SABR,SABR,Technology Services,NASDAQ,Packaged Software
+OTC:FMCKJ,FMCKJ,Finance,OTC,Finance/Rental/Leasing
+OTC:AMCCF,AMCCF,Process Industries,OTC,Containers/Packaging
+NYSE:JFR,JFR,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:SFL,SFL,Transportation,NYSE,Marine Shipping
+NYSE:BHC,BHC,Health Technology,NYSE,Pharmaceuticals: Other
+NYSE:JPC,JPC,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:HAFN,HAFN,Transportation,NYSE,Marine Shipping
+NASDAQ:ETNB,ETNB,Health Technology,NASDAQ,Pharmaceuticals: Major
+NYSE:LOMA,LOMA,Non-Energy Minerals,NYSE,Construction Materials
+OTC:PROSY,PROSY,Technology Services,OTC,Packaged Software
+NYSE:DSL,DSL,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:MOMO,MOMO,Technology Services,NASDAQ,Packaged Software
+NASDAQ:HIMX,HIMX,Electronic Technology,NASDAQ,Semiconductors
+NASDAQ:AUPH,AUPH,Health Technology,NASDAQ,Biotechnology
+NASDAQ:PAX,PAX,Finance,NASDAQ,Investment Managers
+NASDAQ:AMRX,AMRX,Health Technology,NASDAQ,Pharmaceuticals: Major
+NYSE:GNL,GNL,Finance,NYSE,Real Estate Investment Trusts
+NYSE:USA,USA,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:DVAX,DVAX,Health Technology,NASDAQ,Biotechnology
+NYSE:UGP,UGP,Retail Trade,NYSE,Specialty Stores
+OTC:HNDAF,HNDAF,Consumer Durables,OTC,Motor Vehicles
+AMEX:ARMN,ARMN,Non-Energy Minerals,AMEX,Precious Metals
+NASDAQ:RNW,RNW,Utilities,NASDAQ,Alternative Power Generation
+NYSE:IHS,IHS,Industrial Services,NYSE,Engineering & Construction
+NYSE:PX,PX,Finance,NYSE,Investment Managers
+NYSE:LADR,LADR,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:IAS,IAS,Technology Services,NASDAQ,Packaged Software
+NYSE:KYN,KYN,Finance,NYSE,Investment Managers
+NYSE:SID,SID,Non-Energy Minerals,NYSE,Steel
+NASDAQ:NMFC,NMFC,Miscellaneous,NASDAQ,Investment Trusts/Mutual Funds
+NYSE:NVG,NVG,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:HLMN,HLMN,Distribution Services,NASDAQ,Wholesale Distributors
+NYSE:ARI,ARI,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:GRFS,GRFS,Health Technology,NASDAQ,Pharmaceuticals: Major
+NASDAQ:HOPE,HOPE,Finance,NASDAQ,Major Banks
+NYSE:CSAN,CSAN,Utilities,NYSE,Gas Distributors
+NYSE:GAB,GAB,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:LFST,LFST,Health Services,NASDAQ,Medical/Nursing Services
+NYSE:YALA,YALA,Technology Services,NYSE,Internet Software/Services
+NYSE:SVV,SVV,Retail Trade,NYSE,Specialty Stores
+NYSE:PGRE,PGRE,Finance,NYSE,Real Estate Investment Trusts
+NASDAQ:STGW,STGW,Commercial Services,NASDAQ,Miscellaneous Commercial Services
+NYSE:NAC,NAC,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:LILAK,LILAK,Communications,NASDAQ,Major Telecommunications
+NASDAQ:MFIC,MFIC,Finance,NASDAQ,Investment Managers
+NYSE:ZGN,ZGN,Consumer Non-Durables,NYSE,Apparel/Footwear
+NYSE:GBTG,GBTG,Consumer Services,NYSE,Other Consumer Services
+NASDAQ:PLTK,PLTK,Technology Services,NASDAQ,Packaged Software
+OTC:ANGPY,ANGPY,Non-Energy Minerals,OTC,Other Metals/Minerals
+NYSE:ATUS,ATUS,Communications,NYSE,Major Telecommunications
+NYSE:EXG,EXG,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:BSBR,BSBR,Finance,NYSE,Major Banks
+NYSE:SSL,SSL,Process Industries,NYSE,Chemicals: Major Diversified
+NYSE:BDJ,BDJ,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:ALVO,ALVO,Health Technology,NASDAQ,Biotechnology
+NYSE:NMZ,NMZ,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NYSE:RQI,RQI,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:MCW,MCW,Consumer Services,NASDAQ,Other Consumer Services
+NYSE:EVEX,EVEX,Electronic Technology,NYSE,Aerospace & Defense
+NYSE:TUYA,TUYA,Technology Services,NYSE,Packaged Software
+OTC:VWAGY,VWAGY,Consumer Durables,OTC,Motor Vehicles
+NYSE:BRFS,BRFS,Consumer Non-Durables,NYSE,Food: Meat/Fish/Dairy
+NASDAQ:TFSL,TFSL,Finance,NASDAQ,Savings Banks
+NYSE:CIG,CIG,Utilities,NYSE,Electric Utilities
+NYSE:DNB,DNB,Technology Services,NYSE,Packaged Software
+NYSE:ETV,ETV,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+OTC:SCGLY,SCGLY,Finance,OTC,Major Banks
+OTC:MGCLY,MGCLY,Consumer Durables,OTC,Electronics/Appliances
+OTC:RNECY,RNECY,Electronic Technology,OTC,Semiconductors
+NYSE:CMRE,CMRE,Transportation,NYSE,Marine Shipping
+NYSE:TKC,TKC,Communications,NYSE,Wireless Telecommunications
+NYSE:NABL,NABL,Technology Services,NYSE,Packaged Software
+NASDAQ:CVAC,CVAC,Health Technology,NASDAQ,Biotechnology
+OTC:PCRHY,PCRHY,Consumer Durables,OTC,Electronics/Appliances
+NYSE:KW,KW,Finance,NYSE,Real Estate Development
+OTC:HXGBY,HXGBY,Electronic Technology,OTC,Electronic Equipment/Instruments
+OTC:GLNCY,GLNCY,Distribution Services,OTC,Wholesale Distributors
+OTC:ENLAY,ENLAY,Utilities,OTC,Electric Utilities
+NYSE:NFJ,NFJ,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:GDRX,GDRX,Technology Services,NASDAQ,Internet Software/Services
+AMEX:EVV,EVV,Miscellaneous,AMEX,Investment Trusts/Mutual Funds
+NASDAQ:TBLA,TBLA,Technology Services,NASDAQ,Internet Software/Services
+OTC:TGSGY,TGSGY,Technology Services,OTC,Data Processing Services
+NYSE:NMR,NMR,Finance,NYSE,Investment Banks/Brokers
+NYSE:ETWO,ETWO,Technology Services,NYSE,Packaged Software
+NYSE:CTOS,CTOS,Finance,NYSE,Finance/Rental/Leasing
+NYSE:CGAU,CGAU,Non-Energy Minerals,NYSE,Precious Metals
+OTC:TSRYY,TSRYY,Consumer Non-Durables,OTC,Beverages: Alcoholic
+NYSE:TEF,TEF,Communications,NYSE,Specialty Telecommunications
+NYSE:YEXT,YEXT,Technology Services,NYSE,Data Processing Services
+NASDAQ:CRSR,CRSR,Technology Services,NASDAQ,Packaged Software
+NYSE:AIV,AIV,Finance,NYSE,Real Estate Investment Trusts
+OTC:BKGFY,BKGFY,Consumer Durables,OTC,Homebuilding
+OTC:GTBIF,GTBIF,Process Industries,OTC,Agricultural Commodities/Milling
+OTC:MURGY,MURGY,Finance,OTC,Life/Health Insurance
+OTC:BOLSY,BOLSY,Finance,OTC,Investment Managers
+OTC:MRAAY,MRAAY,Electronic Technology,OTC,Electronic Production Equipment
+NASDAQ:CRCT,CRCT,Distribution Services,NASDAQ,Wholesale Distributors
+NYSE:ACEL,ACEL,Consumer Services,NYSE,Movies/Entertainment
+NYSE:NUV,NUV,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+NASDAQ:VFS,VFS,Consumer Durables,NASDAQ,Motor Vehicles
+OTC:SNWGF,SNWGF,Non-Energy Minerals,OTC,Precious Metals
+OTC:IMPUY,IMPUY,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:AMKBY,AMKBY,Transportation,OTC,Marine Shipping
+NYSE:LPL,LPL,Electronic Technology,NYSE,Electronic Production Equipment
+NASDAQ:GCMG,GCMG,Finance,NASDAQ,Investment Managers
+OTC:LYSDY,LYSDY,Non-Energy Minerals,OTC,Other Metals/Minerals
+NYSE:ENIC,ENIC,Utilities,NYSE,Electric Utilities
+NYSE:BTZ,BTZ,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+OTC:UNICY,UNICY,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:NABZY,NABZY,Finance,OTC,Major Banks
+OTC:NGXXF,NGXXF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:JBAXY,JBAXY,Finance,OTC,Financial Conglomerates
+NYSE:BRDG,BRDG,Finance,NYSE,Investment Managers
+NYSE:ICL,ICL,Process Industries,NYSE,Chemicals: Agricultural
+NYSE:EFXT,EFXT,Producer Manufacturing,NYSE,Industrial Machinery
+OTC:KKPNY,KKPNY,Communications,OTC,Major Telecommunications
+OTC:TDHOY,TDHOY,Finance,OTC,Life/Health Insurance
+OTC:FUJIY,FUJIY,Health Technology,OTC,Medical Specialties
+NASDAQ:EVCM,EVCM,Technology Services,NASDAQ,Packaged Software
+NASDAQ:OPK,OPK,Health Services,NASDAQ,Medical/Nursing Services
+NASDAQ:LILA,LILA,Communications,NASDAQ,Major Telecommunications
+OTC:DKILY,DKILY,Producer Manufacturing,OTC,Industrial Machinery
+NYSE:TV,TV,Communications,NYSE,Major Telecommunications
+NASDAQ:ACDC,ACDC,Industrial Services,NASDAQ,Oilfield Services/Equipment
+NYSE:ELP,ELP,Utilities,NYSE,Electric Utilities
+OTC:WCPRF,WCPRF,Energy Minerals,OTC,Integrated Oil
+OTC:BASFY,BASFY,Process Industries,OTC,Chemicals: Specialty
+OTC:ICAGY,ICAGY,Transportation,OTC,Airlines
+OTC:RYCEF,RYCEF,Electronic Technology,OTC,Aerospace & Defense
+NYSE:BAK,BAK,Process Industries,NYSE,Chemicals: Specialty
+OTC:TTDKY,TTDKY,Electronic Technology,OTC,Electronic Components
+OTC:SWGAY,SWGAY,Consumer Durables,OTC,Other Consumer Specialties
+OTC:OPHLY,OPHLY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:CILJF,CILJF,Finance,OTC,Multi-Line Insurance
+NYSE:VTEX,VTEX,Technology Services,NYSE,Information Technology Services
+OTC:WDOFF,WDOFF,Non-Energy Minerals,OTC,Precious Metals
+OTC:CLPBY,CLPBY,Health Technology,OTC,Medical Specialties
+OTC:SVNLY,SVNLY,Finance,OTC,Major Banks
+OTC:FMCKL,FMCKL,Finance,OTC,Finance/Rental/Leasing
+NYSE:LUCK,LUCK,Consumer Services,NYSE,Movies/Entertainment
+OTC:CKHUY,CKHUY,Retail Trade,OTC,Specialty Stores
+OTC:JPXGY,JPXGY,Finance,OTC,Investment Banks/Brokers
+NYSE:BXMX,BXMX,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
+OTC:VWDRY,VWDRY,Producer Manufacturing,OTC,Electrical Products
+OTC:ALSMY,ALSMY,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:KYOCY,KYOCY,Electronic Technology,OTC,Semiconductors
+OTC:CJPRY,CJPRY,Transportation,OTC,Other Transportation
+OTC:KPELY,KPELY,Utilities,OTC,Electric Utilities
+NYSE:TIXT,TIXT,Technology Services,NYSE,Information Technology Services
+OTC:PALAF,PALAF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:YAHOY,YAHOY,Technology Services,OTC,Internet Software/Services
+OTC:TYEKF,TYEKF,Non-Energy Minerals,OTC,Steel
+OTC:NJDCY,NJDCY,Producer Manufacturing,OTC,Electrical Products
+OTC:TCCPY,TCCPY,Commercial Services,OTC,Personnel Services
+OTC:CRARY,CRARY,Finance,OTC,Regional Banks
+OTC:FNMAT,FNMAT,Finance,OTC,Finance/Rental/Leasing
+NYSE:SHCO,SHCO,Commercial Services,NYSE,Miscellaneous Commercial Services
+OTC:VWAPY,VWAPY,Consumer Durables,OTC,Motor Vehicles
+OTC:DSFIY,DSFIY,Process Industries,OTC,Chemicals: Specialty
+OTC:NPNYY,NPNYY,Transportation,OTC,Marine Shipping
+OTC:CAIXY,CAIXY,Finance,OTC,Regional Banks
+OTC:SGIOY,SGIOY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:SINGY,SINGY,Transportation,OTC,Airlines
+OTC:ALPMY,ALPMY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:BVNRY,BVNRY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:AYASF,AYASF,Non-Energy Minerals,OTC,Precious Metals
+OTC:FUJHY,FUJHY,Consumer Durables,OTC,Motor Vehicles
+OTC:BABWF,BABWF,Transportation,OTC,Airlines
+OTC:POAHY,POAHY,Consumer Durables,OTC,Motor Vehicles
+OTC:SOMLY,SOMLY,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:NSANY,NSANY,Consumer Durables,OTC,Motor Vehicles
+OTC:NPSCY,NPSCY,Non-Energy Minerals,OTC,Steel
+OTC:CLPHY,CLPHY,Utilities,OTC,Electric Utilities
+OTC:ORKLY,ORKLY,Consumer Non-Durables,OTC,Food: Specialty/Candy
+OTC:RNLSY,RNLSY,Consumer Durables,OTC,Motor Vehicles
+OTC:MAKSY,MAKSY,Retail Trade,OTC,Department Stores
+OTC:KNTNF,KNTNF,Non-Energy Minerals,OTC,Precious Metals
+OTC:SECYF,SECYF,Industrial Services,OTC,Environmental Services
+NYSE:ET/PI,ET/PI,Industrial Services,NYSE,Oil & Gas Pipelines
+OTC:DRPRY,DRPRY,Consumer Durables,OTC,Motor Vehicles
+OTC:TKAMY,TKAMY,Non-Energy Minerals,OTC,Steel
+OTC:SUHJY,SUHJY,Finance,OTC,Real Estate Development
+OTC:TAOFF,TAOFF,Non-Energy Minerals,OTC,Precious Metals
+OTC:QUCOF,QUCOF,Finance,OTC,Multi-Line Insurance
+OTC:SOUHY,SOUHY,Non-Energy Minerals,OTC,Other Metals/Minerals
+NASDAQ:EVO,EVO,Health Technology,NASDAQ,Pharmaceuticals: Major
+OTC:ATDRY,ATDRY,Technology Services,OTC,Internet Software/Services
+OTC:TLSNY,TLSNY,Communications,OTC,Specialty Telecommunications
+OTC:EJPRY,EJPRY,Transportation,OTC,Railroads
+OTC:XIACF,XIACF,Electronic Technology,OTC,Telecommunications Equipment
+OTC:SUTNY,SUTNY,Finance,OTC,Major Banks
+OTC:SGSOY,SGSOY,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:PUMSY,PUMSY,Consumer Non-Durables,OTC,Apparel/Footwear
+NYSE:HGTY,HGTY,Finance,NYSE,Property/Casualty Insurance
+OTC:ATHOF,ATHOF,Energy Minerals,OTC,Integrated Oil
+OTC:VBREY,VBREY,Retail Trade,OTC,Specialty Stores
+OTC:GASNY,GASNY,Utilities,OTC,Electric Utilities
+OTC:BYDIF,BYDIF,Electronic Technology,OTC,Electronic Production Equipment
+OTC:ANYYY,ANYYY,Transportation,OTC,Other Transportation
+OTC:BBSEY,BBSEY,Finance,OTC,Multi-Line Insurance
+OTC:CRRFY,CRRFY,Retail Trade,OTC,Specialty Stores
+AMEX:BQ,BQ,Retail Trade,AMEX,Internet Retail
+OTC:CSCCF,CSCCF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:DUFRY,DUFRY,Retail Trade,OTC,Specialty Stores
+OTC:BTDPY,BTDPY,Consumer Durables,OTC,Homebuilding
+OTC:DELHY,DELHY,Technology Services,OTC,Internet Software/Services
+OTC:SEOAY,SEOAY,Process Industries,OTC,Containers/Packaging
+OTC:SGBLY,SGBLY,Finance,OTC,Regional Banks
+OTC:WEGZY,WEGZY,Producer Manufacturing,OTC,Electrical Products
+OTC:LUNMF,LUNMF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:BOIVF,BOIVF,Consumer Services,OTC,Publishing: Books/Magazines
+NYSE:DAO,DAO,Technology Services,NYSE,Internet Software/Services
+OTC:BKRIY,BKRIY,Finance,OTC,Major Banks
+OTC:KCDMY,KCDMY,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:HBCYF,HBCYF,Finance,OTC,Major Banks
+OTC:KGFHY,KGFHY,Retail Trade,OTC,Home Improvement Chains
+OTC:SPKKY,SPKKY,Communications,OTC,Major Telecommunications
+OTC:ICHIF,ICHIF,Finance,OTC,Real Estate Development
+OTC:NHYDY,NHYDY,Non-Energy Minerals,OTC,Aluminum
+OTC:PUGBY,PUGBY,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:LYSCF,LYSCF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:KAOOY,KAOOY,Consumer Non-Durables,OTC,Household/Personal Care
+NYSE:AVAL,AVAL,Finance,NYSE,Major Banks
+OTC:BTLCY,BTLCY,Finance,OTC,Real Estate Investment Trusts
+OTC:CDEFF,CDEFF,Finance,OTC,Major Banks
+OTC:PAHGF,PAHGF,Retail Trade,OTC,Specialty Stores
+OTC:SMMYY,SMMYY,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:ESAIY,ESAIY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:IRCUF,IRCUF,Transportation,OTC,Marine Shipping
+OTC:WMMVF,WMMVF,Retail Trade,OTC,Specialty Stores
+OTC:MAUTF,MAUTF,Non-Energy Minerals,OTC,Precious Metals
+OTC:FRHLF,FRHLF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:KKOYY,KKOYY,Retail Trade,OTC,Food Retail
+OTC:HNHPF,HNHPF,Electronic Technology,OTC,Computer Peripherals
+OTC:FMCXF,FMCXF,Non-Energy Minerals,OTC,Precious Metals
+OTC:EGFEF,EGFEF,Finance,OTC,Major Banks
+OTC:PTAIY,PTAIY,Technology Services,OTC,Information Technology Services
+OTC:FNMAJ,FNMAJ,Finance,OTC,Finance/Rental/Leasing
+OTC:LDSCY,LDSCY,Finance,OTC,Real Estate Investment Trusts
+OTC:BPAQF,BPAQF,Energy Minerals,OTC,Integrated Oil
+OTC:SWRAY,SWRAY,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:AAIGF,AAIGF,Finance,OTC,Multi-Line Insurance
+OTC:DFKCY,DFKCY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:SOMMY,SOMMY,Process Industries,OTC,Chemicals: Specialty
+OTC:SNMRY,SNMRY,Utilities,OTC,Gas Distributors
+OTC:RDEIY,RDEIY,Utilities,OTC,Electric Utilities
+OTC:CTRRF,CTRRF,Finance,OTC,Real Estate Investment Trusts
+NASDAQ:LOT,LOT,Consumer Durables,NASDAQ,Motor Vehicles
+OTC:CPCAY,CPCAY,Transportation,OTC,Airlines
+OTC:BPIRY,BPIRY,Finance,OTC,Regional Banks
+OTC:NTOIY,NTOIY,Energy Minerals,OTC,Oil Refining/Marketing
+OTC:FCXXF,FCXXF,Finance,OTC,Real Estate Investment Trusts
+OTC:WBRBY,WBRBY,Non-Energy Minerals,OTC,Construction Materials
+OTC:LTGHY,LTGHY,Health Services,OTC,Hospital/Nursing Management
+OTC:PCRFF,PCRFF,Consumer Durables,OTC,Electronics/Appliances
+OTC:BCUCY,BCUCY,Consumer Non-Durables,OTC,Apparel/Footwear
+OTC:PRRFY,PRRFY,Consumer Non-Durables,OTC,Food: Specialty/Candy
+OTC:ONTTF,ONTTF,Electronic Technology,OTC,Electronic Equipment/Instruments
+OTC:IVBXF,IVBXF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:DLAKY,DLAKY,Transportation,OTC,Airlines
+OTC:UNCHF,UNCHF,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:BOUYY,BOUYY,Industrial Services,OTC,Engineering & Construction
+OTC:JPSTF,JPSTF,Finance,OTC,Regional Banks
+OTC:SPXCF,SPXCF,Finance,OTC,Investment Banks/Brokers
+OTC:HPHTF,HPHTF,Electronic Technology,OTC,Electronic Components
+OTC:HRUFF,HRUFF,Finance,OTC,Real Estate Investment Trusts
+NYSE:EBR.B,EBR.B,Utilities,NYSE,Electric Utilities
+OTC:WXXWY,WXXWY,Health Technology,OTC,Biotechnology
+OTC:GOFPY,GOFPY,Consumer Services,OTC,Movies/Entertainment
+OTC:THKLY,THKLY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:JTKWY,JTKWY,Transportation,OTC,Air Freight/Couriers
+OTC:FSNUY,FSNUY,Health Services,OTC,Hospital/Nursing Management
+OTC:CRHKY,CRHKY,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:AUOTY,AUOTY,Electronic Technology,OTC,Computer Peripherals
+OTC:ELFIF,ELFIF,Finance,OTC,Life/Health Insurance
+OTC:SEKEY,SEKEY,Electronic Technology,OTC,Computer Peripherals
+OTC:SLLDY,SLLDY,Finance,OTC,Property/Casualty Insurance
+OTC:BKNIY,BKNIY,Finance,OTC,Major Banks
+OTC:BFFBF,BFFBF,Finance,OTC,Finance/Rental/Leasing
+OTC:VDMCY,VDMCY,Communications,OTC,Wireless Telecommunications
+OTC:BKRIF,BKRIF,Finance,OTC,Major Banks
+OTC:HNNMY,HNNMY,Retail Trade,OTC,Apparel/Footwear Retail
+OTC:BOMXF,BOMXF,Finance,OTC,Investment Banks/Brokers
+OTC:ATVDY,ATVDY,Consumer Services,OTC,Broadcasting
+OTC:ZIJMF,ZIJMF,Non-Energy Minerals,OTC,Precious Metals
+OTC:CICOY,CICOY,Transportation,OTC,Marine Shipping
+OTC:WYNMY,WYNMY,Consumer Services,OTC,Casinos/Gaming
+OTC:CMGMY,CMGMY,Electronic Technology,OTC,Aerospace & Defense
+OTC:ANIOY,ANIOY,Non-Energy Minerals,OTC,Steel
+OTC:BCLYF,BCLYF,Finance,OTC,Investment Banks/Brokers
+OTC:FUPBY,FUPBY,Process Industries,OTC,Industrial Specialties
+OTC:BIREF,BIREF,Energy Minerals,OTC,Integrated Oil
+OTC:FPAFY,FPAFY,Consumer Non-Durables,OTC,Food: Major Diversified
+OTC:JAPSY,JAPSY,Transportation,OTC,Airlines
+OTC:ALPMF,ALPMF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:CLILF,CLILF,Finance,OTC,Real Estate Investment Trusts
+OTC:MTNOY,MTNOY,Communications,OTC,Wireless Telecommunications
+NYSE:EEX,EEX,Commercial Services,NYSE,Miscellaneous Commercial Services
+OTC:GCHEF,GCHEF,Retail Trade,OTC,Food Retail
+OTC:FJTNY,FJTNY,Consumer Services,OTC,Broadcasting
+OTC:FMCKN,FMCKN,Finance,OTC,Finance/Rental/Leasing
+OTC:RBSPF,RBSPF,Finance,OTC,Major Banks
+OTC:GLPEY,GLPEY,Energy Minerals,OTC,Integrated Oil
+OTC:WGXRF,WGXRF,Non-Energy Minerals,OTC,Precious Metals
+OTC:CTTAY,CTTAY,Consumer Durables,OTC,Automotive Aftermarket
+OTC:GBLBY,GBLBY,Finance,OTC,Financial Conglomerates
+OTC:SSLZY,SSLZY,Energy Minerals,OTC,Oil & Gas Production
+OTC:SLVYY,SLVYY,Process Industries,OTC,Chemicals: Specialty
+OTC:TRYIY,TRYIY,Process Industries,OTC,Textiles
+OTC:VARRY,VARRY,Energy Minerals,OTC,Integrated Oil
+OTC:EUTLF,EUTLF,Communications,OTC,Major Telecommunications
+OTC:SPNUF,SPNUF,Electronic Technology,OTC,Electronic Equipment/Instruments
+OTC:ASAIY,ASAIY,Retail Trade,OTC,Food Retail
+OTC:ELEAF,ELEAF,Health Technology,OTC,Medical Specialties
+OTC:FMCKO,FMCKO,Finance,OTC,Finance/Rental/Leasing
+OTC:SGGKF,SGGKF,Electronic Technology,OTC,Aerospace & Defense
+OTC:MSSMY,MSSMY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:HUSQF,HUSQF,Consumer Durables,OTC,Tools & Hardware
+OTC:MZDAY,MZDAY,Consumer Durables,OTC,Motor Vehicles
+OTC:NHYKF,NHYKF,Non-Energy Minerals,OTC,Aluminum
+OTC:WAWIF,WAWIF,Transportation,OTC,Marine Shipping
+OTC:NBGIF,NBGIF,Finance,OTC,Major Banks
+OTC:RAIFY,RAIFY,Finance,OTC,Major Banks
+OTC:PMOIF,PMOIF,Energy Minerals,OTC,Oil & Gas Production
+OTC:REMYY,REMYY,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:MRRTY,MRRTY,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:EGIEY,EGIEY,Utilities,OTC,Electric Utilities
+OTC:VIVHY,VIVHY,Consumer Services,OTC,Media Conglomerates
+OTC:UCPLF,UCPLF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:HOEGF,HOEGF,Transportation,OTC,Marine Shipping
+OTC:CMGMF,CMGMF,Electronic Technology,OTC,Aerospace & Defense
+OTC:RICOY,RICOY,Electronic Technology,OTC,Computer Peripherals
+OTC:DVCMY,DVCMY,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:ADMLF,ADMLF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:ESYJY,ESYJY,Transportation,OTC,Airlines
+OTC:ACSAY,ACSAY,Industrial Services,OTC,Engineering & Construction
+OTC:DBMBF,DBMBF,Finance,OTC,Real Estate Investment Trusts
+AMEX:ESBA,ESBA,Finance,AMEX,Real Estate Investment Trusts
+NYSE:BBDO,BBDO,Finance,NYSE,Major Banks
+NYSE:GB,GB,Technology Services,NYSE,Data Processing Services
+OTC:ACCYY,ACCYY,Consumer Services,OTC,Hotels/Resorts/Cruise lines
+OTC:MGYOY,MGYOY,Energy Minerals,OTC,Oil Refining/Marketing
+OTC:HXGBF,HXGBF,Electronic Technology,OTC,Electronic Equipment/Instruments
+OTC:SHZHY,SHZHY,Consumer Non-Durables,OTC,Apparel/Footwear
+OTC:SVAUF,SVAUF,Transportation,OTC,Other Transportation
+OTC:TIIAY,TIIAY,Communications,OTC,Wireless Telecommunications
+OTC:SGBAF,SGBAF,Communications,OTC,Specialty Telecommunications
+OTC:WOSGF,WOSGF,Retail Trade,OTC,Specialty Stores
+OTC:NFYEF,NFYEF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:DNPLY,DNPLY,Commercial Services,OTC,Commercial Printing/Forms
+OTC:GMBXF,GMBXF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:ACRXF,ACRXF,Non-Energy Minerals,OTC,Steel
+OTC:BOSSY,BOSSY,Consumer Non-Durables,OTC,Apparel/Footwear
+OTC:ILKAF,ILKAF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:INPOY,INPOY,Technology Services,OTC,Packaged Software
+OTC:SFBQF,SFBQF,Communications,OTC,Wireless Telecommunications
+OTC:ITVPY,ITVPY,Consumer Services,OTC,Movies/Entertainment
+OTC:FRTSF,FRTSF,Utilities,OTC,Electric Utilities
+OTC:PMREF,PMREF,Finance,OTC,Real Estate Investment Trusts
+OTC:RMLRF,RMLRF,Non-Energy Minerals,OTC,Precious Metals
+OTC:NPPHY,NPPHY,Process Industries,OTC,Industrial Specialties
+OTC:TWODF,TWODF,Consumer Durables,OTC,Homebuilding
+OTC:IWGFF,IWGFF,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:CROMF,CROMF,Finance,OTC,Real Estate Investment Trusts
+OTC:EBCOY,EBCOY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:WHITF,WHITF,Energy Minerals,OTC,Coal
+OTC:RKUNY,RKUNY,Retail Trade,OTC,Internet Retail
+OTC:MLYBY,MLYBY,Finance,OTC,Regional Banks
+OTC:RSNHF,RSNHF,Finance,OTC,Regional Banks
+OTC:BTDPF,BTDPF,Consumer Durables,OTC,Homebuilding
+OTC:GEBHY,GEBHY,Consumer Services,OTC,Hotels/Resorts/Cruise lines
+OTC:HGKGY,HGKGY,Utilities,OTC,Electric Utilities
+OTC:TTDKF,TTDKF,Electronic Technology,OTC,Electronic Components
+OTC:BCDRF,BCDRF,Finance,OTC,Major Banks
+OTC:EDVGF,EDVGF,Retail Trade,OTC,Specialty Stores
+OTC:CHUEF,CHUEF,Utilities,OTC,Electric Utilities
+OTC:AAVVF,AAVVF,Energy Minerals,OTC,Oil & Gas Production
+OTC:NOKBF,NOKBF,Electronic Technology,OTC,Telecommunications Equipment
+OTC:TGSNF,TGSNF,Technology Services,OTC,Data Processing Services
+OTC:YLLXF,YLLXF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:FNMAH,FNMAH,Finance,OTC,Finance/Rental/Leasing
+OTC:EKTAY,EKTAY,Health Technology,OTC,Medical Specialties
+OTC:BKKPF,BKKPF,Finance,OTC,Regional Banks
+OTC:MTHRY,MTHRY,Technology Services,OTC,Internet Software/Services
+OTC:BZQIF,BZQIF,Communications,OTC,Major Telecommunications
+OTC:EKTAF,EKTAF,Health Technology,OTC,Medical Specialties
+OTC:PMNXF,PMNXF,Non-Energy Minerals,OTC,Precious Metals
+OTC:MTSFF,MTSFF,Finance,OTC,Real Estate Development
+OTC:KPLUY,KPLUY,Process Industries,OTC,Chemicals: Specialty
+OTC:SASOF,SASOF,Process Industries,OTC,Chemicals: Major Diversified
+OTC:GCWOF,GCWOF,Non-Energy Minerals,OTC,Construction Materials
+OTC:WTBDY,WTBDY,Consumer Services,OTC,Hotels/Resorts/Cruise lines
+OTC:JDHIF,JDHIF,Retail Trade,OTC,Drugstore Chains
+OTC:GMVHF,GMVHF,Consumer Services,OTC,Casinos/Gaming
+OTC:UBSFY,UBSFY,Technology Services,OTC,Packaged Software
+OTC:KIROY,KIROY,Non-Energy Minerals,OTC,Steel
+OTC:NDGPY,NDGPY,Process Industries,OTC,Containers/Packaging
+OTC:JBFCF,JBFCF,Consumer Services,OTC,Restaurants
+OTC:GBOOF,GBOOF,Finance,OTC,Major Banks
+OTC:HLNCF,HLNCF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:FQVTF,FQVTF,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:HLDCY,HLDCY,Finance,OTC,Real Estate Development
+OTC:HWDJF,HWDJF,Consumer Durables,OTC,Electronics/Appliances
+OTC:FOJCY,FOJCY,Utilities,OTC,Electric Utilities
+OTC:ELALF,ELALF,Transportation,OTC,Airlines
+OTC:MITFY,MITFY,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:IMPJY,IMPJY,Industrial Services,OTC,Engineering & Construction
+OTC:ICOSF,ICOSF,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:WUXAY,WUXAY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:NWSGY,NWSGY,Industrial Services,OTC,Engineering & Construction
+OTC:SNGNF,SNGNF,Communications,OTC,Major Telecommunications
+OTC:MMSMY,MMSMY,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:TYHOY,TYHOY,Distribution Services,OTC,Wholesale Distributors
+OTC:KPTCY,KPTCY,Process Industries,OTC,Industrial Specialties
+OTC:SLTCY,SLTCY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:DETRF,DETRF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:EOGSF,EOGSF,Non-Energy Minerals,OTC,Precious Metals
+OTC:ESOCF,ESOCF,Utilities,OTC,Electric Utilities
+OTC:SNPHY,SNPHY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:FNMAI,FNMAI,Finance,OTC,Finance/Rental/Leasing
+OTC:HLPPY,HLPPY,Finance,OTC,Real Estate Development
+OTC:HCHDF,HCHDF,Non-Energy Minerals,OTC,Precious Metals
+OTC:SLFPY,SLFPY,Finance,OTC,Investment Managers
+OTC:CAHPF,CAHPF,Non-Energy Minerals,OTC,Precious Metals
+OTC:GMVHY,GMVHY,Consumer Services,OTC,Casinos/Gaming
+OTC:KKPNF,KKPNF,Communications,OTC,Major Telecommunications
+OTC:AKBTY,AKBTY,Finance,OTC,Regional Banks
+OTC:TUIFF,TUIFF,Consumer Services,OTC,Other Consumer Services
+OTC:CDDRF,CDDRF,Energy Minerals,OTC,Integrated Oil
+OTC:VVVNF,VVVNF,Consumer Services,OTC,Media Conglomerates
+OTC:VLOWY,VLOWY,Non-Energy Minerals,OTC,Steel
+OTC:DNTCF,DNTCF,Health Services,OTC,Medical/Nursing Services
+OTC:KAEPY,KAEPY,Utilities,OTC,Electric Utilities
+OTC:FMCKI,FMCKI,Finance,OTC,Finance/Rental/Leasing
+OTC:SGAMY,SGAMY,Technology Services,OTC,Packaged Software
+NYSE:ELPC,ELPC,Utilities,NYSE,Electric Utilities
+OTC:WYGPY,WYGPY,Industrial Services,OTC,Engineering & Construction
+OTC:CAOVY,CAOVY,Finance,OTC,Real Estate Development
+OTC:JGGIF,JGGIF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:BUGDF,BUGDF,Health Services,OTC,Hospital/Nursing Management
+OTC:GRCLF,GRCLF,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:SFRGY,SFRGY,Consumer Non-Durables,OTC,Apparel/Footwear
+OTC:ICTEF,ICTEF,Transportation,OTC,Other Transportation
+OTC:LNSPF,LNSPF,Finance,OTC,Real Estate Investment Trusts
+OTC:SWRBY,SWRBY,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:JPPHY,JPPHY,Finance,OTC,Life/Health Insurance
+OTC:CESDF,CESDF,Process Industries,OTC,Chemicals: Major Diversified
+OTC:KNNNF,KNNNF,Technology Services,OTC,Information Technology Services
+OTC:TRAUF,TRAUF,Transportation,OTC,Other Transportation
+OTC:SZGPY,SZGPY,Non-Energy Minerals,OTC,Steel
+OTC:TUFBY,TUFBY,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:MNGPF,MNGPF,Finance,OTC,Investment Managers
+OTC:ODFJF,ODFJF,Industrial Services,OTC,Contract Drilling
+OTC:SSPPF,SSPPF,Consumer Services,OTC,Restaurants
+OTC:PIAIF,PIAIF,Finance,OTC,Multi-Line Insurance
+OTC:ASGLY,ASGLY,Consumer Durables,OTC,Home Furnishings
+OTC:DNPUF,DNPUF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:EXXAF,EXXAF,Energy Minerals,OTC,Coal
+OTC:LSGOF,LSGOF,Finance,OTC,Real Estate Investment Trusts
+OTC:LGGNF,LGGNF,Finance,OTC,Multi-Line Insurance
+OTC:KCDMF,KCDMF,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:SHTLF,SHTLF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:AITUF,AITUF,Electronic Technology,OTC,Electronic Equipment/Instruments
+OTC:IFSUF,IFSUF,Communications,OTC,Major Telecommunications
+OTC:FMCKM,FMCKM,Finance,OTC,Finance/Rental/Leasing
+OTC:AUTLF,AUTLF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:NXDCF,NXDCF,Technology Services,OTC,Data Processing Services
+OTC:AFRAF,AFRAF,Transportation,OTC,Airlines
+OTC:HLFFF,HLFFF,Retail Trade,OTC,Internet Retail
+OTC:FECHF,FECHF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:TKHIF,TKHIF,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:CPYYY,CPYYY,Utilities,OTC,Gas Distributors
+OTC:RUMOF,RUMOF,Transportation,OTC,Railroads
+OTC:HNLGY,HNLGY,Finance,OTC,Real Estate Development
+OTC:IITSF,IITSF,Finance,OTC,Major Banks
+OTC:LKREF,LKREF,Finance,OTC,Real Estate Investment Trusts
+OTC:DSEEY,DSEEY,Finance,OTC,Investment Banks/Brokers
+OTC:EERGF,EERGF,Energy Minerals,OTC,Oil & Gas Production
+OTC:PRDSF,PRDSF,Consumer Non-Durables,OTC,Consumer Sundries
+OTC:DREUF,DREUF,Finance,OTC,Real Estate Investment Trusts
+OTC:NUVSF,NUVSF,Energy Minerals,OTC,Integrated Oil
+OTC:CFPZF,CFPZF,Non-Energy Minerals,OTC,Forest Products
+OTC:GNENF,GNENF,Process Industries,OTC,Chemicals: Specialty
+OTC:CMTOY,CMTOY,Non-Energy Minerals,OTC,Construction Materials
+OTC:COCSF,COCSF,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:SUEZY,SUEZY,Consumer Non-Durables,OTC,Food: Specialty/Candy
+NYSE:CIG.C,CIG.C,Utilities,NYSE,Electric Utilities
+OTC:WEICF,WEICF,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:KNCAY,KNCAY,Producer Manufacturing,OTC,Office Equipment/Supplies
+OTC:FRBP,FRBP,Finance,OTC,Financial Conglomerates
+OTC:JTCPF,JTCPF,Finance,OTC,Investment Managers
+OTC:GGPSF,GGPSF,Non-Energy Minerals,OTC,Precious Metals
+OTC:FBBPF,FBBPF,Finance,OTC,Real Estate Investment Trusts
+OTC:CADLF,CADLF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:CHSYF,CHSYF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:NBGRY,NBGRY,Finance,OTC,Major Banks
+OTC:FURCF,FURCF,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:TTUUF,TTUUF,Finance,OTC,Real Estate Development
+OTC:MGPUF,MGPUF,Finance,OTC,Financial Conglomerates
+OTC:FKKFY,FKKFY,Finance,OTC,Major Banks
+OTC:SHNWF,SHNWF,Finance,OTC,Investment Managers
+OTC:QNTQF,QNTQF,Electronic Technology,OTC,Aerospace & Defense
+OTC:SCAFD,SCAFD,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:DLAKF,DLAKF,Transportation,OTC,Airlines
+OTC:ALSSF,ALSSF,Consumer Services,OTC,Restaurants
+OTC:XNGSF,XNGSF,Utilities,OTC,Gas Distributors
+OTC:WRTBY,WRTBY,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:BIOGY,BIOGY,Health Technology,OTC,Pharmaceuticals: Other
+OTC:SNIRF,SNIRF,Electronic Technology,OTC,Aerospace & Defense
+OTC:OERLF,OERLF,Process Industries,OTC,Textiles
+OTC:LYSFF,LYSFF,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:AAFRF,AAFRF,Communications,OTC,Wireless Telecommunications
+OTC:CICOF,CICOF,Transportation,OTC,Marine Shipping
+OTC:WYGPF,WYGPF,Industrial Services,OTC,Engineering & Construction
+OTC:SINGF,SINGF,Transportation,OTC,Airlines
+OTC:TNABF,TNABF,Utilities,OTC,Electric Utilities
+OTC:MNXBF,MNXBF,Finance,OTC,Financial Conglomerates
+OTC:CNGKY,CNGKY,Finance,OTC,Real Estate Development
+OTC:CSPKY,CSPKY,Transportation,OTC,Other Transportation
+OTC:NHPEF,NHPEF,Energy Minerals,OTC,Coal
+OTC:CRNLF,CRNLF,Non-Energy Minerals,OTC,Precious Metals
+OTC:MRPRF,MRPRF,Finance,OTC,Real Estate Investment Trusts
+OTC:TNEYF,TNEYF,Energy Minerals,OTC,Integrated Oil
+OTC:TRYIF,TRYIF,Process Industries,OTC,Textiles
+OTC:CIBEY,CIBEY,Finance,OTC,Regional Banks
+OTC:LCSHF,LCSHF,Finance,OTC,Property/Casualty Insurance
+OTC:NSANF,NSANF,Consumer Durables,OTC,Motor Vehicles
+OTC:SHCAY,SHCAY,Consumer Durables,OTC,Electronics/Appliances
+OTC:CYRBY,CYRBY,Finance,OTC,Real Estate Development
+OTC:YACAF,YACAF,Energy Minerals,OTC,Coal
+OTC:HGKGF,HGKGF,Utilities,OTC,Electric Utilities
+OTC:OSBGF,OSBGF,Finance,OTC,Major Banks
+OTC:EVOTF,EVOTF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:HSQVY,HSQVY,Consumer Durables,OTC,Tools & Hardware
+OTC:EMBVF,EMBVF,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:ASEKY,ASEKY,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:AACAY,AACAY,Electronic Technology,OTC,Electronic Production Equipment
+OTC:GPOVF,GPOVF,Retail Trade,OTC,Department Stores
+OTC:TSPCF,TSPCF,Industrial Services,OTC,Environmental Services
+OTC:BNDSF,BNDSF,Finance,OTC,Major Banks
+OTC:VLEEY,VLEEY,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:TTRAF,TTRAF,Communications,OTC,Wireless Telecommunications
+OTC:CDEVY,CDEVY,Finance,OTC,Real Estate Development
+OTC:HLUBF,HLUBF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:LZRFY,LZRFY,Finance,OTC,Finance/Rental/Leasing
+OTC:SFRRF,SFRRF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:AEGOF,AEGOF,Finance,OTC,Multi-Line Insurance
+OTC:PCFBY,PCFBY,Transportation,OTC,Marine Shipping
+OTC:BMDPF,BMDPF,Finance,OTC,Regional Banks
+OTC:HULCF,HULCF,Finance,OTC,Real Estate Development
+OTC:BZQIY,BZQIY,Communications,OTC,Major Telecommunications
+OTC:AKRBY,AKRBY,Energy Minerals,OTC,Integrated Oil
+OTC:JXHLY,JXHLY,Energy Minerals,OTC,Oil Refining/Marketing
+OTC:CTPCY,CTPCY,Finance,OTC,Finance/Rental/Leasing
+OTC:NRSCF,NRSCF,Finance,OTC,Investment Banks/Brokers
+OTC:WARFY,WARFY,Finance,OTC,Real Estate Development
+OTC:CIAFF,CIAFF,Non-Energy Minerals,OTC,Steel
+OTC:MLSPF,MLSPF,Electronic Technology,OTC,Aerospace & Defense
+OTC:BCEFF,BCEFF,Communications,OTC,Major Telecommunications
+OTC:IFPJF,IFPJF,Technology Services,OTC,Internet Software/Services
+OTC:KLYCY,KLYCY,Utilities,OTC,Gas Distributors
+OTC:AWEVF,AWEVF,Electronic Technology,OTC,Semiconductors
+OTC:MITUY,MITUY,Process Industries,OTC,Chemicals: Major Diversified
+OTC:HISEF,HISEF,Consumer Durables,OTC,Electronics/Appliances
+NYSE:MSC,MSC,Consumer Services,NYSE,Casinos/Gaming
+OTC:PEGRF,PEGRF,Utilities,OTC,Water Utilities
+OTC:PYOIF,PYOIF,Transportation,OTC,Other Transportation
+OTC:JXHGF,JXHGF,Energy Minerals,OTC,Oil Refining/Marketing
+OTC:HLTOY,HLTOY,Communications,OTC,Wireless Telecommunications
+OTC:GNENY,GNENY,Process Industries,OTC,Chemicals: Specialty
+OTC:ZEGLF,ZEGLF,Finance,OTC,Financial Conglomerates
+OTC:TSCDF,TSCDF,Retail Trade,OTC,Food Retail
+OTC:VLVOF,VLVOF,Consumer Durables,OTC,Motor Vehicles
+OTC:TINLY,TINLY,Process Industries,OTC,Textiles
+OTC:GLCNF,GLCNF,Distribution Services,OTC,Wholesale Distributors
+OTC:DSECF,DSECF,Finance,OTC,Investment Banks/Brokers
+OTC:OMVKY,OMVKY,Energy Minerals,OTC,Integrated Oil
+OTC:RKUNF,RKUNF,Retail Trade,OTC,Internet Retail
+OTC:SRTTY,SRTTY,Retail Trade,OTC,Internet Retail
+OTC:MPFRY,MPFRY,Finance,OTC,Multi-Line Insurance
+OTC:SUHJF,SUHJF,Finance,OTC,Real Estate Development
+OTC:ENGGY,ENGGY,Utilities,OTC,Gas Distributors
+OTC:NIOIF,NIOIF,Consumer Durables,OTC,Motor Vehicles
+OTC:UMICY,UMICY,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:AKRYY,AKRYY,Utilities,OTC,Alternative Power Generation
+OTC:YKLTY,YKLTY,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:ACKDF,ACKDF,Transportation,OTC,Other Transportation
+OTC:HKVTY,HKVTY,Utilities,OTC,Electric Utilities
+OTC:MAKSF,MAKSF,Retail Trade,OTC,Department Stores
+OTC:ROHCY,ROHCY,Electronic Technology,OTC,Semiconductors
+OTC:SAXPF,SAXPF,Finance,OTC,Property/Casualty Insurance
+OTC:OSCUF,OSCUF,Finance,OTC,Investment Banks/Brokers
+OTC:GNZUY,GNZUY,Consumer Durables,OTC,Motor Vehicles
+OTC:TKECY,TKECY,Utilities,OTC,Electric Utilities
+OTC:PPRQF,PPRQF,Finance,OTC,Real Estate Investment Trusts
+OTC:PTRRY,PTRRY,Energy Minerals,OTC,Integrated Oil
+OTC:TPGTF,TPGTF,Communications,OTC,Wireless Telecommunications
+OTC:SPSTY,SPSTY,Transportation,OTC,Air Freight/Couriers
+OTC:FRZCF,FRZCF,Finance,OTC,Real Estate Investment Trusts
+OTC:TCAPF,TCAPF,Finance,OTC,Investment Banks/Brokers
+AMEX:OGCP,OGCP,Finance,AMEX,Real Estate Investment Trusts
+OTC:GRGTF,GRGTF,Finance,OTC,Real Estate Development
+OTC:JSNSF,JSNSF,Retail Trade,OTC,Food Retail
+OTC:STMZF,STMZF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:PUTRY,PUTRY,Energy Minerals,OTC,Integrated Oil
+OTC:AGLXY,AGLXY,Utilities,OTC,Alternative Power Generation
+OTC:CSPCY,CSPCY,Health Technology,OTC,Biotechnology
+OTC:TSGTF,TSGTF,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:OVCHF,OVCHF,Finance,OTC,Major Banks
+OTC:KELRF,KELRF,Transportation,OTC,Railroads
+OTC:ALGGY,ALGGY,Finance,OTC,Real Estate Development
+OTC:EVKIY,EVKIY,Process Industries,OTC,Chemicals: Major Diversified
+OTC:BECTY,BECTY,Technology Services,OTC,Information Technology Services
+OTC:LNXSY,LNXSY,Process Industries,OTC,Chemicals: Major Diversified
+OTC:NCTKY,NCTKY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:GEAHF,GEAHF,Consumer Services,OTC,Hotels/Resorts/Cruise lines
+OTC:ITGGF,ITGGF,Utilities,OTC,Gas Distributors
+OTC:IIPZF,IIPZF,Finance,OTC,Real Estate Investment Trusts
+OTC:SAPMF,SAPMF,Industrial Services,OTC,Engineering & Construction
+OTC:SAMHF,SAMHF,Non-Energy Minerals,OTC,Steel
+OTC:LNNGF,LNNGF,Consumer Non-Durables,OTC,Apparel/Footwear
+OTC:QUBSF,QUBSF,Transportation,OTC,Airlines
+OTC:FSUMF,FSUMF,Non-Energy Minerals,OTC,Steel
+OTC:SEGXF,SEGXF,Finance,OTC,Real Estate Investment Trusts
+OTC:ELRXF,ELRXF,Consumer Durables,OTC,Electronics/Appliances
+OTC:CLBEY,CLBEY,Consumer Non-Durables,OTC,Food: Specialty/Candy
+OTC:NPSKY,NPSKY,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:CPBLF,CPBLF,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:TOKUY,TOKUY,Retail Trade,OTC,Department Stores
+OTC:ACOPY,ACOPY,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:MZDAF,MZDAF,Consumer Durables,OTC,Motor Vehicles
+OTC:SHMUF,SHMUF,Industrial Services,OTC,Engineering & Construction
+OTC:BKQNY,BKQNY,Finance,OTC,Major Banks
+OTC:CKHUF,CKHUF,Retail Trade,OTC,Specialty Stores
+OTC:VTKLY,VTKLY,Consumer Durables,OTC,Recreational Products
+OTC:MEJHY,MEJHY,Consumer Non-Durables,OTC,Food: Specialty/Candy
+OTC:GIFLF,GIFLF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:KOTMY,KOTMY,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:WXIBF,WXIBF,Health Technology,OTC,Biotechnology
+OTC:SMSMY,SMSMY,Non-Energy Minerals,OTC,Steel
+AMEX:FISK,FISK,Finance,AMEX,Real Estate Investment Trusts
+OTC:TLSNF,TLSNF,Communications,OTC,Specialty Telecommunications
+OTC:APAJF,APAJF,Utilities,OTC,Gas Distributors
+OTC:IPGDF,IPGDF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:SSAAF,SSAAF,Producer Manufacturing,OTC,Metal Fabrication
+OTC:MAPIF,MAPIF,Finance,OTC,Real Estate Investment Trusts
+OTC:PEXUF,PEXUF,Energy Minerals,OTC,Integrated Oil
+OTC:HELFY,HELFY,Retail Trade,OTC,Internet Retail
+OTC:FMOCY,FMOCY,Industrial Services,OTC,Environmental Services
+OTC:BDWBY,BDWBY,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:KSRYY,KSRYY,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:CVPBF,CVPBF,Retail Trade,OTC,Food Retail
+OTC:IAUGF,IAUGF,Finance,OTC,Property/Casualty Insurance
+OTC:STKAF,STKAF,Finance,OTC,Real Estate Investment Trusts
+OTC:LMPMY,LMPMY,Process Industries,OTC,Pulp & Paper
+OTC:UTGPF,UTGPF,Finance,OTC,Real Estate Development
+OTC:MCSHF,MCSHF,Distribution Services,OTC,Food Distributors
+OTC:VLTAF,VLTAF,Utilities,OTC,Electric Utilities
+OTC:CPYYF,CPYYF,Utilities,OTC,Gas Distributors
+OTC:DMZPY,DMZPY,Consumer Services,OTC,Restaurants
+OTC:TRUBF,TRUBF,Technology Services,OTC,Packaged Software
+OTC:TLTZY,TLTZY,Communications,OTC,Major Telecommunications
+OTC:SEOFF,SEOFF,Process Industries,OTC,Containers/Packaging
+OTC:KUASF,KUASF,Commercial Services,OTC,Advertising/Marketing Services
+OTC:XISHY,XISHY,Electronic Technology,OTC,Semiconductors
+OTC:KGFHF,KGFHF,Retail Trade,OTC,Home Improvement Chains
+OTC:SCGPY,SCGPY,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:NSHBY,NSHBY,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:NRSDY,NRSDY,Electronic Technology,OTC,Semiconductors
+OTC:CCRDF,CCRDF,Finance,OTC,Regional Banks
+OTC:MCARY,MCARY,Retail Trade,OTC,Internet Retail
+OTC:CNICF,CNICF,Finance,OTC,Investment Banks/Brokers
+OTC:ELCPF,ELCPF,Utilities,OTC,Electric Utilities
+OTC:LWSCF,LWSCF,Health Services,OTC,Hospital/Nursing Management
+OTC:WLMIF,WLMIF,Process Industries,OTC,Agricultural Commodities/Milling
+OTC:NINOY,NINOY,Consumer Durables,OTC,Electronics/Appliances
+OTC:SEGSF,SEGSF,Transportation,OTC,Other Transportation
+OTC:EMNSF,EMNSF,Process Industries,OTC,Chemicals: Specialty
+OTC:TKECF,TKECF,Utilities,OTC,Electric Utilities
+OTC:WRDLY,WRDLY,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:KAEPF,KAEPF,Utilities,OTC,Electric Utilities
+OTC:ACOPF,ACOPF,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:RBSFY,RBSFY,Distribution Services,OTC,Wholesale Distributors
+OTC:NRXXY,NRXXY,Producer Manufacturing,OTC,Electrical Products
+OTC:PNXGF,PNXGF,Finance,OTC,Life/Health Insurance
+OTC:SHTDF,SHTDF,Distribution Services,OTC,Medical Distributors
+OTC:CMAKY,CMAKY,Finance,OTC,Major Banks
+OTC:ATDRF,ATDRF,Technology Services,OTC,Internet Software/Services
+OTC:YAMHF,YAMHF,Consumer Durables,OTC,Motor Vehicles
+OTC:FQVTY,FQVTY,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:MCHOY,MCHOY,Consumer Services,OTC,Cable/Satellite TV
+OTC:ORKLF,ORKLF,Consumer Non-Durables,OTC,Food: Specialty/Candy
+OTC:OUKPY,OUKPY,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:OCDGF,OCDGF,Retail Trade,OTC,Food Retail
+OTC:SFSHF,SFSHF,Finance,OTC,Real Estate Investment Trusts
+OTC:OCDDY,OCDDY,Retail Trade,OTC,Food Retail
+OTC:PHPRF,PHPRF,Finance,OTC,Real Estate Investment Trusts
+OTC:IMPUF,IMPUF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:BZLYF,BZLYF,Finance,OTC,Multi-Line Insurance
+OTC:OCLDF,OCLDF,Process Industries,OTC,Industrial Specialties
+OTC:ZNKKY,ZNKKY,Finance,OTC,Property/Casualty Insurance
+OTC:KUBTF,KUBTF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:CIXPF,CIXPF,Finance,OTC,Regional Banks
+OTC:AIBRF,AIBRF,Finance,OTC,Major Banks
+OTC:ZLIOY,ZLIOY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:NKRKY,NKRKY,Consumer Durables,OTC,Automotive Aftermarket
+OTC:APNHY,APNHY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:YAMCY,YAMCY,Consumer Durables,OTC,Recreational Products
+OTC:PAFRY,PAFRY,Non-Energy Minerals,OTC,Precious Metals
+OTC:CLPXY,CLPXY,Utilities,OTC,Alternative Power Generation
+OTC:CHBAF,CHBAF,Finance,OTC,Regional Banks
+OTC:SCRYY,SCRYY,Finance,OTC,Property/Casualty Insurance
+OTC:MDBPF,MDBPF,Finance,OTC,Life/Health Insurance
+OTC:WPPGF,WPPGF,Commercial Services,OTC,Advertising/Marketing Services
+OTC:SNPTF,SNPTF,Electronic Technology,OTC,Electronic Components
+OTC:HUFAF,HUFAF,Finance,OTC,Real Estate Development
+OTC:HSHZY,HSHZY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:AACAF,AACAF,Electronic Technology,OTC,Electronic Production Equipment
+OTC:FMXUF,FMXUF,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:CWQXF,CWQXF,Finance,OTC,Real Estate Development
+OTC:YAMCF,YAMCF,Consumer Durables,OTC,Recreational Products
+OTC:VLPNY,VLPNY,Non-Energy Minerals,OTC,Steel
+OTC:EQUEY,EQUEY,Utilities,OTC,Electric Utilities
+OTC:HBRIY,HBRIY,Energy Minerals,OTC,Oil & Gas Production
+OTC:TPRKY,TPRKY,Distribution Services,OTC,Wholesale Distributors
+OTC:BPIRF,BPIRF,Finance,OTC,Regional Banks
+OTC:CWSRF,CWSRF,Finance,OTC,Real Estate Investment Trusts
+OTC:CELJF,CELJF,Communications,OTC,Wireless Telecommunications
+OTC:SNLAY,SNLAY,Finance,OTC,Real Estate Development
+OTC:VLEEF,VLEEF,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:OCLDY,OCLDY,Process Industries,OTC,Industrial Specialties
+OTC:HTWSF,HTWSF,Communications,OTC,Specialty Telecommunications
+OTC:AMSSY,AMSSY,Electronic Technology,OTC,Semiconductors
+OTC:SOHVY,SOHVY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:PSTVY,PSTVY,Finance,OTC,Regional Banks
+OTC:MAUSY,MAUSY,Finance,OTC,Investment Banks/Brokers
+OTC:ABZPY,ABZPY,Utilities,OTC,Alternative Power Generation
+OTC:MCOIF,MCOIF,Consumer Services,OTC,Cable/Satellite TV
+OTC:BKEAY,BKEAY,Finance,OTC,Major Banks
+OTC:PGPKY,PGPKY,Utilities,OTC,Electric Utilities
+OTC:SVCBF,SVCBF,Process Industries,OTC,Pulp & Paper
+OTC:CAZGF,CAZGF,Electronic Technology,OTC,Electronic Equipment/Instruments
+OTC:VOSSY,VOSSY,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:VLVCY,VLVCY,Consumer Durables,OTC,Motor Vehicles
+OTC:TOKSF,TOKSF,Non-Energy Minerals,OTC,Steel
+OTC:DVDCF,DVDCF,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:TEFOF,TEFOF,Communications,OTC,Specialty Telecommunications
+OTC:CASBF,CASBF,Health Technology,OTC,Biotechnology
+OTC:AIVAF,AIVAF,Finance,OTC,Multi-Line Insurance
+OTC:VTKLF,VTKLF,Consumer Durables,OTC,Recreational Products
+OTC:TDVXF,TDVXF,Technology Services,OTC,Packaged Software
+OTC:AANNF,AANNF,Finance,OTC,Real Estate Investment Trusts
+OTC:WLWHY,WLWHY,Retail Trade,OTC,Apparel/Footwear Retail
+OTC:OSGCF,OSGCF,Producer Manufacturing,OTC,Industrial Machinery
+OTC:SVNLF,SVNLF,Finance,OTC,Major Banks
+OTC:SUUIF,SUUIF,Distribution Services,OTC,Wholesale Distributors
+OTC:HDALF,HDALF,Consumer Services,OTC,Restaurants
+OTC:CTTOF,CTTOF,Transportation,OTC,Air Freight/Couriers
+OTC:TMVWY,TMVWY,Technology Services,OTC,Internet Software/Services
+OTC:CHRHF,CHRHF,Producer Manufacturing,OTC,Industrial Machinery
+OTC:NDCVF,NDCVF,Electronic Technology,OTC,Semiconductors
+OTC:BKEAF,BKEAF,Finance,OTC,Major Banks
+OTC:EJTTF,EJTTF,Transportation,OTC,Airlines
+OTC:ENDTF,ENDTF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:CIMDF,CIMDF,Finance,OTC,Regional Banks
+OTC:FLMNY,FLMNY,Health Technology,OTC,Medical Specialties
+OTC:ROHCF,ROHCF,Electronic Technology,OTC,Semiconductors
+OTC:ARRPY,ARRPY,Transportation,OTC,Other Transportation
+OTC:NIFCY,NIFCY,Process Industries,OTC,Chemicals: Specialty
+OTC:HYPMY,HYPMY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:KNEVF,KNEVF,Finance,OTC,Financial Conglomerates
+OTC:BDVSF,BDVSF,Retail Trade,OTC,Specialty Stores
+OTC:PCCWY,PCCWY,Communications,OTC,Major Telecommunications
+OTC:JINFF,JINFF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:DURYY,DURYY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:SETUF,SETUF,Process Industries,OTC,Chemicals: Specialty
+OTC:GRDDY,GRDDY,Finance,OTC,Real Estate Development
+OTC:ACDSF,ACDSF,Finance,OTC,Real Estate Investment Trusts
+OTC:HLBBF,HLBBF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:SHPMY,SHPMY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:DPUKY,DPUKY,Consumer Services,OTC,Restaurants
+OTC:NGKIF,NGKIF,Producer Manufacturing,OTC,Electrical Products
+OTC:PUKPF,PUKPF,Finance,OTC,Multi-Line Insurance
+OTC:ROYMF,ROYMF,Transportation,OTC,Air Freight/Couriers
+OTC:MTLHF,MTLHF,Process Industries,OTC,Chemicals: Major Diversified
+OTC:RGLXY,RGLXY,Consumer Services,OTC,Broadcasting
+OTC:HYSNY,HYSNY,Finance,OTC,Real Estate Development
+OTC:CFEIY,CFEIY,Consumer Non-Durables,OTC,Food: Meat/Fish/Dairy
+OTC:RPBPF,RPBPF,Electronic Technology,OTC,Computer Processing Hardware
+OTC:BNCZF,BNCZF,Finance,OTC,Major Banks
+OTC:FLGZY,FLGZY,Transportation,OTC,Other Transportation
+OTC:DPCDF,DPCDF,Consumer Services,OTC,Restaurants
+OTC:ASBRF,ASBRF,Consumer Non-Durables,OTC,Beverages: Alcoholic
+OTC:NIABY,NIABY,Producer Manufacturing,OTC,Industrial Machinery
+OTC:ROYMY,ROYMY,Transportation,OTC,Air Freight/Couriers
+OTC:COENF,COENF,Utilities,OTC,Electric Utilities
+OTC:TIAIY,TIAIY,Communications,OTC,Wireless Telecommunications
+OTC:NPPNY,NPPNY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:ITAYY,ITAYY,Energy Minerals,OTC,Coal
+OTC:NURPF,NURPF,Health Technology,OTC,Pharmaceuticals: Generic
+OTC:NEXXY,NEXXY,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:KELTF,KELTF,Energy Minerals,OTC,Integrated Oil
+OTC:JIAXF,JIAXF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:MEYYY,MEYYY,Energy Minerals,OTC,Oil & Gas Production
+OTC:BRBOF,BRBOF,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:PTXKY,PTXKY,Communications,OTC,Major Telecommunications
+OTC:OGFGY,OGFGY,Energy Minerals,OTC,Oil & Gas Production
+OTC:BNDSY,BNDSY,Finance,OTC,Major Banks
+OTC:SMBMF,SMBMF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:OICT,OICT,Finance,OTC,Life/Health Insurance
+OTC:PPCCF,PPCCF,Finance,OTC,Property/Casualty Insurance
+OTC:SPASF,SPASF,Transportation,OTC,Other Transportation
+OTC:YUEIY,YUEIY,Consumer Non-Durables,OTC,Apparel/Footwear
+OTC:MTAGF,MTAGF,Retail Trade,OTC,Department Stores
+OTC:MTPOF,MTPOF,Finance,OTC,Major Banks
+OTC:UNLRY,UNLRY,Consumer Non-Durables,OTC,Household/Personal Care
+OTC:PTNRF,PTNRF,Communications,OTC,Wireless Telecommunications
+OTC:STOSF,STOSF,Energy Minerals,OTC,Oil & Gas Production
+OTC:ZTCOF,ZTCOF,Electronic Technology,OTC,Telecommunications Equipment
+OTC:ALNPY,ALNPY,Transportation,OTC,Airlines
+OTC:AVIFY,AVIFY,Communications,OTC,Wireless Telecommunications
+OTC:DEUZF,DEUZF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:SLCJY,SLCJY,Process Industries,OTC,Agricultural Commodities/Milling
+OTC:XPNGF,XPNGF,Consumer Durables,OTC,Motor Vehicles
+OTC:MMTOF,MMTOF,Consumer Durables,OTC,Motor Vehicles
+OTC:FHNGY,FHNGY,Retail Trade,OTC,Apparel/Footwear Retail
+OTC:DNLZY,DNLZY,Process Industries,OTC,Chemicals: Agricultural
+OTC:RADLY,RADLY,Retail Trade,OTC,Drugstore Chains
+OTC:WZZZY,WZZZY,Transportation,OTC,Airlines
+OTC:GPTGF,GPTGF,Finance,OTC,Real Estate Investment Trusts
+OTC:SIELY,SIELY,Producer Manufacturing,OTC,Electrical Products
+OTC:GRBMF,GRBMF,Consumer Non-Durables,OTC,Food: Specialty/Candy
+OTC:SMDPY,SMDPY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:AAPI,AAPI,Finance,OTC,Financial Conglomerates
+OTC:TKSHF,TKSHF,Retail Trade,OTC,Department Stores
+OTC:SHTPY,SHTPY,Health Technology,OTC,Medical Specialties
+OTC:CNALF,CNALF,Consumer Services,OTC,Cable/Satellite TV
+OTC:TODCF,TODCF,Industrial Services,OTC,Engineering & Construction
+OTC:PTXLF,PTXLF,Energy Minerals,OTC,Integrated Oil
+OTC:GIKLY,GIKLY,Health Technology,OTC,Pharmaceuticals: Major
+OTC:TCYMF,TCYMF,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:TTBXF,TTBXF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:GZPHF,GZPHF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:FYGGY,FYGGY,Consumer Durables,OTC,Home Furnishings
+OTC:IIDDY,IIDDY,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:KLBAY,KLBAY,Non-Energy Minerals,OTC,Forest Products
+OTC:MCHVF,MCHVF,Consumer Services,OTC,Casinos/Gaming
+OTC:QRNNF,QRNNF,Transportation,OTC,Railroads
+OTC:ERMAY,ERMAY,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:JVTSF,JVTSF,Consumer Services,OTC,Movies/Entertainment
+OTC:YADGF,YADGF,Consumer Durables,OTC,Motor Vehicles
+OTC:SSABF,SSABF,Producer Manufacturing,OTC,Metal Fabrication
+OTC:ILPMY,ILPMY,Finance,OTC,Financial Conglomerates
+OTC:GWLLF,GWLLF,Consumer Durables,OTC,Motor Vehicles
+OTC:FANDF,FANDF,Finance,OTC,Major Banks
+OTC:ELKEF,ELKEF,Non-Energy Minerals,OTC,Aluminum
+OTC:SSAAY,SSAAY,Producer Manufacturing,OTC,Metal Fabrication
+OTC:TKGBY,TKGBY,Finance,OTC,Major Banks
+OTC:ABTZY,ABTZY,Utilities,OTC,Electric Utilities
+OTC:MLLUY,MLLUY,Industrial Services,OTC,Engineering & Construction
+OTC:WARFF,WARFF,Finance,OTC,Real Estate Development
+OTC:ENREF,ENREF,Utilities,OTC,Alternative Power Generation
+OTC:GPFOF,GPFOF,Finance,OTC,Major Banks
+OTC:FRCEF,FRCEF,Non-Energy Minerals,OTC,Construction Materials
+OTC:RKLIF,RKLIF,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:DLEGF,DLEGF,Electronic Technology,OTC,Electronic Production Equipment
+OTC:CKSNY,CKSNY,Producer Manufacturing,OTC,Miscellaneous Manufacturing
+OTC:ELPQF,ELPQF,Retail Trade,OTC,Department Stores
+OTC:YSHLF,YSHLF,Producer Manufacturing,OTC,Trucks/Construction/Farm Machinery
+OTC:CHHQF,CHHQF,Non-Energy Minerals,OTC,Aluminum
+OTC:GNNSF,GNNSF,Health Technology,OTC,Biotechnology
+OTC:SHWGY,SHWGY,Health Technology,OTC,Medical Specialties
+OTC:LLESY,LLESY,Industrial Services,OTC,Engineering & Construction
+OTC:SCHYF,SCHYF,Consumer Services,OTC,Casinos/Gaming
+OTC:GDNGY,GDNGY,Consumer Non-Durables,OTC,Tobacco
+OTC:DKDRF,DKDRF,Energy Minerals,OTC,Integrated Oil
+OTC:GXYEF,GXYEF,Consumer Services,OTC,Casinos/Gaming
+OTC:PPOEF,PPOEF,Utilities,OTC,Electric Utilities
+OTC:DNGFF,DNGFF,Producer Manufacturing,OTC,Electrical Products
+OTC:LNGPF,LNGPF,Finance,OTC,Real Estate Development
+OTC:MAORF,MAORF,Consumer Services,OTC,Hotels/Resorts/Cruise lines
+OTC:ADTLF,ADTLF,Non-Energy Minerals,OTC,Other Metals/Minerals
+OTC:TBNGY,TBNGY,Energy Minerals,OTC,Coal
+OTC:HLDVF,HLDVF,Finance,OTC,Real Estate Development
+OTC:OUTKY,OUTKY,Non-Energy Minerals,OTC,Steel
+OTC:SECCF,SECCF,Commercial Services,OTC,Miscellaneous Commercial Services
+OTC:BTGOF,BTGOF,Communications,OTC,Major Telecommunications
+OTC:MINXF,MINXF,Miscellaneous,OTC,Investment Trusts/Mutual Funds
+OTC:HRSHF,HRSHF,Consumer Durables,OTC,Electronics/Appliances
+OTC:STGPF,STGPF,Finance,OTC,Real Estate Investment Trusts
+OTC:BMRPF,BMRPF,Retail Trade,OTC,Discount Stores
+OTC:FAURY,FAURY,Producer Manufacturing,OTC,Auto Parts: OEM
+OTC:ZNNGY,ZNNGY,Finance,OTC,Regional Banks
+OTC:SWPFF,SWPFF,Finance,OTC,Real Estate Development
+OTC:DROOF,DROOF,Technology Services,OTC,Packaged Software
+OTC:HYHHF,HYHHF,Health Technology,OTC,Pharmaceuticals: Major
+OTC:PBSFY,PBSFY,Consumer Services,OTC,Movies/Entertainment
+OTC:SMGBF,SMGBF,Energy Minerals,OTC,Oil Refining/Marketing
+OTC:SWRBF,SWRBF,Consumer Non-Durables,OTC,Beverages: Non-Alcoholic
+OTC:CYGIY,CYGIY,Technology Services,OTC,Internet Software/Services
+OTC:SATLF,SATLF,Retail Trade,OTC,Internet Retail

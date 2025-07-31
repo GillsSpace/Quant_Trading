@@ -1,0 +1,205 @@
+{% extends "template.html" %}
+
+{% block name %}- Data -{% endblock %}
+
+{% block content %}
+
+<style>
+        .table-container {
+            margin: 1rem;
+            background-color: black;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .table-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #dcd7c9;
+            text-transform: uppercase;
+        }
+        .table-title:hover {
+            cursor: pointer;
+            color: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: .5rem;
+        }
+        th, td {
+            padding: .5rem;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #444444;
+            font-weight: bold;
+            color: #000000;
+        }
+        tr:nth-child(even) {
+            background-color: #111111;
+        }
+        .constraint-name {
+            font-weight: 600;
+            color: #dcd7c9;
+        }
+        .condition-value {
+            font-family: 'Courier New', monospace;
+            background-color: #bbaaff;
+            color: #000000;
+            padding: 2px 6px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+        .na-value {
+            color: #6c757d;
+            font-style: italic;
+        }
+        .operator {
+            color: #007bff;
+            font-weight: 500;
+        }
+        .links {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .link-item {
+            background-color: #444444;
+            color: #dcd7c9;
+            border-radius: 0.2rem;
+            padding: 0.5rem;
+            margin: 0 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .link-item:hover {
+            background-color: #555555;
+        }
+        .link-item h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+    </style>
+
+    <div class='links'>
+        <a href="TBD" target="_blank">
+            <div class="link-item">
+                <h3>Coverage</h3>
+            </div>
+        </a>
+        <a href="TBD" target="_blank">
+            <div class="link-item">
+                <h3>Data Sources</h3>
+            </div>
+        </a>
+    </div>
+
+{% set data = content %}
+
+    {% macro format_operation(operation) %}
+        {% if operation == "equal" %}
+            <span class="operator">equals</span>
+        {% elif operation == "less" %}
+            <span class="operator">less than</span>
+        {% elif operation == "greater" %}
+            <span class="operator">greater than</span>
+        {% elif operation == "in_range" %}
+            <span class="operator">in range</span>
+        {% elif operation == "in" %}
+            <span class="operator">in</span>
+        {% else %}
+            <span class="operator">{{ operation }}</span>
+        {% endif %}
+    {% endmacro %}
+
+    {% macro format_value(value) %}
+        {% if value is iterable and value is not string %}
+            {% if value|length == 2 and value[0] is number and value[1] is number %}
+                <span class="condition-value">[{{ value[0] }}, {{ value[1] }}]</span>
+            {% else %}
+                <span class="condition-value">[{{ value|join(', ') }}]</span>
+            {% endif %}
+        {% else %}
+            <span class="condition-value">{{ value }}</span>
+        {% endif %}
+    {% endmacro %}
+
+    {% for table_name, table_data in data.items() %}
+        <div class="table-container">
+            <div class="table-title" onclick="toggleSection('{{ table_name }}')"><span id="{{ table_name }}-icon">▼</span> {{ table_name }}</div>
+            
+            <!-- Collect all unique constraint names -->
+            {% set all_constraints = [] %}
+            {% for condition in table_data.get('in', []) %}
+                {% if condition.left not in all_constraints %}
+                    {% set _ = all_constraints.append(condition.left) %}
+                {% endif %}
+            {% endfor %}
+            {% for condition in table_data.get('out', []) %}
+                {% if condition.left not in all_constraints %}
+                    {% set _ = all_constraints.append(condition.left) %}
+                {% endif %}
+            {% endfor %}
+            
+            <!-- Create lookup dictionaries for in and out conditions -->
+            {% set in_conditions = {} %}
+            {% for condition in table_data.get('in', []) %}
+                {% set _ = in_conditions.update({condition.left: condition}) %}
+            {% endfor %}
+            
+            {% set out_conditions = {} %}
+            {% for condition in table_data.get('out', []) %}
+                {% set _ = out_conditions.update({condition.left: condition}) %}
+            {% endfor %}
+            
+            <table id="{{ table_name }}">
+                <thead>
+                    <tr>
+                        <th>Constraint</th>
+                        <th>In Condition</th>
+                        <th>Out Condition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for constraint in all_constraints %}
+                        <tr>
+                            <td class="constraint-name">{{ constraint }}</td>
+                            <td>
+                                {% if constraint in in_conditions %}
+                                    {% set condition = in_conditions[constraint] %}
+                                    {{ format_operation(condition.operation) }} {{ format_value(condition.right) }}
+                                {% else %}
+                                    <span class="na-value">N/A</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if constraint in out_conditions %}
+                                    {% set condition = out_conditions[constraint] %}
+                                    {{ format_operation(condition.operation) }} {{ format_value(condition.right) }}
+                                {% else %}
+                                    <span class="na-value">N/A</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% endfor %}
+
+    <script>
+        function toggleSection(sectionID) {
+            const section = document.getElementById(sectionID);
+            const icon = document.getElementById(sectionID + '-icon');
+
+            if (section.style.display === "none") {
+                section.style.display = "table";
+                icon.textContent = "▼";
+            } else {
+                section.style.display = "none";
+                icon.textContent = "▶";
+            }
+        }
+    </script>
+{% endblock %}

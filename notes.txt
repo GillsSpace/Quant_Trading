@@ -1,0 +1,23 @@
+
+
+
+### Timescaledb Notes
+- TimescaleDB is an extension of PostgreSQL designed for time-series data.
+- Acsess database by running `psql -d quant1`
+
+
+
+
+### Timescaledb Install
+Used Following Install Guide: https://docs.tigerdata.com/self-hosted/latest/install/installation-linux/ 
+
+
+### Jupyter Lab
+- Installed Jupyter Lab using `sudo pacman -S jupyterlab`
+- To run Jupyter Lab, use the command `jupyter lab` in the terminal.
+
+- To use virtual environments with Jupyter Lab, you can install the `ipykernel` package in your virtual environment:
+  ```bash
+  pip install ipykernel
+  python -m ipykernel install --user --name=your_env_name
+  ```
