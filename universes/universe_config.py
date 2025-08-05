@@ -13,13 +13,16 @@ class Universe_Config:
     universe_dict = {
         "u01": {
                 "in": [
-                Column('market_cap_basic') > 1_000_000_000,
                 Column('price_52_week_high') < 15,
                 Column('price_52_week_low') > 1,
+                Column('volume|1W') > 20_000,
+                Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE']),
                 ],
                 "out": [
-                Column('market_cap_basic') > 500_000_000,
                 Column('price_52_week_high') > 25,
+                Column('price_52_week_low') > 0.25,
+                Column('volume|1W') > 5_000,
+                Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE']),
                 ]        
             },
         "u00": {

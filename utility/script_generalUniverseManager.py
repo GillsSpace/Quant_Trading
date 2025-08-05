@@ -72,6 +72,10 @@ if __name__ == "__main__":
             else:
                 print("Error fetching quotes. Please check the universe configuration.")
 
+        elif option in ['q', 'Q', 'quit', 'Quit']:
+            print("Exiting the program. Goodbye!")
+            break
+
         else:
             print("Invalid option. Please try again or type 'h' for help.")
             continue
