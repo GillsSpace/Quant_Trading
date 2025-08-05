@@ -6,3 +6,4 @@ arcticdb_storage
 __pycache__*
 hidden_tests
 .ipynb_checkpoints
+.venv
