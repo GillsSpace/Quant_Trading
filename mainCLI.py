@@ -1,5 +1,5 @@
 #Project Imports
-from utility.lib_apiManagment import create_client
+from utility.lib_apiManagment import create_client, create_client_gcloud_storage
 
 #Python Imports
 import os
@@ -20,9 +20,16 @@ def main():
         if option.lower() in ["help", "h"]:
             print("Available commands:")
             print("   - 'gen-keys': Generate API keys for Schwab via Schwabdev script.")
+
         elif option.lower() == "gen-keys":
             client = create_client()
             client.tokens.update_tokens(True,True)
+
+        elif option.lower() in ['storage-list-buckets','s-lb']:
+            print("Listing files in Google Cloud Storage bucket:")
+            storage_client = create_client_gcloud_storage()
+            output = storage_client.list_buckets()
+            print([bucket.name for bucket in output])
 
         elif option.lower() in ["exit", "quit", "e"]:
             print("Exiting the program. Goodbye!")
