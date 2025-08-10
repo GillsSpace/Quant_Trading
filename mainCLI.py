@@ -76,6 +76,25 @@ def main():
             print("Keys and tokens synchronized with Google Cloud Storage.")
 
 
+        elif option.lower() in ["p-k", "pull-keys"]:
+            if machine_type == 'local':
+                print("This command is not available on local machine. Please run it on your VM.")
+                continue
+            client = create_client_gcloud_storage()
+            bucket = client.get_bucket(DEFAULT_BUCKET_NAME)
+            blob_keys = bucket.get_blob("keys.json")
+            blob_tokens = bucket.get_blob("tokens.json")
+            if not blob_keys:
+                print("Keys blob does not exist in the bucket. Please run 'storage-sync-keys' first.")
+                continue
+            if not blob_tokens:
+                print("Tokens blob does not exist in the bucket. Please run 'storage-sync-keys' first.")
+                continue
+            blob_keys.download_to_filename("keys.json")
+            blob_tokens.download_to_filename("tokens.json")
+            print("Keys and tokens pulled from Google Cloud Storage.")
+
+
         elif option.lower() in ["exit", "quit", "e"]:
             print("Exiting the program. Goodbye!")
 
