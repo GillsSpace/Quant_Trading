@@ -74,7 +74,7 @@ class Universe_Config:
             return []
         return universe_df['name'].tolist()
 
-    def return_universe_quotes(universe):
+    def return_universe_quotes_df(universe):
         """Returns a DataFrame of stock quotes for the specified universe."""
 
         tickers = Universe_Config.return_universe(universe)
