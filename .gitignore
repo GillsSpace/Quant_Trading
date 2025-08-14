@@ -8,3 +8,4 @@ hidden_tests
 .ipynb_checkpoints
 .venv
 live_data/*.csv
+logs/*
