@@ -1,7 +1,7 @@
 from datetime import datetime
 
 # File path (you can change this to your desired location)
-file_path = "timestamp_log.txt"
+file_path = "~/Quant_Trading/logs/timestamp_log.txt"
 
 # Get the current date and time
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
