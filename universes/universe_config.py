@@ -1,4 +1,5 @@
 from contextlib import nullcontext
+from datetime import datetime
 from types import NoneType
 from tradingview_screener import Column, Query
 import pandas as pd
@@ -6,6 +7,8 @@ import os
 import json
 import schwabdev as sd
 import time as tm
+
+from utility.lib_timeFunctions import round_to_nearest_5
 
 class Universe_Config:
     """Base class for universe configurations."""
@@ -27,26 +30,17 @@ class Universe_Config:
             },
         "u00": {
             "in": [
-                Column('market_cap_basic') < 400_000_000,
-                Column('price_52_week_high') < 10,
-                Column('price_52_week_low') > 1,
-                Column('country') == 'United States',
                 Column('type') == 'stock',
-                Column('volume|1W').between(2_000_000, 8_000_000),
                 Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE']),
             ],
             "out": [
-                Column('market_cap_basic') < 70_000_000,
-                Column('price_52_week_high') < 25,
-                Column('price_52_week_low') > 0.25,
-                Column('country') == 'United States',
                 Column('type') == 'stock',
-                Column('volume|1W').between(500_000, 10_000_000),
                 Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE']),
             ]
         },
     }
 
+    @staticmethod
     def create_client():
         """Create a Schwab client with API keys."""
         with open('keys.json', 'r') as f:
@@ -54,48 +48,88 @@ class Universe_Config:
 
         return sd.Client(keys['schwab']['app_key'], keys['schwab']['app_secret'])
 
-    def generate_test_print(universe):
+    @staticmethod
+    def get_universe_test_df(universe):
         """Generates and returns a DataFrame for the specified universe."""
         universe_columns = Universe_Config.universe_dict[universe]['in']
         query = (
             Query()
-            .select("name", "sector", "exchange", "industry")
+            .select("name", "sector", "exchange", "industry",'close', 'volume|60', 'price_52_week_high', 'price_52_week_low','market_cap_basic','Value.Traded|60')
             .where(*universe_columns)
             .limit(10_000)
         )
         result =  query.get_scanner_data()
         return result
 
-    def return_universe(universe):
+    @staticmethod
+    def return_universe(universe) -> list: 
         "Returns a list of stock tickers for the specified universe."
 
-        universe_df = pd.read_csv(f'universes/{universe}.csv')
+        universe_df = pd.read_csv(f'universes/{universe}.csv',keep_default_na=False)
         if universe_df.empty:
             return []
         return universe_df['name'].tolist()
 
+    @staticmethod
     def return_universe_quotes_df(universe):
         """Returns a DataFrame of stock quotes for the specified universe."""
-
         tickers = Universe_Config.return_universe(universe)
+    
+        # Early return for empty tickers
+        if not tickers:
+            return None
+    
         client = Universe_Config.create_client()
-
-        if len(tickers) == 0:
-            return NoneType
-        if len(tickers) <= 500:
-            quotes = client.quotes(tickers)
-            quotes_dict = quotes.json()
-            list_of_quotes = [{"ident":key, **value} for key, value in quotes_dict.items()]
-        if len(tickers) > 500:
-            list_of_quotes = []
-            for i in range(0, len(tickers), 500):
-                quotes = client.quotes(tickers[i:i+500])
+        list_of_quotes = []
+        batch_size = 500
+    
+        # Process tickers in batches
+        for i in range(0, len(tickers), batch_size):
+            batch = tickers[i:i + batch_size]
+        
+            try:
+                quotes = client.quotes(batch)
                 quotes_dict = quotes.json()
-                list_of_quotes.extend([{"ident":key, **value} for key, value in quotes_dict.items()])
-                tm.sleep(0.2)
-
-        return pd.json_normalize(list_of_quotes)
             
+                # Extend list with processed batch
+                list_of_quotes.extend([
+                    {"ident": key, **value} 
+                    for key, value in quotes_dict.items()
+                ])
+            
+                # Sleep only between batches (not after the last one)
+                if i + batch_size < len(tickers):
+                    tm.sleep(0.2)
+                
+            except Exception as e:
+                print(f"Error processing batch {i//batch_size + 1}: {e}")
+                continue
+    
+        # Return empty DataFrame if no quotes were retrieved
+        if not list_of_quotes:
+            return pd.DataFrame()
+    
+        return pd.json_normalize(list_of_quotes)
+
+    @staticmethod
+    def gen_quotes_csv(universe):
+        """Generates a CSV file with stock quotes for the specified universe."""
+        quotes_df = Universe_Config.return_universe_quotes_df(universe)
+        if quotes_df is not None:
+            quotes_df.to_csv(f'live_data/{universe}_{round_to_nearest_5(datetime.now())}_quotes.csv', index=False)
+        else:
+            print(f"No data available for universe: {universe}")
+
+    @staticmethod
+    def gen_quotes_parquet(universe):
+        """Generates a Parquet file with stock quotes for the specified universe."""
+        quotes_df = Universe_Config.return_universe_quotes_df(universe)
+        if quotes_df is not None:
+            quotes_df.to_parquet(f'live_data/{universe}_quotes_{round_to_nearest_5(datetime.now()).strftime('%Y-%m-%d_%H_%M')}.parquet', index=False)
+        else:
+            print(f"No data available for universe: {universe}")
+
+    @staticmethod
     def gen_csv(universe):
         """Generates both a detialed CSV and a simplified CSV for the specified universe."""
         universe_columns = Universe_Config.universe_dict[universe]['in']
@@ -110,6 +144,7 @@ class Universe_Config:
         dt['name'].to_csv(f'universes/{universe}.csv', index=False)
 
 
+    @staticmethod
     def regen_csv(universe):
         in_conditions = Universe_Config.universe_dict[universe]['in']
         out_conditions = Universe_Config.universe_dict[universe]['out']

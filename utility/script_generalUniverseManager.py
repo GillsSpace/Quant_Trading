@@ -66,7 +66,7 @@ if __name__ == "__main__":
         elif option in ['show', 'Show']:
             print("Fetching quotes for the universe...")
             universe = get_universe()
-            data = Universe_Config.return_universe_quotes(universe)
+            data = Universe_Config.return_universe_quotes_df(universe)
             if isinstance(data, pd.DataFrame):
                 show(data)
             else:

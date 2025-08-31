@@ -1,5 +1,6 @@
 #Project Imports
 from utility.lib_apiManagment import create_client, create_client_gcloud_storage
+from universes.universe_config import Universe_Config as uc
 
 #Python Imports
 import os
@@ -7,6 +8,7 @@ import sys
 import schwabdev as sd
 import numpy as np
 import pandas as pd
+import time as tm
 
 DEFAULT_BUCKET_NAME = "bucket-quant-1"
 
@@ -25,11 +27,19 @@ def main():
         if option.lower() in ["help", "h"]:
             print("Available commands:")
             print("   - 'gen-keys': Generate API keys for Schwab via Schwabdev script.")
+            print("   - ('g-q-c')'gen-current-quotes-csv': Generate current quotes and save as CSV file.")
+            print("   - ('g-q-p')'gen-current-quotes-parquet': Generate current quotes and save as Parquet file.")
             print("   - ('s-lb')'storage-list-buckets': List all Google Cloud Storage buckets.")
             print("   - ('s-lf')'storage-list-files': List files in a specified Google Cloud Storage bucket.")
+            print("   - ('s-sk')'storage-sync-keys': Synchronize keys and tokens with Google Cloud Storage.")
+            print("   - ('p-k')'pull-keys': Pull keys and tokens from Google Cloud Storage to the vm.")
             print("   - ('e')'exit', 'quit': Exit the program.")
 
 
+        elif option.lower() in ['db-create-hot','db-c-h']:
+            pass
+
+        
         elif option.lower() == "gen-keys":
             if machine_type == 'vm':
                 print("This command is not available on VM. Please run it on your local machine.")
@@ -37,7 +47,33 @@ def main():
             client = create_client()
             client.tokens.update_tokens(True,True)
 
+        elif option.lower() in ["gen-current-quotes-csv", "g-q-c"]:
+            if machine_type == 'vm':
+                print("This command is not available on VM. Please run it on your local machine.")
+                continue
+            universe = input("Enter the universe (e.g., u01, u00): ").strip()
+            if universe == "":
+                universe = "u00"
+            print(f"Generating current qoutes for universe: {universe}")
+            st = tm.time()
+            uc.gen_quotes_csv(universe)
+            et = tm.time()
+            print(f"Quotes for universe '{universe}' generated in {et - st:.2f} seconds.")
 
+        elif option.lower() in ["gen-current-quotes-parquet", "g-q-p"]:
+            if machine_type == 'vm':
+                print("This command is not available on VM. Please run it on your local machine.")
+                continue
+            universe = input("Enter the universe (e.g., u01, u00): ").strip()
+            if universe == "":
+                universe = "u00"
+            print(f"Generating current quotes for universe: {universe}")
+            st = tm.time()
+            uc.gen_quotes_parquet(universe)
+            et = tm.time()
+            print(f"Quotes for universe '{universe}' generated in {et - st:.2f} seconds.")
+            
+           
         elif option.lower() in ['storage-list-buckets','s-lb']:
             print("Listing files in Google Cloud Storage bucket:")
             storage_client = create_client_gcloud_storage()

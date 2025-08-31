@@ -9,3 +9,5 @@ hidden_tests
 .venv
 live_data/*.csv
 logs/*
+**/*.zarr/
+**/*.nc
