@@ -40,7 +40,7 @@ def main():
         elif option.lower() in ['db-create-hot','db-c-h']:
             smd = sdm()
             date_input = input("Enter the initial day for the new database 'YYYY-MM-DD' (e.g. '2025-08-31'): ").strip()
-            sdm.create_new_db(initial_day=date_input)
+            smd.create_new_db(initial_day=date_input)
             print("Database created successfully for initial day:", date_input)
 
         
