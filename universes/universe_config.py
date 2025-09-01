@@ -125,7 +125,8 @@ class Universe_Config:
         """Generates a Parquet file with stock quotes for the specified universe."""
         quotes_df = Universe_Config.return_universe_quotes_df(universe)
         if quotes_df is not None:
-            quotes_df.to_parquet(f'live_data/{universe}_quotes_{round_to_nearest_5(datetime.now()).strftime('%Y-%m-%d_%H_%M')}.parquet', index=False)
+            time_stamp = round_to_nearest_5(datetime.now()).strftime('%Y-%m-%d_%H_%M')
+            quotes_df.to_parquet(f'live_data/{universe}_quotes_{time_stamp}.parquet', index=False)
         else:
             print(f"No data available for universe: {universe}")
 
