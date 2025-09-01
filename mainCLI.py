@@ -1,6 +1,7 @@
 #Project Imports
 from utility.lib_apiManagment import create_client, create_client_gcloud_storage
 from universes.universe_config import Universe_Config as uc
+from vm_scripts.save_data_master import Save_Data_Master as sdm
 
 #Python Imports
 import os
@@ -37,7 +38,10 @@ def main():
 
 
         elif option.lower() in ['db-create-hot','db-c-h']:
-            pass
+            smd = sdm()
+            date_input = input("Enter the initial day for the new database 'YYYY-MM-DD' (e.g. '2025-08-31'): ").strip()
+            sdm.create_new_db(initial_day=date_input)
+            print("Database created successfully for initial day:", date_input)
 
         
         elif option.lower() == "gen-keys":

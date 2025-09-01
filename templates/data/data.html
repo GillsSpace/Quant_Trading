@@ -3,6 +3,7 @@
 {% block name %}- Data -{% endblock %}
 
 {% block content %}
+<div class="container data-page-content">
 
 <style>
         .table-container {
@@ -60,35 +61,15 @@
             color: #007bff;
             font-weight: 500;
         }
-        .links {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-        .link-item {
-            background-color: #444444;
-            color: #dcd7c9;
-            border-radius: 0.2rem;
-            padding: 0.5rem;
-            margin: 0 0.5rem;
-            margin-top: 0.5rem;
-        }
-        .link-item:hover {
-            background-color: #555555;
-        }
-        .link-item h3 {
-            margin: 0;
-            font-size: 1.2rem;
-        }
-    </style>
+</style>
 
     <div class='links'>
-        <a href="TBD" target="_blank">
+        <a href="{{ url_for('data.page_coverage') }}">
             <div class="link-item">
                 <h3>Coverage</h3>
             </div>
         </a>
-        <a href="TBD" target="_blank">
+        <a href="#">
             <div class="link-item">
                 <h3>Data Sources</h3>
             </div>

@@ -74,3 +74,91 @@ a {
 .main-links a:hover {
     background-color: #88bb99;
 }
+
+/* --- Completeness Graph Styles --- */
+
+.completeness-graph-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.completeness-graph-container h2 {
+    color: #99ccff;
+}
+
+.completeness-graph {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #99ccff;
+    border-radius: 0.3rem;
+    background-color: #111111; /* Darker background */
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.bar-wrapper {
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 1px;
+    display: flex;
+    align-items: flex-end; /* Bars grow from the bottom */
+    position: relative; 
+}
+
+.bar {
+    width: 100%;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    min-height: 2px; /* Ensure all bars are at least minimally visible */
+}
+
+.bar:hover {
+    opacity: 0.7;
+}
+
+.bar.missing {
+    height: 100%;
+    background-color: #8B0000; /* Dark Red */
+    border: 1px solid #FF4444;
+    box-sizing: border-box;
+}
+
+.graph-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #99ccff;
+}
+
+/* --- Data Sub-Menu Styles --- */
+
+.data-page-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.data-page-content .links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.data-page-content .link-item {
+    background-color: #444444;
+    color: #dcd7c9;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem; /* Remove vertical margins */
+}
+
+.data-page-content .link-item:hover {
+    background-color: #555555;
+}
+
+.data-page-content .link-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}

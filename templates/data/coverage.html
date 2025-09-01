@@ -1,0 +1,45 @@
+{% extends "template.html" %}
+{% block title %}Data Coverage{% endblock %}
+{% block name %}- Data Coverage -{% endblock %}
+
+{% block content %}
+<div class="container data-page-content">
+
+    <div class='links'>
+        <a href="{{ url_for('data.page_coverage') }}">
+            <div class="link-item">
+                <h3>Coverage</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="link-item">
+                <h3>Data Sources</h3>
+            </div>
+        </a>
+    </div>
+
+    <div class="completeness-graph-container">
+        <h2>90-Day Data Completeness</h2>
+        <p>This chart shows the data completeness for the last 90 days in <code>master_db.zarr</code>. Green indicates more complete data, red indicates missing or incomplete data. Hover over a bar for daily statistics.</p>
+        {% if completeness_stats %}
+            <div class="completeness-graph">
+                {% for day in completeness_stats %}
+                    <div class="bar-wrapper" title="{{ day.tooltip }}">
+                        {% if day.completeness == 0 %}
+                            <div class="bar missing"></div>
+                        {% else %}
+                            <div class="bar" style="height: {{ day.completeness }}%; background-color: {{ day.color }};"></div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="graph-labels">
+                <span>{{ completeness_stats[0].date }}</span>
+                <span>{{ completeness_stats[-1].date }}</span>
+            </div>
+        {% else %}
+            <p>Could not generate completeness data. There might be an issue accessing the Zarr store or the data within it.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
