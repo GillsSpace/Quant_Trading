@@ -2,3 +2,5 @@ Log Time: 2025-08-31 16:35:51 -- Category: assetSubType -- Total Missed Categori
     nan
 Log Time: 2025-08-31 16:35:51 -- Category: reference.exchange -- Total Missed Categories: 1
     nan
+Log Time: 2025-09-01 04:00:22 -- Category: assetSubType -- Total Missed Categories: 1
+    nan

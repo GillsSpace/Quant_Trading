@@ -128,7 +128,7 @@ class Save_Data_Master:
             for cat in missed_cats:
                 f.write(f'    {cat}\n')
         
-    def add_day_shell(self,day,new_idents=None,is_initial_creation=False):
+    def add_day_shell(self,day,new_idents=None,is_initial_creation=False,verbose=False):
         """
         Adds a new day shell. If the symbols have changed, it rebuilds the entire
         database with a combined list of symbols.
@@ -149,6 +149,9 @@ class Save_Data_Master:
 
         old_set = set(existing_idents)
         new_set = set(new_idents)
+
+        if verbose:
+            print(f"Old symbols count: {len(old_set)}, New symbols count: {len(new_set)}")
 
         if old_set == new_set and not is_initial_creation:
             ds_shell = self.create_empty_day_shell(day, existing_idents)
@@ -175,9 +178,13 @@ class Save_Data_Master:
                 reindexed_shell.to_zarr(temp_db_path, mode=mode, append_dim=append_dim, consolidated=True,align_chunks=True)
 
         new_day_shell = self.create_empty_day_shell(day, final_idents)
+        if verbose:
+            print(f"new day shell created for day {day} with {len(final_idents)} symbols.")
         mode = 'w' if not os.path.exists(temp_db_path) else 'a-'
         append_dim = 'day' if os.path.exists(temp_db_path) else None
         new_day_shell.to_zarr(temp_db_path, mode=mode, append_dim=append_dim, consolidated=True)
+        if verbose:
+            print(f"new day shell added to temp db for day {day}. and saved to disk.")
 
         if os.path.exists(db_path):
             shutil.rmtree(db_path)
@@ -207,11 +214,15 @@ class Save_Data_Master:
 
         return xr.Dataset(data, coords=coords)
 
-    def create_new_db(self, initial_day):
+    def create_new_db(self, initial_day,verbose=True):
         initial_symbols = UC.return_universe(self.master_universe)
+        if verbose:
+            print(f"Creating new database for day {initial_day} with {len(initial_symbols)} symbols.")
         if os.path.exists(self.hot_path_master):
             shutil.rmtree(self.hot_path_master)
-        self.add_day_shell(initial_day, initial_symbols, is_initial_creation=True)
+        if verbose:
+            print("Old database (if any) removed. Creating new database shell...")
+        self.add_day_shell(initial_day, initial_symbols, is_initial_creation=True, verbose=verbose)
 
     def save_qVar_data(self,day,time):
 

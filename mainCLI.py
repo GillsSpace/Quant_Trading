@@ -28,6 +28,7 @@ def main():
         if option.lower() in ["help", "h"]:
             print("Available commands:")
             print("   - 'gen-keys': Generate API keys for Schwab via Schwabdev script.")
+            print("   - ('db-c-h')'db-create-hot': Create a new database for hot storage with an initial day.")
             print("   - ('g-q-c')'gen-current-quotes-csv': Generate current quotes and save as CSV file.")
             print("   - ('g-q-p')'gen-current-quotes-parquet': Generate current quotes and save as Parquet file.")
             print("   - ('s-lb')'storage-list-buckets': List all Google Cloud Storage buckets.")
