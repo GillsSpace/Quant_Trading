@@ -10,8 +10,8 @@ import numpy as np
 from pathlib import Path
 
 from utility.lib_timeFunctions import round_to_nearest_5
-from universes.universe_config import Universe_Config as UC
-from vm_scripts.save_data_master import Save_Data_Master as SDM
+from main_classes.Universe_Config import Universe_Config as UC
+from main_classes.Save_Data_Master import Save_Data_Master as SDM
 
 def main():
     datetime_raw = datetime.now()

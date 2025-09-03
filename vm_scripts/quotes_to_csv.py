@@ -6,7 +6,7 @@ from datetime import datetime, date, time, timedelta
 import time as tm
 
 # Local Imports
-from universes import universe_config as uc
+from main_classes.Universe_Config import universe_config as uc
 
 def round_to_nearest_5(dt):
     """Rounds a datetime object to the nearest 5 minutes."""

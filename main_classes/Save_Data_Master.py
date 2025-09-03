@@ -10,7 +10,7 @@ import numpy as np
 from pathlib import Path
 
 from utility.lib_timeFunctions import round_to_nearest_5
-from universes.universe_config import Universe_Config as UC
+from main_classes.Universe_Config import Universe_Config as UC
 
 class Save_Data_Master:
     def __init__(self):

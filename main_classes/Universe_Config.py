@@ -7,6 +7,7 @@ import os
 import json
 import schwabdev as sd
 import time as tm
+from pathlib import Path
 
 from utility.lib_timeFunctions import round_to_nearest_5
 
@@ -16,15 +17,17 @@ class Universe_Config:
     universe_dict = {
         "u01": {
                 "in": [
-                Column('price_52_week_high') < 15,
-                Column('price_52_week_low') > 1,
+                Column('price_52_week_high') < 50,
+                Column('price_52_week_low') > .50,
                 Column('volume|1W') > 20_000,
+                Column('type') == 'stock',
                 Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE']),
                 ],
                 "out": [
-                Column('price_52_week_high') > 25,
-                Column('price_52_week_low') > 0.25,
-                Column('volume|1W') > 5_000,
+                #Column('price_52_week_high') > 25,
+                #Column('price_52_week_low') > 0.25,
+                #Column('volume|1W') > 5_000,
+                Column('type') == 'stock',
                 Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE']),
                 ]        
             },
@@ -132,7 +135,7 @@ class Universe_Config:
 
     @staticmethod
     def gen_csv(universe):
-        """Generates both a detialed CSV and a simplified CSV for the specified universe."""
+        """Generates both a detailed CSV and a simplified CSV for the specified universe."""
         universe_columns = Universe_Config.universe_dict[universe]['in']
         query = (
             Query()
@@ -140,7 +143,12 @@ class Universe_Config:
             .where(*universe_columns)
             .limit(10_000)
         )
-        dt:pd.DataFrame = query.get_scanner_data()[1]
+        dt: pd.DataFrame = query.get_scanner_data()[1]
+        
+        # Transform names according to the specified patterns
+        dt['name'] = dt['name'].str.replace(r'/P([^/]*)', r'/PR\1', regex=True)  # */P* -> */PR*
+        dt['name'] = dt['name'].str.replace(r'\.', '/', regex=True)  # *.* -> */*
+        
         dt.to_csv(f'universes/{universe}_long.csv', index=False)
         dt['name'].to_csv(f'universes/{universe}.csv', index=False)
 
@@ -158,6 +166,11 @@ class Universe_Config:
         in_result = in_query.get_scanner_data()
         new_stocks_df = pd.DataFrame(in_result[1])
         
+        # Transform names in new_stocks_df
+        if not new_stocks_df.empty:
+            new_stocks_df['name'] = new_stocks_df['name'].str.replace(r'/P([^/]*)', r'/PR\1', regex=True)  # */P* -> */PR*
+            new_stocks_df['name'] = new_stocks_df['name'].str.replace(r'\.', '/', regex=True)  # *.* -> */*
+        
         existing_df = pd.DataFrame()
         long_csv_path = f'universes/{universe}_long.csv'
         
@@ -172,6 +185,11 @@ class Universe_Config:
             )
             out_result = out_query.get_scanner_data()
             out_stocks_df = pd.DataFrame(out_result[1])
+            
+            # Transform names in out_stocks_df
+            if not out_stocks_df.empty:
+                out_stocks_df['name'] = out_stocks_df['name'].str.replace(r'/P([^/]*)', r'/PR\1', regex=True)  # */P* -> */PR*
+                out_stocks_df['name'] = out_stocks_df['name'].str.replace(r'\.', '/', regex=True)  # *.* -> */*
             
             if not out_stocks_df.empty and not existing_df.empty:
                 existing_out_stocks = existing_df[existing_df['name'].isin(out_stocks_df['name'])]
@@ -198,3 +216,19 @@ class Universe_Config:
         else:
             pd.DataFrame(columns=["name", "sector", "exchange", "industry"]).to_csv(f'universes/{universe}_long.csv', index=False)
             pd.DataFrame(columns=["name"]).to_csv(f'universes/{universe}.csv', index=False)
+        
+        before_stocks_list = existing_df['name'].tolist() if not existing_df.empty else []
+        after_stocks_list = combined_df['name'].tolist() if not combined_df.empty else []
+        added_stocks = list(set(after_stocks_list) - set(before_stocks_list))
+        removed_stocks = list(set(before_stocks_list) - set(after_stocks_list))
+        log_file = Path('logs') / f'{universe}_changes.log'
+        with log_file.open('a') as f:
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            if added_stocks:
+                f.write(f"{timestamp} - Added stocks: {', '.join(added_stocks)}\n")
+            if removed_stocks:
+                f.write(f"{timestamp} - Removed stocks: {', '.join(removed_stocks)}\n")
+            if not added_stocks and not removed_stocks:
+                f.write(f"{timestamp} - No changes in the universe.\n")
+   
+

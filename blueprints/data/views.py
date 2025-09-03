@@ -1,9 +1,12 @@
-from flask import Blueprint, render_template, url_for
-from universes.universe_config import Universe_Config
+from flask import Blueprint, render_template, url_for, jsonify, request
+from main_classes.Universe_Config import Universe_Config
 import json
 import xarray as xr
 from datetime import datetime, timedelta
 import numpy as np
+import pandas as pd
+from pandasgui import show
+import threading
 
 data_bp = Blueprint('data', __name__,
                     template_folder='templates',
@@ -95,4 +98,48 @@ def get_completeness_stats():
 def page_coverage():
     """Render the data coverage page."""
     stats = get_completeness_stats()
-    return render_template('data/coverage.html', completeness_stats=stats)
+    ds = xr.open_zarr('/home/willse/W_Projects/Quant_Trading/data/hot/master_db.zarr', consolidated=True)
+    days = ds.day.values.tolist()
+    ds.close()
+    return render_template('data/coverage.html', completeness_stats=stats, days=days)
+
+@data_bp.route('/get_times/<day>')
+def get_times(day):
+    ds = xr.open_zarr('/home/willse/W_Projects/Quant_Trading/data/hot/master_db.zarr', consolidated=True)
+    times = ds.time.values.tolist()
+    ds.close()
+    return jsonify(times)
+
+@data_bp.route('/view_data')
+def view_data():
+    day = request.args.get('day')
+    time = request.args.get('time')
+    ds = xr.open_zarr('/home/willse/W_Projects/Quant_Trading/data/hot/master_db.zarr', consolidated=True)
+    data_slice = ds['5m'].sel(day=day, time=time)
+    df = data_slice.to_dataframe()
+    df = df.pivot_table(index='ident', columns='qVar', values='5m')
+    df['day'] = day
+    df['time'] = time
+    ds.close()
+    return render_template('data/view_data.html', table=df.to_html(classes='table table-striped'))
+
+@data_bp.route('/open_gui')
+def open_gui():
+    day = request.args.get('day')
+    time = request.args.get('time')
+    ds = xr.open_zarr('/home/willse/W_Projects/Quant_Trading/data/hot/master_db.zarr', consolidated=True)
+    data_slice = ds['5m'].sel(day=day, time=time)
+    df = data_slice.to_dataframe()
+    df = df.pivot_table(index='ident', columns='qVar', values='5m')
+    df['day'] = day
+    df['time'] = time
+    ds.close()
+
+    def show_gui():
+        show(df)
+
+    gui_thread = threading.Thread(target=show_gui)
+    gui_thread.start()
+
+    return "Opening pandasGUI in a new window..."
+

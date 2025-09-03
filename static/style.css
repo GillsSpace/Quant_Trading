@@ -162,3 +162,46 @@ a {
     margin: 0;
     font-size: 1.2rem;
 }
+
+/* --- View Data Styles --- */
+
+.view-data-container h2 {
+    color: #99ccff !important;
+}
+
+.view-data-container .form-control {
+    background-color: #111111;
+    color: #dcd7c9;
+    border: 1px solid #99ccff;
+    font-size: 1.1rem;
+}
+
+.view-data-container .form-control:focus {
+    background-color: #111111;
+    color: #dcd7c9;
+    border-color: #bbaaff;
+    box-shadow: 0 0 0 0.2rem rgba(187, 170, 255, 0.25);
+}
+
+.view-data-container .btn-primary {
+    background-color: #99ccff;
+    border-color: #99ccff;
+    color: #00111a;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s;
+}
+
+.view-data-container .btn-primary:hover {
+    background-color: #88bb99;
+    border-color: #88bb99;
+}
+
+.view-data-container .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.view-data-container label {
+    font-size: 1.1rem;
+}

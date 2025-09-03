@@ -2,7 +2,7 @@ import sys
 import time as tm
 from datetime import datetime, date, time, timedelta
 
-from universes.universe_config import Universe_Config as uc
+from main_classes.universe_config import Universe_Config as uc
 from utility.lib_timeFunctions import round_to_nearest_5
 
 if __name__ == "__main__":

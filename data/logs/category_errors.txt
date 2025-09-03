@@ -4,3 +4,241 @@ Log Time: 2025-08-31 16:35:51 -- Category: reference.exchange -- Total Missed Ca
     nan
 Log Time: 2025-09-01 04:00:22 -- Category: assetSubType -- Total Missed Categories: 1
     nan
+Log Time: 2025-09-02 04:00:21 -- Category: assetSubType -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 07:25:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 07:30:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 07:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 08:55:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:15:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:20:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:25:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:30:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:35:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:40:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:45:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:50:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 09:55:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:00:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:05:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:10:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:15:16 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:20:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:25:14 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:30:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:40:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:45:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:50:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 10:55:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:00:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:05:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:10:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:15:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:20:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:25:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:30:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:35:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:40:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:45:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:50:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 11:55:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:00:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:05:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:10:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:15:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:20:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:25:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:30:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:35:14 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:40:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:45:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:50:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 12:55:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:00:12 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:05:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:10:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:15:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:20:12 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:25:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:30:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:35:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:40:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:45:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:50:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 13:55:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:00:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:05:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:10:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:15:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:20:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:25:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:30:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:40:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:45:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:50:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 14:55:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:00:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:05:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:10:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:15:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:20:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:25:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:30:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:40:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:45:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:50:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-02 15:55:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 04:00:22 -- Category: assetSubType -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 08:20:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:25:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:30:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:40:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:45:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:50:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 09:55:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:00:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:05:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:10:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:15:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:20:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:25:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:30:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:40:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:45:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:50:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 10:55:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:00:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:05:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:10:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:15:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:20:09 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:25:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:30:13 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:35:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:40:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:45:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:50:10 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
+Log Time: 2025-09-03 11:55:11 -- Category: quote.securityStatus -- Total Missed Categories: 1
+    nan
