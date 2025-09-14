@@ -1,28 +1,28 @@
-import json
+from pathlib import Path
 import os
+import zarr
 import shutil
-from datetime import datetime, timedelta, time, date
 import time as tm
+import numpy as np
+import xarray as xr
 import pandas as pd
 from pandas.api.types import CategoricalDtype
-import xarray as xr
-import numpy as np
-from pathlib import Path
+from datetime import datetime, timedelta, time, date
 
 from utility.lib_timeFunctions import round_to_nearest_5
-from main_classes.Universe_Config import Universe_Config as UC
+from main_classes.UniverseManager import UniverseManager as UM
 
-class Save_Data_Master:
+class DataManager:
+
     def __init__(self):
-        self.base_path = Path('data')
-        self.hot_path = self.base_path / 'hot'
-        self.cold_path = self.base_path / 'cold'
-        self.metadata_path = self.base_path / 'metadata'
-        self.logs_path = self.base_path / 'logs'
-        self.hot_path_master = self.hot_path / 'master_db.zarr'
+        self.hot_path = Path("data/hot")
+        self.cold_path = Path("data/cold")
+        self.log_path = Path("logs")
+        self.hot_db_path = self.hot_path / "master_db.zarr"
+
         self.master_universe = 'u00'
 
-        for path in [self.hot_path, self.cold_path, self.metadata_path, self.logs_path]:
+        for path in [self.hot_path, self.cold_path, self.log_path]:
             path.mkdir(parents=True, exist_ok=True)
 
         self.quote_fields = [
@@ -106,38 +106,30 @@ class Save_Data_Master:
             'Q',
             ], ordered=True)
 
-    def log_error_symbols(self, error_symbols, real_time):
+    def _log_error_symbols(self, error_symbols,real_time):
         if not error_symbols:
             return
-
-        log_file = self.logs_path / f'symbol_errors_{real_time.strftime("%Y%m")}.txt'
-
+        log_file = self.log_path / f"symbol_errors_{real_time.strftime('%Y%m')}.log"
         with open(log_file, 'a') as f:
-            f.write(f'Log Time: {real_time.strftime("%Y-%m-%d %H:%M:%S")} -- Total Errors: {len(error_symbols)}\n')
-            for symbol in error_symbols:
-                f.write(f'    {symbol}\n')
+            f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for symbols: {", ".join(error_symbols)}\n')
 
-    def log_error_category(self, missed_cats, cat_name, real_time):
+    def _log_error_category(self, missed_cats, cat_name, real_time):
         if not missed_cats:
             return
-
-        log_file = self.logs_path / f'category_errors.txt'
-
+        log_file = self.log_path / f"category_errors_{real_time.strftime('%Y%m')}.log"
         with open(log_file, 'a') as f:
-            f.write(f'Log Time: {real_time.strftime("%Y-%m-%d %H:%M:%S")} -- Category: {cat_name} -- Total Missed Categories: {len(missed_cats)}\n')
-            for cat in missed_cats:
-                f.write(f'    {cat}\n')
-        
+            f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for {cat_name}: {", ".join(missed_cats)}\n')
+
     def add_day_shell(self,day,new_idents=None,is_initial_creation=False,verbose=False):
         """
         Adds a new day shell. If the symbols have changed, it rebuilds the entire
         database with a combined list of symbols.
         """
         temp_db_path = self.hot_path / 'temp_db.zarr'
-        db_path = self.hot_path_master
+        db_path = self.hot_db_path
 
         if not new_idents:
-            new_idents = UC.return_universe(self.master_universe)
+            new_idents = UM.return_universe(self.master_universe)
 
         if is_initial_creation:
             existing_idents = []
@@ -215,31 +207,27 @@ class Save_Data_Master:
         return xr.Dataset(data, coords=coords)
 
     def create_new_db(self, initial_day,verbose=True):
-        initial_symbols = UC.return_universe(self.master_universe)
+        initial_symbols = UM.return_universe(self.master_universe)
         if verbose:
             print(f"Creating new database for day {initial_day} with {len(initial_symbols)} symbols.")
-        if os.path.exists(self.hot_path_master):
-            shutil.rmtree(self.hot_path_master)
+        if os.path.exists(self.hot_db_path):
+            shutil.rmtree(self.hot_db_path)
         if verbose:
             print("Old database (if any) removed. Creating new database shell...")
         self.add_day_shell(initial_day, initial_symbols, is_initial_creation=True, verbose=verbose)
 
     def save_qVar_data(self,day,time):
 
-        raw_quotes_df = UC.return_universe_quotes_df(self.master_universe)
-
-        initial_count = len(raw_quotes_df)
+        raw_quotes_df = UM.return_universe_quotes_df(self.master_universe)
 
         error_mask = raw_quotes_df['ident'] == 'errors'
 
         if error_mask.any() and 'invalidSymbols' in raw_quotes_df.columns:
             error_symbols = raw_quotes_df.loc[error_mask, 'invalidSymbols'].dropna().to_list()
             real_time = datetime.now()
-            self.log_error_symbols(error_symbols, real_time)
+            self._log_error_symbols(error_symbols, real_time)
 
         quotes_df = raw_quotes_df[~error_mask].copy()
-
-        final_count = len(quotes_df)
 
         missing_cols = [col for col in self.quote_fields if col not in quotes_df.columns]
         if missing_cols:
@@ -251,11 +239,11 @@ class Save_Data_Master:
         missed_security_statuses = quotes_df['quote.securityStatus'][quotes_df['quote.securityStatus'].isna()].unique()
         if len(missed_security_statuses) > 0:
             real_time = datetime.now()
-            self.log_error_category(missed_security_statuses, 'quote.securityStatus', real_time)
+            self._log_error_category(missed_security_statuses, 'quote.securityStatus', real_time)
 
         quotes_df = quotes_df[['ident']+self.quote_fields].set_index('ident')
 
-        ds_disk = xr.open_zarr(self.hot_path_master, consolidated=True)
+        ds_disk = xr.open_zarr(self.hot_db_path, consolidated=True)
 
         day_idx = np.where(ds_disk.day.values == day)[0][0]
         time_idx = np.where(ds_disk.time.values == time)[0][0]
@@ -280,24 +268,20 @@ class Save_Data_Master:
             '5m': (['day', 'time', 'ident', 'qVar'], empty_time_shell)
         })
 
-        ds_to_write.to_zarr(self.hot_path_master, region=region_to_update, mode='r+')
+        ds_to_write.to_zarr(self.hot_db_path, region=region_to_update, mode='r+')
         ds_disk.close()
         
     def save_fVar_data(self,day):
-        raw_fundamentals_df = UC.return_universe_quotes_df(self.master_universe)
-
-        initial_count = len(raw_fundamentals_df)
+        raw_fundamentals_df = UM.return_universe_quotes_df(self.master_universe)
 
         error_mask = raw_fundamentals_df['ident'] == 'errors'
 
         if error_mask.any() and 'invalidSymbols' in raw_fundamentals_df.columns:
             error_symbols = raw_fundamentals_df.loc[error_mask, 'invalidSymbols'].dropna().to_list()
             real_time = datetime.now()
-            self.log_error_symbols(error_symbols, real_time)
+            self._log_error_symbols(error_symbols, real_time)
 
         fundamentals_df = raw_fundamentals_df[~error_mask].copy()
-
-        final_count = len(fundamentals_df)
 
         missing_cols = [col for col in self.fundamental_fields if col not in fundamentals_df.columns]
         if missing_cols:
@@ -319,14 +303,14 @@ class Save_Data_Master:
         missed_exchanges = fundamentals_df['reference.exchange'][fundamentals_df['reference.exchange'].isna()].unique()
         if len(missed_asset_subtypes) > 0:
             real_time = datetime.now()
-            self.log_error_category(missed_asset_subtypes, 'assetSubType', real_time)
+            self._log_error_category(missed_asset_subtypes, 'assetSubType', real_time)
         if len(missed_exchanges) > 0:
             real_time = datetime.now()
-            self.log_error_category(missed_exchanges, 'reference.exchange', real_time)
+            self._log_error_category(missed_exchanges, 'reference.exchange', real_time)
 
         fundamentals_df = fundamentals_df[['ident']+self.fundamental_fields].set_index('ident')
 
-        ds_disk = xr.open_zarr(self.hot_path_master, consolidated=True)
+        ds_disk = xr.open_zarr(self.hot_db_path, consolidated=True)
 
         day_idx = np.where(ds_disk.day.values == day)[0][0]
 
@@ -349,14 +333,19 @@ class Save_Data_Master:
             '1d': (['day', 'ident', 'fVar'], empty_day_shell)
         })
 
-        ds_to_write.to_zarr(self.hot_path_master, region=region_to_update, mode='r+')
+        ds_to_write.to_zarr(self.hot_db_path, region=region_to_update, mode='r+')
         ds_disk.close()
-        
 
+    def return_qVar_slice(self, day, time):
+        zarr_store = xr.open_zarr(self.hot_path, mode='r')
+        qVar_slice = zarr_store['5m'].sel(day=day, time=time)
+        qVar_df = qVar_slice.to_dataframe()
+        qVar_df = qVar_df.pivot_table(index='ident',columns='qVar',values='5m')
+        qVar_df['day'] = day
+        qVar_df['time'] = time
+        return qVar_df
 
-
-
-
-            
-
-        
+    def _convert_df_dates(self, df):
+        df_cols = df.columns.tolist()
+        if 'extended.quoteTime' in df_cols:
+            df['extended.quoteTime'] = pd.to_datetime(df['extended.quoteTime'])

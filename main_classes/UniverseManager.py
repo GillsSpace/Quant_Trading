@@ -11,7 +11,7 @@ from pathlib import Path
 
 from utility.lib_timeFunctions import round_to_nearest_5
 
-class Universe_Config:
+class UniverseManager:
     """Base class for universe configurations."""
 
     universe_dict = {
@@ -54,7 +54,7 @@ class Universe_Config:
     @staticmethod
     def get_universe_test_df(universe):
         """Generates and returns a DataFrame for the specified universe."""
-        universe_columns = Universe_Config.universe_dict[universe]['in']
+        universe_columns = UniverseManager.universe_dict[universe]['in']
         query = (
             Query()
             .select("name", "sector", "exchange", "industry",'close', 'volume|60', 'price_52_week_high', 'price_52_week_low','market_cap_basic','Value.Traded|60')
@@ -76,13 +76,13 @@ class Universe_Config:
     @staticmethod
     def return_universe_quotes_df(universe):
         """Returns a DataFrame of stock quotes for the specified universe."""
-        tickers = Universe_Config.return_universe(universe)
+        tickers = UniverseManager.return_universe(universe)
     
         # Early return for empty tickers
         if not tickers:
             return None
     
-        client = Universe_Config.create_client()
+        client = UniverseManager.create_client()
         list_of_quotes = []
         batch_size = 500
     
@@ -117,7 +117,7 @@ class Universe_Config:
     @staticmethod
     def gen_quotes_csv(universe):
         """Generates a CSV file with stock quotes for the specified universe."""
-        quotes_df = Universe_Config.return_universe_quotes_df(universe)
+        quotes_df = UniverseManager.return_universe_quotes_df(universe)
         if quotes_df is not None:
             quotes_df.to_csv(f'live_data/{universe}_{round_to_nearest_5(datetime.now())}_quotes.csv', index=False)
         else:
@@ -126,7 +126,7 @@ class Universe_Config:
     @staticmethod
     def gen_quotes_parquet(universe):
         """Generates a Parquet file with stock quotes for the specified universe."""
-        quotes_df = Universe_Config.return_universe_quotes_df(universe)
+        quotes_df = UniverseManager.return_universe_quotes_df(universe)
         if quotes_df is not None:
             time_stamp = round_to_nearest_5(datetime.now()).strftime('%Y-%m-%d_%H_%M')
             quotes_df.to_parquet(f'live_data/{universe}_quotes_{time_stamp}.parquet', index=False)
@@ -136,7 +136,7 @@ class Universe_Config:
     @staticmethod
     def gen_csv(universe):
         """Generates both a detailed CSV and a simplified CSV for the specified universe."""
-        universe_columns = Universe_Config.universe_dict[universe]['in']
+        universe_columns = UniverseManager.universe_dict[universe]['in']
         query = (
             Query()
             .select("name", "sector", "exchange", "industry")
@@ -155,8 +155,8 @@ class Universe_Config:
 
     @staticmethod
     def regen_csv(universe):
-        in_conditions = Universe_Config.universe_dict[universe]['in']
-        out_conditions = Universe_Config.universe_dict[universe]['out']
+        in_conditions = UniverseManager.universe_dict[universe]['in']
+        out_conditions = UniverseManager.universe_dict[universe]['out']
         
         in_query = (
             Query()
