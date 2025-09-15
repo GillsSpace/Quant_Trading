@@ -109,16 +109,17 @@ class DataManager:
     def _log_error_symbols(self, error_symbols,real_time):
         if not error_symbols:
             return
+        print(f"Logging error symbols: {error_symbols}")
         log_file = self.log_path / f"symbol_errors_{real_time.strftime('%Y%m')}.log"
         with open(log_file, 'a') as f:
-            f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for symbols: {", ".join(error_symbols)}\n')
+            f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for symbols: {error_symbols}\n')
 
     def _log_error_category(self, missed_cats, cat_name, real_time):
         if not missed_cats:
             return
         log_file = self.log_path / f"category_errors_{real_time.strftime('%Y%m')}.log"
         with open(log_file, 'a') as f:
-            f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for {cat_name}: {", ".join(missed_cats)}\n')
+            f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for {cat_name}: {missed_cats}\n')
 
     def add_day_shell(self,day,new_idents=None,is_initial_creation=False,verbose=False):
         """
