@@ -11,7 +11,6 @@ import numpy as np
 import pandas as pd
 import time as tm
 from pathlib import Path
-import pandasgui
 
 DEFAULT_BUCKET_NAME = "bucket-quant-1"
 
@@ -26,6 +25,9 @@ def main():
     if machine_type not in ["local", "vm"]:
         print("Invalid input. Please enter 'local' or 'vm'.")
         return
+
+    if machine_type == 'local':
+        import pandasgui
 
     while option.lower() not in ["exit", "quit","e"]:
         print()
