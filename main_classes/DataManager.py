@@ -109,7 +109,6 @@ class DataManager:
     def _log_error_symbols(self, error_symbols,real_time):
         if not error_symbols:
             return
-        print(f"Logging error symbols: {error_symbols}")
         log_file = self.log_path / f"symbol_errors_{real_time.strftime('%Y%m')}.log"
         with open(log_file, 'a') as f:
             f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for symbols: {error_symbols}\n')
@@ -312,6 +311,13 @@ class DataManager:
         fundamentals_df = fundamentals_df[['ident']+self.fundamental_fields].set_index('ident')
 
         ds_disk = xr.open_zarr(self.hot_db_path, consolidated=True)
+
+        #If day not in ds_disk.day.values:
+        if day not in ds_disk.day.values:
+            print(f"WARNING {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Day {day} not found in database. Adding day shell.")
+            ds_disk.close()
+            self.add_day_shell(day)
+            ds_disk = xr.open_zarr(self.hot_db_path, consolidated=True)
 
         day_idx = np.where(ds_disk.day.values == day)[0][0]
 
