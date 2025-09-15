@@ -1,7 +1,7 @@
 #Project Imports
 from utility.lib_apiManagment import create_client, create_client_gcloud_storage
-from main_classes.Universe_Config import Universe_Config as uc
-from main_classes.Save_Data_Master import Save_Data_Master as sdm
+from main_classes.UniverseManager import UniverseManager as UM
+from main_classes.DataManager import DataManager as DM
 
 #Python Imports
 import os
@@ -104,7 +104,7 @@ def main():
                 universe = "u00"
             print(f"Generating current qoutes for universe: {universe}")
             st = tm.time()
-            uc.gen_quotes_csv(universe)
+            UM.gen_quotes_csv(universe)
             et = tm.time()
             print(f"Quotes for universe '{universe}' generated in {et - st:.2f} seconds.")
 
@@ -117,12 +117,12 @@ def main():
                 universe = "u00"
             print(f"Generating current quotes for universe: {universe}")
             st = tm.time()
-            uc.gen_quotes_parquet(universe)
+            UM.gen_quotes_parquet(universe)
             et = tm.time()
             print(f"Quotes for universe '{universe}' generated in {et - st:.2f} seconds.")
             
         elif option.lower() in ['db-create-hot','db-c-h']:
-            smd = sdm()
+            smd = DM()
             date_input = input("Enter the initial day for the new database 'YYYY-MM-DD' (e.g. '2025-08-31'): ").strip()
             smd.create_new_db(initial_day=date_input)
             print("Database created successfully for initial day:", date_input)
@@ -155,7 +155,7 @@ def main():
                 universe = "u00"
             print(f"Testing universe configuration for: {universe}")
             st = tm.time()
-            df = uc.return_universe_quotes_df(universe)
+            df = UM.return_universe_quotes_df(universe)
             et = tm.time()
             if df is not None and not df.empty:
                 print(f"Universe '{universe}' DataFrame:")
@@ -174,7 +174,7 @@ def main():
                 universe = "u00"
             print(f"Generating universe files for: {universe}")
             st = tm.time()
-            uc.gen_csv(universe)
+            UM.gen_csv(universe)
             et = tm.time()
             print(f"Universe files for '{universe}' generated in {et - st:.2f} seconds.")
 
