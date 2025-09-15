@@ -245,6 +245,13 @@ class DataManager:
 
         ds_disk = xr.open_zarr(self.hot_db_path, consolidated=True)
 
+        # if day not in ds_disk.day.values
+        if day not in ds_disk.day.values:
+            print(f"WARNING {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Day {day} not found in database. Adding day shell.")
+            ds_disk.close()
+            self.add_day_shell(day)
+            ds_disk = xr.open_zarr(self.hot_db_path, consolidated=True)
+
         day_idx = np.where(ds_disk.day.values == day)[0][0]
         time_idx = np.where(ds_disk.time.values == time)[0][0]
 
