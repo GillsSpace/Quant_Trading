@@ -1,4 +1,5 @@
 from utility.lib_timeFunctions import round_to_nearest_5
+from utility.lib_notifications import send_token_update_email
 from main_classes.UniverseManager import UniverseManager as UM
 from main_classes.DataManager import DataManager as DM
 
@@ -16,8 +17,9 @@ def main():
 
     if time_str == "23:40":
         next_day = (datetime_rounded + timedelta(days=1)).strftime("%Y-%m-%d")
-        UM.regen_csv('gill_01')
+        UM.regen_csv('u00')
         dm.add_day_shell(next_day)
+        send_token_update_email("werda@middlebury.edu")
 
     if time_str == "04:00":
         dm.save_fVar_data(date_str)
