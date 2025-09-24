@@ -10,6 +10,7 @@ def main():
     datetime_rounded = round_to_nearest_5(datetime_raw)
     date_str = datetime_rounded.strftime("%Y-%m-%d")
     time_str = datetime_rounded.strftime("%H:%M")
+    print(time_str)
 
     # Always Run;
     dm = DM()

@@ -115,8 +115,10 @@ def print_explanation():
 def main():
     db_path = 'data/hot/master_db.zarr'
     ds = xr.open_zarr(db_path, consolidated=True)
-    target_day = '2025-09-02'
+    target_day = '2025-09-22'
     ds_today = ds.sel(day=target_day)
+
+    print(f'running calculations for {target_day} on data from {db_path}')
 
     market_neutral_returns = calculate_market_neutral_returns(ds_today)
     
