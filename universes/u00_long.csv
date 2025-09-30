@@ -1,80 +1,100 @@
 ticker,name,sector,exchange,industry
 NASDAQ:TSLA,TSLA,Consumer Durables,NASDAQ,Motor Vehicles
 NASDAQ:NVDA,NVDA,Electronic Technology,NASDAQ,Semiconductors
-NASDAQ:GOOGL,GOOGL,Technology Services,NASDAQ,Internet Software/Services
-NASDAQ:GOOG,GOOG,Technology Services,NASDAQ,Internet Software/Services
 NASDAQ:AAPL,AAPL,Electronic Technology,NASDAQ,Telecommunications Equipment
-NASDAQ:PLTR,PLTR,Technology Services,NASDAQ,Packaged Software
-NASDAQ:MSFT,MSFT,Technology Services,NASDAQ,Packaged Software
+NASDAQ:INTC,INTC,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:AMZN,AMZN,Retail Trade,NASDAQ,Internet Retail
+NASDAQ:MSFT,MSFT,Technology Services,NASDAQ,Packaged Software
+NASDAQ:PLTR,PLTR,Technology Services,NASDAQ,Packaged Software
+NYSE:ORCL,ORCL,Technology Services,NYSE,Packaged Software
 NASDAQ:META,META,Technology Services,NASDAQ,Internet Software/Services
 NASDAQ:AVGO,AVGO,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:AMD,AMD,Electronic Technology,NASDAQ,Semiconductors
-NYSE:CRM,CRM,Technology Services,NYSE,Packaged Software
+NASDAQ:GOOGL,GOOGL,Technology Services,NASDAQ,Internet Software/Services
+NASDAQ:COST,COST,Retail Trade,NASDAQ,Specialty Stores
+NASDAQ:GOOG,GOOG,Technology Services,NASDAQ,Internet Software/Services
+NASDAQ:APP,APP,Technology Services,NASDAQ,Packaged Software
+NYSE:BA,BA,Electronic Technology,NYSE,Aerospace & Defense
+NASDAQ:MU,MU,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:MSTR,MSTR,Technology Services,NASDAQ,Internet Software/Services
+NASDAQ:CRWV,CRWV,Technology Services,NASDAQ,Packaged Software
+NYSE:V,V,Finance,NYSE,Finance/Rental/Leasing
+NASDAQ:HOOD,HOOD,Finance,NASDAQ,Investment Banks/Brokers
+NASDAQ:RGTI,RGTI,Electronic Technology,NASDAQ,Computer Processing Hardware
+NASDAQ:EA,EA,Technology Services,NASDAQ,Packaged Software
+NYSE:OKLO,OKLO,Producer Manufacturing,NYSE,Industrial Machinery
+NYSE:LLY,LLY,Health Technology,NYSE,Pharmaceuticals: Major
+NYSE:IBM,IBM,Technology Services,NYSE,Information Technology Services
+NASDAQ:IREN,IREN,Technology Services,NASDAQ,Data Processing Services
 NASDAQ:NFLX,NFLX,Technology Services,NASDAQ,Internet Software/Services
 NYSE:UNH,UNH,Health Services,NYSE,Managed Health Care
-NASDAQ:APP,APP,Technology Services,NASDAQ,Packaged Software
-NASDAQ:HOOD,HOOD,Finance,NASDAQ,Investment Banks/Brokers
+NYSE:JPM,JPM,Finance,NYSE,Major Banks
+NASDAQ:MRVL,MRVL,Electronic Technology,NASDAQ,Semiconductors
+NYSE:XOM,XOM,Energy Minerals,NYSE,Integrated Oil
+NYSE:IONQ,IONQ,Electronic Technology,NYSE,Computer Processing Hardware
+NASDAQ:COIN,COIN,Finance,NASDAQ,Investment Banks/Brokers
+AMEX:BMNR,BMNR,Finance,AMEX,Financial Conglomerates
+NYSE:ACN,ACN,Technology Services,NYSE,Information Technology Services
+NYSE:BRK.B,BRK/B,Finance,NYSE,Property/Casualty Insurance
+NYSE:QBTS,QBTS,Electronic Technology,NYSE,Computer Processing Hardware
+NASDAQ:NBIS,NBIS,Technology Services,NASDAQ,Packaged Software
+NYSE:HIMS,HIMS,Health Services,NYSE,Medical/Nursing Services
+NYSE:JNJ,JNJ,Health Technology,NYSE,Pharmaceuticals: Major
+NASDAQ:AMAT,AMAT,Producer Manufacturing,NASDAQ,Industrial Machinery
+NYSE:FCX,FCX,Non-Energy Minerals,NYSE,Other Metals/Minerals
+NASDAQ:OPEN,OPEN,Finance,NASDAQ,Real Estate Development
+NYSE:F,F,Consumer Durables,NYSE,Motor Vehicles
+NYSE:SNAP,SNAP,Technology Services,NYSE,Packaged Software
+NYSE:MP,MP,Non-Energy Minerals,NYSE,Other Metals/Minerals
+NASDAQ:SNPS,SNPS,Technology Services,NASDAQ,Packaged Software
+NYSE:WMT,WMT,Retail Trade,NYSE,Specialty Stores
+NYSE:CRM,CRM,Technology Services,NYSE,Packaged Software
+NYSE:GEV,GEV,Producer Manufacturing,NYSE,Electrical Products
+NASDAQ:CIFR,CIFR,Technology Services,NASDAQ,Data Processing Services
+NYSE:LAC,LAC,Process Industries,NYSE,Chemicals: Specialty
+NYSE:MA,MA,Finance,NYSE,Finance/Rental/Leasing
+NASDAQ:CSCO,CSCO,Electronic Technology,NASDAQ,Telecommunications Equipment
+NYSE:TMO,TMO,Health Technology,NYSE,Medical Specialties
+NASDAQ:QURE,QURE,Health Technology,NASDAQ,Biotechnology
+NASDAQ:ALAB,ALAB,Electronic Technology,NASDAQ,Semiconductors
+NYSE:BE,BE,Producer Manufacturing,NYSE,Electrical Products
+NASDAQ:ADBE,ADBE,Technology Services,NASDAQ,Packaged Software
+NYSE:NOW,NOW,Technology Services,NYSE,Packaged Software
+NYSE:GE,GE,Electronic Technology,NYSE,Aerospace & Defense
+NASDAQ:QCOM,QCOM,Electronic Technology,NASDAQ,Semiconductors
+NASDAQ:LRCX,LRCX,Producer Manufacturing,NASDAQ,Industrial Machinery
 NYSE:KO,KO,Consumer Non-Durables,NYSE,Beverages: Non-Alcoholic
 NASDAQ:ISRG,ISRG,Health Technology,NASDAQ,Medical Specialties
-NASDAQ:MRVL,MRVL,Electronic Technology,NASDAQ,Semiconductors
-NYSE:GEV,GEV,Producer Manufacturing,NYSE,Electrical Products
-NYSE:ORCL,ORCL,Technology Services,NYSE,Packaged Software
 NYSE:BAC,BAC,Finance,NYSE,Major Banks
-NYSE:JPM,JPM,Finance,NYSE,Major Banks
-NYSE:WMT,WMT,Retail Trade,NYSE,Specialty Stores
 NYSE:RDDT,RDDT,Technology Services,NYSE,Internet Software/Services
-AMEX:BMNR,BMNR,Finance,AMEX,Financial Conglomerates
-NASDAQ:CRWV,CRWV,Technology Services,NASDAQ,Packaged Software
-NASDAQ:MU,MU,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:PEP,PEP,Consumer Non-Durables,NASDAQ,Food: Specialty/Candy
-NYSE:XOM,XOM,Energy Minerals,NYSE,Integrated Oil
-NYSE:LLY,LLY,Health Technology,NYSE,Pharmaceuticals: Major
 NASDAQ:ZS,ZS,Technology Services,NASDAQ,Packaged Software
 NASDAQ:DLTR,DLTR,Retail Trade,NASDAQ,Discount Stores
-NYSE:BRK.B,BRK/B,Finance,NYSE,Property/Casualty Insurance
-NASDAQ:COST,COST,Retail Trade,NASDAQ,Specialty Stores
-NASDAQ:COIN,COIN,Finance,NASDAQ,Investment Banks/Brokers
 NYSE:SNOW,SNOW,Technology Services,NYSE,Packaged Software
-NASDAQ:OPEN,OPEN,Finance,NASDAQ,Real Estate Development
 NYSE:CVX,CVX,Energy Minerals,NYSE,Integrated Oil
-NYSE:V,V,Finance,NYSE,Finance/Rental/Leasing
 NASDAQ:RKLB,RKLB,Electronic Technology,NASDAQ,Aerospace & Defense
 NYSE:RBLX,RBLX,Technology Services,NYSE,Packaged Software
-NYSE:BA,BA,Electronic Technology,NYSE,Aerospace & Defense
 NASDAQ:TXN,TXN,Electronic Technology,NASDAQ,Semiconductors
-NYSE:HIMS,HIMS,Health Services,NYSE,Medical/Nursing Services
 NYSE:C,C,Finance,NYSE,Major Banks
 NASDAQ:INTU,INTU,Technology Services,NASDAQ,Packaged Software
 NYSE:SMR,SMR,Producer Manufacturing,NYSE,Electrical Products
 NYSE:UNP,UNP,Transportation,NYSE,Railroads
 NASDAQ:SOFI,SOFI,Finance,NASDAQ,Finance/Rental/Leasing
 NYSE:GS,GS,Finance,NYSE,Investment Banks/Brokers
-NYSE:JNJ,JNJ,Health Technology,NYSE,Pharmaceuticals: Major
 NASDAQ:CRWD,CRWD,Technology Services,NASDAQ,Packaged Software
 NASDAQ:HWH,HWH,Finance,NASDAQ,Financial Conglomerates
-NASDAQ:IREN,IREN,Technology Services,NASDAQ,Data Processing Services
-NASDAQ:ADBE,ADBE,Technology Services,NASDAQ,Packaged Software
-NASDAQ:LRCX,LRCX,Producer Manufacturing,NASDAQ,Industrial Machinery
-NASDAQ:INTC,INTC,Electronic Technology,NASDAQ,Semiconductors
 NYSE:HD,HD,Retail Trade,NYSE,Home Improvement Chains
 NASDAQ:AFRM,AFRM,Finance,NASDAQ,Finance/Rental/Leasing
 NYSE:DELL,DELL,Electronic Technology,NYSE,Computer Processing Hardware
 NASDAQ:IPDN,IPDN,Commercial Services,NASDAQ,Commercial Printing/Forms
 NYSE:UBER,UBER,Transportation,NYSE,Other Transportation
 NASDAQ:MDB,MDB,Technology Services,NASDAQ,Packaged Software
-NYSE:NOW,NOW,Technology Services,NYSE,Packaged Software
-NASDAQ:QCOM,QCOM,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:ADSK,ADSK,Technology Services,NASDAQ,Packaged Software
 NYSE:CAT,CAT,Producer Manufacturing,NYSE,Trucks/Construction/Farm Machinery
 NASDAQ:SMCI,SMCI,Electronic Technology,NASDAQ,Computer Processing Hardware
 NASDAQ:ULTA,ULTA,Retail Trade,NASDAQ,Specialty Stores
-NYSE:GE,GE,Electronic Technology,NYSE,Aerospace & Defense
 NYSE:ELAN,ELAN,Health Technology,NYSE,Biotechnology
-NASDAQ:AMAT,AMAT,Producer Manufacturing,NASDAQ,Industrial Machinery
 NYSE:CRCL,CRCL,Technology Services,NYSE,Packaged Software
-NASDAQ:CSCO,CSCO,Electronic Technology,NASDAQ,Telecommunications Equipment
 NYSE:SPOT,SPOT,Technology Services,NYSE,Internet Software/Services
 NYSE:NU,NU,Finance,NYSE,Regional Banks
 NASDAQ:FSLR,FSLR,Electronic Technology,NASDAQ,Semiconductors
@@ -86,25 +106,18 @@ NASDAQ:TEM,TEM,Technology Services,NASDAQ,Packaged Software
 NASDAQ:WULF,WULF,Technology Services,NASDAQ,Data Processing Services
 NYSE:DE,DE,Producer Manufacturing,NYSE,Trucks/Construction/Farm Machinery
 NYSE:TWLO,TWLO,Technology Services,NYSE,Packaged Software
-NYSE:MA,MA,Finance,NYSE,Finance/Rental/Leasing
 NYSE:DHI,DHI,Consumer Durables,NYSE,Homebuilding
-NASDAQ:RGTI,RGTI,Electronic Technology,NASDAQ,Computer Processing Hardware
-NYSE:ACN,ACN,Technology Services,NYSE,Information Technology Services
 NASDAQ:TTD,TTD,Technology Services,NASDAQ,Packaged Software
 NASDAQ:LULU,LULU,Consumer Non-Durables,NASDAQ,Apparel/Footwear
 NYSE:CVNA,CVNA,Retail Trade,NYSE,Specialty Stores
 NYSE:ELV,ELV,Health Services,NYSE,Managed Health Care
 NASDAQ:SHOP,SHOP,Commercial Services,NASDAQ,Miscellaneous Commercial Services
-NYSE:OKLO,OKLO,Producer Manufacturing,NYSE,Industrial Machinery
 NASDAQ:MELI,MELI,Retail Trade,NASDAQ,Internet Retail
 NYSE:T,T,Communications,NYSE,Wireless Telecommunications
-NYSE:TMO,TMO,Health Technology,NYSE,Medical Specialties
 NYSE:WFC,WFC,Finance,NYSE,Major Banks
 NYSE:COF,COF,Finance,NYSE,Major Banks
 NASDAQ:RUN,RUN,Electronic Technology,NASDAQ,Semiconductors
-NYSE:QBTS,QBTS,Electronic Technology,NYSE,Computer Processing Hardware
 NYSE:PG,PG,Consumer Non-Durables,NYSE,Household/Personal Care
-NYSE:IBM,IBM,Technology Services,NYSE,Information Technology Services
 NYSE:ANET,ANET,Electronic Technology,NYSE,Computer Peripherals
 NYSE:PFE,PFE,Health Technology,NYSE,Pharmaceuticals: Major
 NASDAQ:TMUS,TMUS,Communications,NASDAQ,Wireless Telecommunications
@@ -114,13 +127,10 @@ NYSE:ABT,ABT,Health Technology,NYSE,Medical Specialties
 NASDAQ:PGEN,PGEN,Health Technology,NASDAQ,Biotechnology
 NYSE:CI,CI,Finance,NYSE,Insurance Brokers/Services
 NYSE:VST,VST,Utilities,NYSE,Electric Utilities
-NYSE:MP,MP,Non-Energy Minerals,NYSE,Other Metals/Minerals
 NASDAQ:SOUN,SOUN,Technology Services,NASDAQ,Packaged Software
 NASDAQ:AAL,AAL,Transportation,NASDAQ,Airlines
 NYSE:JOBY,JOBY,Electronic Technology,NYSE,Aerospace & Defense
 NYSE:UPS,UPS,Transportation,NYSE,Air Freight/Couriers
-NASDAQ:ALAB,ALAB,Electronic Technology,NASDAQ,Semiconductors
-NASDAQ:NBIS,NBIS,Technology Services,NASDAQ,Packaged Software
 NYSE:VZ,VZ,Communications,NYSE,Wireless Telecommunications
 NYSE:MRK,MRK,Health Technology,NYSE,Pharmaceuticals: Major
 NYSE:SCHW,SCHW,Finance,NYSE,Investment Banks/Brokers
@@ -131,7 +141,6 @@ NYSE:PGR,PGR,Finance,NYSE,Multi-Line Insurance
 NASDAQ:ADI,ADI,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:PPSI,PPSI,Producer Manufacturing,NASDAQ,Electrical Products
 NYSE:APH,APH,Electronic Technology,NYSE,Electronic Components
-NYSE:BE,BE,Producer Manufacturing,NYSE,Electrical Products
 NASDAQ:BKNG,BKNG,Consumer Services,NASDAQ,Other Consumer Services
 NASDAQ:RIVN,RIVN,Consumer Durables,NASDAQ,Motor Vehicles
 NASDAQ:CORZ,CORZ,Technology Services,NASDAQ,Data Processing Services
@@ -152,7 +161,6 @@ NYSE:AXP,AXP,Finance,NYSE,Finance/Rental/Leasing
 NYSE:VRT,VRT,Electronic Technology,NYSE,Electronic Production Equipment
 NYSE:TDG,TDG,Electronic Technology,NYSE,Aerospace & Defense
 NYSE:CMG,CMG,Consumer Services,NYSE,Restaurants
-NYSE:F,F,Consumer Durables,NYSE,Motor Vehicles
 NYSE:CLS,CLS,Electronic Technology,NYSE,Electronic Components
 NASDAQ:EBAY,EBAY,Retail Trade,NASDAQ,Internet Retail
 NYSE:MS,MS,Finance,NYSE,Investment Managers
@@ -194,15 +202,12 @@ NASDAQ:ABNB,ABNB,Consumer Services,NASDAQ,Hotels/Resorts/Cruise lines
 NASDAQ:CEG,CEG,Utilities,NASDAQ,Electric Utilities
 NYSE:RTX,RTX,Electronic Technology,NYSE,Aerospace & Defense
 NYSE:JCI,JCI,Producer Manufacturing,NYSE,Industrial Machinery
-NYSE:IONQ,IONQ,Electronic Technology,NYSE,Computer Processing Hardware
 NASDAQ:DDOG,DDOG,Technology Services,NASDAQ,Packaged Software
 NASDAQ:HON,HON,Electronic Technology,NASDAQ,Aerospace & Defense
 NASDAQ:CMCSA,CMCSA,Consumer Services,NASDAQ,Cable/Satellite TV
-NASDAQ:SNPS,SNPS,Technology Services,NASDAQ,Packaged Software
 NYSE:XYZ,XYZ,Commercial Services,NYSE,Miscellaneous Commercial Services
 NYSE:RF,RF,Finance,NYSE,Major Banks
 NYSE:BSX,BSX,Health Technology,NYSE,Medical Specialties
-NASDAQ:EA,EA,Technology Services,NASDAQ,Packaged Software
 NYSE:OSCR,OSCR,Health Services,NYSE,Managed Health Care
 NYSE:OXY,OXY,Energy Minerals,NYSE,Integrated Oil
 NYSE:HCA,HCA,Health Services,NYSE,Hospital/Nursing Management
@@ -253,7 +258,6 @@ NASDAQ:DUOL,DUOL,Technology Services,NASDAQ,Packaged Software
 NASDAQ:GLXY,GLXY,Finance,NASDAQ,Investment Banks/Brokers
 NYSE:MMC,MMC,Finance,NYSE,Insurance Brokers/Services
 NYSE:ICE,ICE,Finance,NYSE,Investment Banks/Brokers
-NYSE:SNAP,SNAP,Technology Services,NYSE,Packaged Software
 NASDAQ:ROKU,ROKU,Technology Services,NASDAQ,Packaged Software
 NYSE:GDDY,GDDY,Technology Services,NYSE,Data Processing Services
 NYSE:PH,PH,Electronic Technology,NYSE,Electronic Equipment/Instruments
@@ -267,7 +271,6 @@ NASDAQ:APLD,APLD,Technology Services,NASDAQ,Data Processing Services
 NYSE:GIS,GIS,Consumer Non-Durables,NYSE,Food: Major Diversified
 NYSE:NRG,NRG,Utilities,NYSE,Electric Utilities
 NYSE:KVUE,KVUE,Consumer Non-Durables,NYSE,Household/Personal Care
-NYSE:FCX,FCX,Non-Energy Minerals,NYSE,Other Metals/Minerals
 NYSE:EMR,EMR,Electronic Technology,NYSE,Electronic Equipment/Instruments
 NYSE:RCL,RCL,Consumer Services,NYSE,Hotels/Resorts/Cruise lines
 NYSE:EL,EL,Consumer Non-Durables,NYSE,Household/Personal Care
@@ -316,7 +319,6 @@ NASDAQ:TTWO,TTWO,Technology Services,NASDAQ,Packaged Software
 NASDAQ:MAR,MAR,Consumer Services,NASDAQ,Hotels/Resorts/Cruise lines
 NYSE:FICO,FICO,Commercial Services,NYSE,Financial Publishing/Services
 NASDAQ:ORLY,ORLY,Retail Trade,NASDAQ,Specialty Stores
-NYSE:SKX,SKX,Consumer Non-Durables,NYSE,Apparel/Footwear
 NASDAQ:MNDY,MNDY,Technology Services,NASDAQ,Packaged Software
 NYSE:PINS,PINS,Technology Services,NYSE,Internet Software/Services
 NYSE:YUM,YUM,Consumer Services,NYSE,Restaurants
@@ -420,7 +422,6 @@ NYSE:D,D,Utilities,NYSE,Electric Utilities
 NASDAQ:DPZ,DPZ,Consumer Services,NASDAQ,Restaurants
 NASDAQ:NTRA,NTRA,Health Services,NASDAQ,Medical/Nursing Services
 NYSE:GLW,GLW,Electronic Technology,NYSE,Electronic Components
-NASDAQ:CIFR,CIFR,Technology Services,NASDAQ,Data Processing Services
 NYSE:TOST,TOST,Technology Services,NYSE,Packaged Software
 NYSE:MSCI,MSCI,Technology Services,NYSE,Data Processing Services
 NYSE:PFGC,PFGC,Transportation,NYSE,Other Transportation
@@ -749,7 +750,6 @@ NASDAQ:HAS,HAS,Consumer Durables,NASDAQ,Recreational Products
 NYSE:XYL,XYL,Producer Manufacturing,NYSE,Industrial Machinery
 NYSE:XPO,XPO,Transportation,NYSE,Trucking
 NYSE:TSN,TSN,Consumer Non-Durables,NYSE,Food: Meat/Fish/Dairy
-NYSE:FL,FL,Retail Trade,NYSE,Apparel/Footwear Retail
 NYSE:CNI,CNI,Transportation,NYSE,Railroads
 NYSE:ALSN,ALSN,Producer Manufacturing,NYSE,Auto Parts: OEM
 NYSE:MOS,MOS,Process Industries,NYSE,Chemicals: Agricultural
@@ -788,7 +788,6 @@ NYSE:BBWI,BBWI,Retail Trade,NYSE,Specialty Stores
 NASDAQ:PENN,PENN,Consumer Services,NASDAQ,Casinos/Gaming
 NASDAQ:CASY,CASY,Retail Trade,NASDAQ,Specialty Stores
 NASDAQ:SEZL,SEZL,Technology Services,NASDAQ,Packaged Software
-NYSE:GMS,GMS,Distribution Services,NYSE,Wholesale Distributors
 AMEX:KULR,KULR,Producer Manufacturing,AMEX,Industrial Machinery
 NYSE:UHS,UHS,Health Services,NYSE,Hospital/Nursing Management
 NASDAQ:AEIS,AEIS,Electronic Technology,NASDAQ,Electronic Production Equipment
@@ -1262,7 +1261,6 @@ NYSE:GNW,GNW,Finance,NYSE,Multi-Line Insurance
 NASDAQ:PINC,PINC,Health Services,NASDAQ,Hospital/Nursing Management
 NASDAQ:BMBL,BMBL,Technology Services,NASDAQ,Packaged Software
 NASDAQ:PCVX,PCVX,Health Technology,NASDAQ,Biotechnology
-AMEX:MAG,MAG,Non-Energy Minerals,AMEX,Precious Metals
 NASDAQ:FOSL,FOSL,Consumer Durables,NASDAQ,Other Consumer Specialties
 NASDAQ:DRS,DRS,Electronic Technology,NASDAQ,Aerospace & Defense
 NASDAQ:SPRY,SPRY,Health Technology,NASDAQ,Pharmaceuticals: Major
@@ -1436,7 +1434,6 @@ NASDAQ:LIVN,LIVN,Health Technology,NASDAQ,Medical Specialties
 NYSE:FRO,FRO,Transportation,NYSE,Marine Shipping
 NYSE:AM,AM,Industrial Services,NYSE,Oil & Gas Pipelines
 NYSE:MLNK,MLNK,Technology Services,NYSE,Packaged Software
-NYSE:LAC,LAC,Process Industries,NYSE,Chemicals: Agricultural
 NYSE:VNT,VNT,Transportation,NYSE,Other Transportation
 NASDAQ:NUVL,NUVL,Health Technology,NASDAQ,Pharmaceuticals: Major
 NYSE:KMT,KMT,Producer Manufacturing,NYSE,Industrial Machinery
@@ -1486,11 +1483,9 @@ NASDAQ:LZ,LZ,Commercial Services,NASDAQ,Miscellaneous Commercial Services
 NYSE:CRI,CRI,Retail Trade,NYSE,Apparel/Footwear Retail
 NASDAQ:SONO,SONO,Consumer Durables,NASDAQ,Electronics/Appliances
 NYSE:ATKR,ATKR,Producer Manufacturing,NYSE,Electrical Products
-NASDAQ:SPTN,SPTN,Distribution Services,NASDAQ,Food Distributors
 NYSE:SAM,SAM,Consumer Non-Durables,NYSE,Beverages: Alcoholic
 NASDAQ:EYE,EYE,Retail Trade,NASDAQ,Specialty Stores
 NYSE:GIB,GIB,Technology Services,NYSE,Information Technology Services
-NYSE:KLG,KLG,Consumer Non-Durables,NYSE,Food: Specialty/Candy
 NASDAQ:HTFL,HTFL,Health Technology,NASDAQ,Biotechnology
 NYSE:BFH,BFH,Finance,NYSE,Finance/Rental/Leasing
 NYSE:CWEN,CWEN,Utilities,NYSE,Alternative Power Generation
@@ -1537,7 +1532,6 @@ NYSE:AIR,AIR,Electronic Technology,NYSE,Aerospace & Defense
 NASDAQ:CARG,CARG,Technology Services,NASDAQ,Internet Software/Services
 NASDAQ:WERN,WERN,Transportation,NASDAQ,Trucking
 NASDAQ:VCYT,VCYT,Health Technology,NASDAQ,Medical Specialties
-NYSE:ARGD,ARGD,Finance,NYSE,Multi-Line Insurance
 NYSE:NPO,NPO,Producer Manufacturing,NYSE,Industrial Machinery
 NYSE:DCI,DCI,Producer Manufacturing,NYSE,Auto Parts: OEM
 NYSE:DAN,DAN,Producer Manufacturing,NYSE,Auto Parts: OEM
@@ -1620,7 +1614,6 @@ NASDAQ:FCFS,FCFS,Finance,NASDAQ,Finance/Rental/Leasing
 NASDAQ:HNST,HNST,Retail Trade,NASDAQ,Specialty Stores
 NYSE:LAZ,LAZ,Finance,NYSE,Investment Banks/Brokers
 NYSE:VYX,VYX,Technology Services,NYSE,Packaged Software
-NASDAQ:QURE,QURE,Health Technology,NASDAQ,Biotechnology
 NASDAQ:VBTX,VBTX,Finance,NASDAQ,Regional Banks
 NASDAQ:PRME,PRME,Health Technology,NASDAQ,Biotechnology
 NASDAQ:EVGO,EVGO,Retail Trade,NASDAQ,Specialty Stores
@@ -1681,7 +1674,6 @@ NYSE:HE,HE,Utilities,NYSE,Electric Utilities
 NASDAQ:APGE,APGE,Health Technology,NASDAQ,Biotechnology
 NYSE:VTLE,VTLE,Energy Minerals,NYSE,Oil & Gas Production
 NYSE:AVA,AVA,Utilities,NYSE,Electric Utilities
-NYSE:OLO,OLO,Technology Services,NYSE,Packaged Software
 NASDAQ:LFUS,LFUS,Electronic Technology,NASDAQ,Electronic Production Equipment
 NASDAQ:UBSI,UBSI,Finance,NASDAQ,Regional Banks
 NASDAQ:LAZR,LAZR,Electronic Technology,NASDAQ,Electronic Equipment/Instruments
@@ -2045,7 +2037,6 @@ NASDAQ:NAGE,NAGE,Health Technology,NASDAQ,Pharmaceuticals: Other
 NYSE:CBU,CBU,Finance,NYSE,Major Banks
 NASDAQ:FDMT,FDMT,Health Technology,NASDAQ,Biotechnology
 NYSE:BZH,BZH,Consumer Durables,NYSE,Homebuilding
-NASDAQ:FAAS,FAAS,Technology Services,NASDAQ,Packaged Software
 NASDAQ:TDUP,TDUP,Retail Trade,NASDAQ,Internet Retail
 NYSE:OPFI,OPFI,Finance,NYSE,Finance/Rental/Leasing
 NASDAQ:LQDT,LQDT,Retail Trade,NASDAQ,Internet Retail
@@ -2087,7 +2078,6 @@ NASDAQ:AMWD,AMWD,Producer Manufacturing,NASDAQ,Building Products
 NYSE:PRO,PRO,Technology Services,NYSE,Information Technology Services
 NYSE:UNF,UNF,Consumer Services,NYSE,Other Consumer Services
 NASDAQ:NMIH,NMIH,Finance,NASDAQ,Property/Casualty Insurance
-NASDAQ:BASE,BASE,Technology Services,NASDAQ,Packaged Software
 NASDAQ:MGRC,MGRC,Finance,NASDAQ,Finance/Rental/Leasing
 NYSE:NPWR,NPWR,Producer Manufacturing,NYSE,Electrical Products
 NYSE:LNN,LNN,Producer Manufacturing,NYSE,Trucks/Construction/Farm Machinery
@@ -2255,7 +2245,6 @@ NYSE:VTS,VTS,Energy Minerals,NYSE,Oil & Gas Production
 NASDAQ:ENLV,ENLV,Health Technology,NASDAQ,Biotechnology
 NYSE:LOB,LOB,Finance,NYSE,Regional Banks
 NYSE:ETD,ETD,Consumer Durables,NYSE,Home Furnishings
-NASDAQ:BSGM,BSGM,Health Technology,NASDAQ,Medical Specialties
 NYSE:NABL,NABL,Technology Services,NYSE,Packaged Software
 NASDAQ:SLDB,SLDB,Health Technology,NASDAQ,Biotechnology
 AMEX:VNTG,VNTG,Transportation,AMEX,Marine Shipping
@@ -2281,7 +2270,6 @@ NASDAQ:TRVI,TRVI,Health Technology,NASDAQ,Biotechnology
 NYSE:BOW,BOW,Finance,NYSE,Multi-Line Insurance
 NYSE:KRP,KRP,Miscellaneous,NYSE,Investment Trusts/Mutual Funds
 NYSE:STC,STC,Finance,NYSE,Specialty Insurance
-NASDAQ:YMAB,YMAB,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:SVRA,SVRA,Health Technology,NASDAQ,Pharmaceuticals: Major
 NYSE:SSTK,SSTK,Technology Services,NYSE,Internet Software/Services
 NYSE:BRC,BRC,Producer Manufacturing,NYSE,Miscellaneous Manufacturing
@@ -2610,7 +2598,6 @@ NYSE:BCSF,BCSF,Finance,NYSE,Financial Conglomerates
 NASDAQ:XPEL,XPEL,Consumer Durables,NASDAQ,Automotive Aftermarket
 NASDAQ:CYRX,CYRX,Transportation,NASDAQ,Air Freight/Couriers
 NYSE:NXDR,NXDR,Technology Services,NYSE,Internet Software/Services
-NASDAQ:MEIP,MEIP,Health Technology,NASDAQ,Pharmaceuticals: Major
 AMEX:GROY,GROY,Non-Energy Minerals,AMEX,Other Metals/Minerals
 NASDAQ:VFS,VFS,Consumer Durables,NASDAQ,Motor Vehicles
 NASDAQ:STKL,STKL,Consumer Non-Durables,NASDAQ,Food: Specialty/Candy
@@ -2633,7 +2620,6 @@ NYSE:MTW,MTW,Producer Manufacturing,NYSE,Trucks/Construction/Farm Machinery
 NASDAQ:LYTS,LYTS,Producer Manufacturing,NASDAQ,Building Products
 NASDAQ:SONN,SONN,Health Technology,NASDAQ,Biotechnology
 NASDAQ:DSP,DSP,Technology Services,NASDAQ,Packaged Software
-NASDAQ:TNFA,TNFA,Health Technology,NASDAQ,Pharmaceuticals: Major
 NYSE:CSV,CSV,Consumer Services,NYSE,Other Consumer Services
 NASDAQ:RDWR,RDWR,Electronic Technology,NASDAQ,Computer Communications
 NASDAQ:IMRX,IMRX,Health Technology,NASDAQ,Pharmaceuticals: Major
@@ -2779,7 +2765,6 @@ NASDAQ:PERI,PERI,Technology Services,NASDAQ,Internet Software/Services
 NASDAQ:CRDF,CRDF,Health Technology,NASDAQ,Medical Specialties
 NYSE:GRDN,GRDN,Retail Trade,NYSE,Drugstore Chains
 NYSE:NVGS,NVGS,Transportation,NYSE,Marine Shipping
-NASDAQ:IPA,IPA,Health Technology,NASDAQ,Biotechnology
 NASDAQ:CMRC,CMRC,Technology Services,NASDAQ,Packaged Software
 NASDAQ:CTKB,CTKB,Health Technology,NASDAQ,Medical Specialties
 NASDAQ:OP,OP,Transportation,NASDAQ,Marine Shipping
@@ -2801,7 +2786,6 @@ NYSE:HTB,HTB,Finance,NYSE,Regional Banks
 NASDAQ:CHSN,CHSN,Consumer Non-Durables,NASDAQ,Food: Specialty/Candy
 NYSE:GLP,GLP,Distribution Services,NYSE,Wholesale Distributors
 NASDAQ:TCPC,TCPC,Finance,NASDAQ,Financial Conglomerates
-NASDAQ:YORK,YORK,Finance,NASDAQ,Financial Conglomerates
 NASDAQ:UVSP,UVSP,Finance,NASDAQ,Regional Banks
 NASDAQ:MLGO,MLGO,Technology Services,NASDAQ,Packaged Software
 NASDAQ:KRRO,KRRO,Health Technology,NASDAQ,Pharmaceuticals: Major
@@ -2902,7 +2886,6 @@ AMEX:SENS,SENS,Electronic Technology,AMEX,Electronic Components
 NASDAQ:SMBC,SMBC,Finance,NASDAQ,Savings Banks
 AMEX:HYLN,HYLN,Producer Manufacturing,AMEX,Auto Parts: OEM
 NYSE:RSKD,RSKD,Technology Services,NYSE,Packaged Software
-NASDAQ:CYCC,CYCC,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:NESR,NESR,Industrial Services,NASDAQ,Oilfield Services/Equipment
 NYSE:PACK,PACK,Process Industries,NYSE,Containers/Packaging
 NYSE:GETY,GETY,Technology Services,NYSE,Internet Software/Services
@@ -2959,7 +2942,6 @@ NASDAQ:CVRX,CVRX,Health Technology,NASDAQ,Medical Specialties
 NASDAQ:BRY,BRY,Energy Minerals,NASDAQ,Oil & Gas Production
 NASDAQ:WEST,WEST,Consumer Non-Durables,NASDAQ,Food: Specialty/Candy
 NASDAQ:TCMD,TCMD,Health Technology,NASDAQ,Medical Specialties
-NASDAQ:THTX,THTX,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:ACHV,ACHV,Health Technology,NASDAQ,Pharmaceuticals: Major
 NYSE:UZF,UZF,Communications,NYSE,Wireless Telecommunications
 NASDAQ:SIDU,SIDU,Electronic Technology,NASDAQ,Telecommunications Equipment
@@ -3049,12 +3031,10 @@ NASDAQ:ZUMZ,ZUMZ,Retail Trade,NASDAQ,Apparel/Footwear Retail
 NASDAQ:CENT,CENT,Consumer Non-Durables,NASDAQ,Consumer Sundries
 NYSE:ACCO,ACCO,Producer Manufacturing,NYSE,Office Equipment/Supplies
 NYSE:GWH,GWH,Producer Manufacturing,NYSE,Electrical Products
-NASDAQ:OST,OST,Electronic Technology,NASDAQ,Electronic Production Equipment
 NASDAQ:MGRT,MGRT,Technology Services,NASDAQ,Information Technology Services
 NASDAQ:DGNX,DGNX,Technology Services,NASDAQ,Packaged Software
 NASDAQ:BNZI,BNZI,Technology Services,NASDAQ,Packaged Software
 NYSE:HVT,HVT,Retail Trade,NYSE,Specialty Stores
-NASDAQ:CASK,CASK,Consumer Non-Durables,NASDAQ,Beverages: Alcoholic
 NASDAQ:CZNC,CZNC,Finance,NASDAQ,Regional Banks
 AMEX:OSTX,OSTX,Health Technology,AMEX,Biotechnology
 NASDAQ:WEYS,WEYS,Consumer Non-Durables,NASDAQ,Apparel/Footwear
@@ -3178,7 +3158,6 @@ NASDAQ:RCKY,RCKY,Consumer Non-Durables,NASDAQ,Apparel/Footwear
 NASDAQ:LAKE,LAKE,Consumer Non-Durables,NASDAQ,Apparel/Footwear
 NASDAQ:ARAI,ARAI,Technology Services,NASDAQ,Packaged Software
 NASDAQ:ARBE,ARBE,Producer Manufacturing,NASDAQ,Electrical Products
-NASDAQ:DRRX,DRRX,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:YMAT,YMAT,Producer Manufacturing,NASDAQ,Electrical Products
 NASDAQ:CARE,CARE,Finance,NASDAQ,Regional Banks
 NASDAQ:CDLX,CDLX,Technology Services,NASDAQ,Internet Software/Services
@@ -3292,7 +3271,6 @@ NASDAQ:EXFY,EXFY,Technology Services,NASDAQ,Packaged Software
 NASDAQ:SHBI,SHBI,Finance,NASDAQ,Regional Banks
 NASDAQ:ONCY,ONCY,Health Technology,NASDAQ,Biotechnology
 NYSE:OOMA,OOMA,Communications,NYSE,Major Telecommunications
-NASDAQ:ANTE,ANTE,Commercial Services,NASDAQ,Advertising/Marketing Services
 NASDAQ:IRWD,IRWD,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:CRBP,CRBP,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:HUBC,HUBC,Commercial Services,NASDAQ,Miscellaneous Commercial Services
@@ -3363,7 +3341,6 @@ NYSE:CBNA,CBNA,Finance,NYSE,Major Banks
 NASDAQ:SDST,SDST,Process Industries,NASDAQ,Chemicals: Specialty
 NYSE:DUKB,DUKB,Utilities,NYSE,Electric Utilities
 NYSE:TSE,TSE,Process Industries,NYSE,Chemicals: Specialty
-NASDAQ:DALN,DALN,Consumer Services,NASDAQ,Publishing: Newspapers
 NASDAQ:SHIP,SHIP,Transportation,NASDAQ,Marine Shipping
 NASDAQ:TTEC,TTEC,Technology Services,NASDAQ,Information Technology Services
 NASDAQ:HYPR,HYPR,Health Technology,NASDAQ,Medical Specialties
@@ -3426,7 +3403,6 @@ NYSE:USAC,USAC,Industrial Services,NYSE,Oilfield Services/Equipment
 AMEX:BRBS,BRBS,Finance,AMEX,Major Banks
 NYSE:MG,MG,Industrial Services,NYSE,Engineering & Construction
 AMEX:VENU,VENU,Consumer Services,AMEX,Movies/Entertainment
-NASDAQ:OXSQZ,OXSQZ,Miscellaneous,NASDAQ,Investment Trusts/Mutual Funds
 NASDAQ:BBOT,BBOT,Health Technology,NASDAQ,Biotechnology
 NASDAQ:WALD,WALD,Consumer Non-Durables,NASDAQ,Household/Personal Care
 NASDAQ:GSIW,GSIW,Finance,NASDAQ,Investment Banks/Brokers
@@ -3522,7 +3498,6 @@ NASDAQ:FMAO,FMAO,Finance,NASDAQ,Regional Banks
 AMEX:ISOU,ISOU,Non-Energy Minerals,AMEX,Other Metals/Minerals
 NYSE:APOS,APOS,Finance,NYSE,Investment Managers
 NASDAQ:CGABL,CGABL,Finance,NASDAQ,Finance/Rental/Leasing
-NASDAQ:HLVX,HLVX,Health Technology,NASDAQ,Biotechnology
 NASDAQ:PDSB,PDSB,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:RNAC,RNAC,Health Technology,NASDAQ,Biotechnology
 NASDAQ:PBM,PBM,Health Technology,NASDAQ,Pharmaceuticals: Major
@@ -3725,7 +3700,6 @@ NASDAQ:NIXX,NIXX,Commercial Services,NASDAQ,Personnel Services
 NASDAQ:NTRB,NTRB,Health Technology,NASDAQ,Medical Specialties
 NASDAQ:CTNM,CTNM,Health Technology,NASDAQ,Biotechnology
 NASDAQ:ALTO,ALTO,Process Industries,NASDAQ,Chemicals: Specialty
-NYSE:AACT,AACT,Finance,NYSE,Financial Conglomerates
 NASDAQ:AVR,AVR,Health Technology,NASDAQ,Medical Specialties
 NASDAQ:YTRA,YTRA,Consumer Services,NASDAQ,Other Consumer Services
 NASDAQ:FORR,FORR,Commercial Services,NASDAQ,Miscellaneous Commercial Services
@@ -4110,7 +4084,6 @@ NASDAQ:GCL,GCL,Finance,NASDAQ,Financial Conglomerates
 NASDAQ:SINT,SINT,Health Technology,NASDAQ,Medical Specialties
 NASDAQ:USGO,USGO,Non-Energy Minerals,NASDAQ,Precious Metals
 NASDAQ:KZR,KZR,Health Technology,NASDAQ,Biotechnology
-NASDAQ:CSCI,CSCI,Health Technology,NASDAQ,Pharmaceuticals: Major
 AMEX:ATNM,ATNM,Health Technology,AMEX,Pharmaceuticals: Major
 NYSE:TPTA,TPTA,Finance,NYSE,Real Estate Investment Trusts
 NASDAQ:BCAB,BCAB,Health Technology,NASDAQ,Biotechnology
@@ -4284,7 +4257,6 @@ NASDAQ:CSWCZ,CSWCZ,Finance,NASDAQ,Investment Managers
 NASDAQ:ECBK,ECBK,Finance,NASDAQ,Regional Banks
 NASDAQ:TOYO,TOYO,Electronic Technology,NASDAQ,Semiconductors
 NASDAQ:HWCPZ,HWCPZ,Finance,NASDAQ,Regional Banks
-NASDAQ:PRTG,PRTG,Health Technology,NASDAQ,Biotechnology
 NASDAQ:ELAB,ELAB,Health Technology,NASDAQ,Biotechnology
 NASDAQ:LEXX,LEXX,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:ILAG,ILAG,Consumer Durables,NASDAQ,Tools & Hardware
@@ -4412,7 +4384,6 @@ NASDAQ:APM,APM,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:MBINN,MBINN,Finance,NASDAQ,Regional Banks
 NASDAQ:VALU,VALU,Consumer Services,NASDAQ,Publishing: Books/Magazines
 NASDAQ:OXLCG,OXLCG,Miscellaneous,NASDAQ,Investment Trusts/Mutual Funds
-NASDAQ:XAGE,XAGE,Finance,NASDAQ,Financial Conglomerates
 AMEX:GRAF,GRAF,Finance,AMEX,Financial Conglomerates
 NASDAQ:FARM,FARM,Consumer Non-Durables,NASDAQ,Food: Specialty/Candy
 NASDAQ:SNYR,SNYR,Health Technology,NASDAQ,Pharmaceuticals: Other
@@ -4631,14 +4602,12 @@ NASDAQ:MSAI,MSAI,Electronic Technology,NASDAQ,Computer Communications
 NASDAQ:ICON,ICON,Transportation,NASDAQ,Marine Shipping
 NASDAQ:ESGL,ESGL,Industrial Services,NASDAQ,Environmental Services
 NASDAQ:CTSO,CTSO,Health Technology,NASDAQ,Medical Specialties
-NYSE:AC,AC,Finance,NYSE,Investment Managers
 AMEX:DIT,DIT,Distribution Services,AMEX,Wholesale Distributors
 NASDAQ:DRMA,DRMA,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:TDAC,TDAC,Finance,NASDAQ,Financial Conglomerates
 NASDAQ:XBIT,XBIT,Health Technology,NASDAQ,Biotechnology
 NASDAQ:ABLV,ABLV,Retail Trade,NASDAQ,Specialty Stores
 NASDAQ:ODYS,ODYS,Consumer Durables,NASDAQ,Electronics/Appliances
-NASDAQ:OCTO,OCTO,Technology Services,NASDAQ,Packaged Software
 NASDAQ:AMST,AMST,Technology Services,NASDAQ,Packaged Software
 NASDAQ:PFAI,PFAI,Producer Manufacturing,NASDAQ,Trucks/Construction/Farm Machinery
 NASDAQ:YIBO,YIBO,Consumer Durables,NASDAQ,Electronics/Appliances
@@ -4717,7 +4686,6 @@ NASDAQ:ZIONP,ZIONP,Finance,NASDAQ,Major Banks
 NASDAQ:CMND,CMND,Non-Energy Minerals,NASDAQ,Other Metals/Minerals
 NASDAQ:DTSS,DTSS,Electronic Technology,NASDAQ,Computer Communications
 NASDAQ:PRE,PRE,Finance,NASDAQ,Financial Conglomerates
-NASDAQ:HSON,HSON,Commercial Services,NASDAQ,Personnel Services
 NASDAQ:SIGIP,SIGIP,Finance,NASDAQ,Property/Casualty Insurance
 NASDAQ:ALDF,ALDF,Finance,NASDAQ,Financial Conglomerates
 NASDAQ:SNAL,SNAL,Technology Services,NASDAQ,Packaged Software
@@ -4812,7 +4780,6 @@ NASDAQ:CLST,CLST,Finance,NASDAQ,Savings Banks
 NASDAQ:LGCB,LGCB,Technology Services,NASDAQ,Packaged Software
 NASDAQ:MGYR,MGYR,Finance,NASDAQ,Savings Banks
 NASDAQ:UOKA,UOKA,Finance,NASDAQ,Real Estate Development
-NASDAQ:CYCCP,CYCCP,Health Technology,NASDAQ,Pharmaceuticals: Major
 NASDAQ:SYBX,SYBX,Health Technology,NASDAQ,Biotechnology
 NASDAQ:FATN,FATN,Technology Services,NASDAQ,Packaged Software
 NYSE:CULP,CULP,Process Industries,NYSE,Textiles
@@ -5010,7 +4977,6 @@ NASDAQ:SYPR,SYPR,Producer Manufacturing,NASDAQ,Auto Parts: OEM
 NASDAQ:POCI,POCI,Health Technology,NASDAQ,Medical Specialties
 NASDAQ:ELSE,ELSE,Electronic Technology,NASDAQ,Electronic Equipment/Instruments
 NASDAQ:WFCF,WFCF,Commercial Services,NASDAQ,Miscellaneous Commercial Services
-NASDAQ:LSB,LSB,Health Technology,NASDAQ,Biotechnology
 NASDAQ:ZBAO,ZBAO,Finance,NASDAQ,Insurance Brokers/Services
 NASDAQ:DSY,DSY,Miscellaneous,NASDAQ,Miscellaneous
 NASDAQ:JBDI,JBDI,Distribution Services,NASDAQ,Wholesale Distributors
