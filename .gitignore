@@ -14,3 +14,4 @@ live_data/*.csv
 ECON_211_Project_Data_Set_v1.csv
 logs/
 data/
+*.log
