@@ -12,3 +12,5 @@ live_data/*.csv
 **/*.nc
 .idea/
 ECON_211_Project_Data_Set_v1.csv
+logs/
+data/
