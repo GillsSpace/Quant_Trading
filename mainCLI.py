@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 import time as tm
 from pathlib import Path
+import xarray as xr
 
 DEFAULT_BUCKET_NAME = "bucket-quant-1"
 
@@ -41,6 +42,7 @@ def main():
             print("   - ('k-p') keys-pull:      Pull keys and tokens from Google Cloud Storage to the vm.")
             print("   [DATABASE MANAGEMENT]")
             print("   - ('db-c-h')'db-create-hot': Create a new database for hot storage with an initial day.")
+            print("   - (db-t-d) 'db-test-day': Test database connectivity and data retrieval for a specific day.")
             print("   [DATA TESTING]")
             print("   - ('g-q-c')'gen-current-quotes-csv': Generate current quotes and save as CSV file.")
             print("   - ('g-q-p')'gen-current-quotes-parquet': Generate current quotes and save as Parquet file.")
@@ -128,6 +130,28 @@ def main():
             date_input = input("Enter the initial day for the new database 'YYYY-MM-DD' (e.g. '2025-08-31'): ").strip()
             smd.create_new_db(initial_day=date_input)
             print("Database created successfully for initial day:", date_input)
+
+        elif option.lower() in ['db-test-day','db-t-d']:
+            dm = DM()
+            date_input = input("Enter the day to test 'YYYY-MM-DD' (e.g. '2025-08-31'): ").strip()
+            print(f"Testing data stored for day: {date_input}")
+            st = tm.time()
+            data = xr.open_dataset(dm.hot_db_path)
+            try:
+                data = data.sel(day=date_input)
+            except Exception as e:
+                print(f"Error selecting data for day '{date_input}': {e}")
+                continue
+
+            if data is not None:
+                print(f"Data for day '{date_input}':")
+                print(data)
+
+                print("-"*40)
+                print("Total listed symbols:", data.dims['ident'])
+                print('Number of non-NAN marks @10:00am:', np.sum(~np.isnan(data['quote.mark'].sel(time='10:00').values)))
+
+            et = tm.time()
 
         elif option.lower() in ['storage-list-buckets','s-lb']:
             print("Listing files in Google Cloud Storage bucket:")

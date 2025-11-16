@@ -152,7 +152,6 @@ class UniverseManager:
         dt.to_csv(f'universes/{universe}_long.csv', index=False)
         dt['name'].to_csv(f'universes/{universe}.csv', index=False)
 
-
     @staticmethod
     def regen_csv(universe):
         in_conditions = UniverseManager.universe_dict[universe]['in']

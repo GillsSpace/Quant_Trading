@@ -120,17 +120,30 @@ class DataManager:
         with open(log_file, 'a') as f:
             f.write(f'{real_time.strftime("%Y-%m-%d %H:%M:%S")} - Errors for {cat_name}: {missed_cats}\n')
 
-    def add_day_shell(self,day,new_idents=None,is_initial_creation=False,verbose=False):
+    def add_day_shell(self, day, new_idents=None, is_initial_creation=False, verbose=False):
         """
         Adds a new day shell. If the symbols have changed, it rebuilds the entire
         database with a combined list of symbols.
+        
+        Args:
+            day: Date string (YYYYMMDD format assumed based on code)
+            new_idents: List of symbol identifiers. If None, fetches from UniverseManager
+            is_initial_creation: Set True when creating database from scratch
+            verbose: Print progress messages
         """
+        
+        # Suppress Zarr V3 specification warnings
+        import warnings
+        warnings.filterwarnings('ignore', message='.*Zarr V3 specification.*')
+        
         temp_db_path = self.hot_path / 'temp_db.zarr'
         db_path = self.hot_db_path
 
+        # Fetch universe symbols if not provided
         if not new_idents:
             new_idents = UM.return_universe(self.master_universe)
 
+        # Get existing symbols from database
         if is_initial_creation:
             existing_idents = []
         else:
@@ -145,42 +158,101 @@ class DataManager:
         if verbose:
             print(f"Old symbols count: {len(old_set)}, New symbols count: {len(new_set)}")
 
+        # FAST PATH: No symbol changes - just append new day without rebuild
         if old_set == new_set and not is_initial_creation:
+            if verbose:
+                print(f"No symbol changes detected. Using fast append for day {day}.")
             ds_shell = self.create_empty_day_shell(day, existing_idents)
-            ds_shell.to_zarr(db_path, mode='a-',append_dim='day')
+            # Clear encoding to avoid chunk conflicts with existing Zarr store
+            for var in ds_shell.variables:
+                ds_shell[var].encoding.clear()
+            ds_shell.to_zarr(db_path, mode='a-', append_dim='day')
+            ds_disk.close()  # IMPORTANT: Close ds_disk before returning to free resources
             return
 
+        # SLOW PATH: Symbol set changed - need to rebuild entire database
         final_idents = sorted(list(old_set.union(new_set)))
 
         if os.path.exists(temp_db_path):
             shutil.rmtree(temp_db_path)
 
+        if verbose:
+            print(f"Symbol set changed. Rebuilding database with {len(final_idents)} symbols...")
+
+        # Process existing days one at a time and write to temp
+        # This keeps memory usage constant regardless of database size
         if not is_initial_creation:
-            for existing_day in ds_disk.day.values:
+            for i, existing_day in enumerate(ds_disk.day.values):
+                # Create empty shell with new symbol list
                 reindexed_shell = self.create_empty_day_shell(existing_day, final_idents)
+                # Reindex existing data to align with new symbol list (fills missing with NaN)
                 reindexed_data = ds_disk.sel(day=[existing_day]).reindex({'ident': final_idents}, fill_value=np.nan)
+                # Merge reindexed data into the shell
                 reindexed_shell.update(reindexed_data)
 
+                # CRITICAL: Rechunk to uniform sizes to prevent Zarr chunk conflicts
+                # This replaces irregular chunks created by reindex with regular chunks
+                # Chunk dims: day=full, time=full for 5m var, ident=1000 to balance memory/performance
+                reindexed_shell = reindexed_shell.chunk({
+                    'day': -1,      # Don't chunk along day dimension (always 1)
+                    'time': -1,     # Don't chunk along time dimension (always 288 for 5m)
+                    'ident': 1000,  # Chunk identifiers in groups of 1000
+                })
+
+                # Clear encoding after chunking to ensure Zarr uses our chunk specification
                 for var in reindexed_shell.variables:
                     reindexed_shell[var].encoding.clear()
 
-                mode = 'w' if not os.path.exists(temp_db_path) else 'a-'
-                append_dim = 'day' if os.path.exists(temp_db_path) else None
+                # First write creates the file, subsequent writes append
+                mode = 'w' if i == 0 else 'a-'
+                append_dim = None if i == 0 else 'day'
 
-                reindexed_shell.to_zarr(temp_db_path, mode=mode, append_dim=append_dim, consolidated=True,align_chunks=True)
+                # Write without consolidated=True to avoid metadata conflicts during rebuild
+                # We'll consolidate once at the end for performance
+                reindexed_shell.to_zarr(temp_db_path, mode=mode, append_dim=append_dim, 
+                                    consolidated=False)
+                
+                if verbose and (i + 1) % 10 == 0:
+                    print(f"  Processed {i + 1}/{len(ds_disk.day.values)} existing days...")
 
+            ds_disk.close()
+
+        # Add the new day to the temp database
         new_day_shell = self.create_empty_day_shell(day, final_idents)
-        if verbose:
-            print(f"new day shell created for day {day} with {len(final_idents)} symbols.")
-        mode = 'w' if not os.path.exists(temp_db_path) else 'a-'
-        append_dim = 'day' if os.path.exists(temp_db_path) else None
-        new_day_shell.to_zarr(temp_db_path, mode=mode, append_dim=append_dim, consolidated=True)
-        if verbose:
-            print(f"new day shell added to temp db for day {day}. and saved to disk.")
+        
+        # Rechunk new day shell with consistent chunk sizes
+        new_day_shell = new_day_shell.chunk({
+            'day': -1,      # Don't chunk along day dimension (always 1)
+            'time': -1,     # Don't chunk along time dimension (always 288 for 5m)
+            'ident': 1000,  # Chunk identifiers in groups of 1000
+        })
+        
+        # Clear encoding on new shell as well
+        for var in new_day_shell.variables:
+            new_day_shell[var].encoding.clear()
 
+        # Determine mode and append dimension for new day
+        # If this is initial creation, start fresh (mode='w')
+        # Otherwise, append to existing (mode='a-')
+        mode = 'w' if is_initial_creation else 'a-'
+        append_dim = None if is_initial_creation else 'day'
+
+        new_day_shell.to_zarr(temp_db_path, mode=mode, append_dim=append_dim, consolidated=False)
+
+        if verbose:
+            print(f"New day shell added to temp db for day {day}.")
+
+        # Consolidate metadata once after all writes for optimal read performance
+        # This is much faster than consolidating after each day
+        zarr.consolidate_metadata(str(temp_db_path))
+
+        # Atomically replace old database with new one
         if os.path.exists(db_path):
             shutil.rmtree(db_path)
         shutil.move(temp_db_path, db_path)
+
+        if verbose:
+            print(f"Database rebuild complete and moved to {db_path}")
 
     def create_empty_day_shell(self, day, idents):
         time_coords = pd.date_range(start='00:00', end='23:55', freq='5min').strftime('%H:%M').tolist()
