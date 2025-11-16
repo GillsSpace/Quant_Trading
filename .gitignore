@@ -11,3 +11,5 @@ live_data/*.csv
 **/*.zarr/
 **/*.nc
 .idea/
+logs/
+data/
